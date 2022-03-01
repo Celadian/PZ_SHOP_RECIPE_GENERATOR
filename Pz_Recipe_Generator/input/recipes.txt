@@ -1,0 +1,5 @@
+Buy, test, WeldingMask, 100, 100
+Buy, test2, adsfdsaff, 100, 100
+Buy, test3, adfadsf, 100, 100
+Sell, test4, adsfadfasd, 100, 100
+Sell, test5, adadsff, 100, 100
