@@ -1,0 +1,13 @@
+
+n
+java:S2095*"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(’ˆíŒùÿÿÿÿ8ì«üèñ/
+i
+java:S2095"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(áĞ¢°8ì«üèñ/
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‰â„ô/
+Q
+java:S1128"4Remove this unused import 'java.lang.reflect.Array'.(‡¡É˜8‰â„ô/
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥•Ìåøÿÿÿÿ8‰â„ô/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8‰â„ô/
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚÷ºí8‰â„ô/
