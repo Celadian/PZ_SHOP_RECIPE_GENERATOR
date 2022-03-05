@@ -1,0 +1,63 @@
+Sell,Clothes Jewlery,Dog Tags,Necklace_DogTag,10,10
+Sell,Clothes Jewlery,Gold Necklace,Necklace_Gold,30,10
+Sell,Clothes Jewlery,Gold Necklace with Ruby Stone,Necklace_GoldRuby,40,10
+Sell,Clothes Jewlery,Gold Necklace with Diamond,Necklace_GoldDiamond,55,10
+Sell,Clothes Jewlery,Silver Necklace,Necklace_Silver,20,10
+Sell,Clothes Jewlery,Silver Necklace with Sapphire Stone,Necklace_SilverSapphire,30,10
+Sell,Clothes Jewlery,Silver Necklace with Crucifix,Necklace_SilverCrucifix,30,10
+Sell,Clothes Jewlery,Silver Necklace with Diamond,Necklace_SilverDiamond,45,10
+Sell,Clothes Jewlery,Necklace with Crucifix,Necklace_Crucifix,10,10
+Sell,Clothes Jewlery,Necklace with Ying and Yang Symbol,Necklace_YingYang,10,10
+Sell,Clothes Jewlery,Pearl Necklace,Necklace_Pearl,20,10
+Sell,Clothes Jewlery,Long Gold Necklace,NecklaceLong_Gold,45,10
+Sell,Clothes Jewlery,Long Gold Necklace with Diamond,NecklaceLong_GoldDiamond,70,10
+Sell,Clothes Jewlery,Long Silver Necklace,NecklaceLong_Silver,30,10
+Sell,Clothes Jewlery,Long Silver Necklace with Emerald,NecklaceLong_SilverEmerald,40,10
+Sell,Clothes Jewlery,Long Silver Necklace with Sapphire Stone,NecklaceLong_SilverSapphire,40,10
+Sell,Clothes Jewlery,Long Silver Necklace with Diamond,NecklaceLong_SilverDiamond,55,10
+Sell,Clothes Jewlery,Long Necklace with Amber Stone,NecklaceLong_Amber,25,10
+Sell,Clothes Jewlery,Black Choker,Necklace_Choker,10,10
+Sell,Clothes Jewlery,Choker with Sapphire Stone,Necklace_Choker_Sapphire,20,10
+Sell,Clothes Jewlery,Choker with Amber Stone,Necklace_Choker_Amber,20,10
+Sell,Clothes Jewlery,Choker with Diamond,Necklace_Choker_Diamond,20,10
+Sell,Clothes Jewlery,Gold Nose Ring,NoseRing_Gold,3,10
+Sell,Clothes Jewlery,Silver Nose Ring,NoseRing_Silver,2,10
+Sell,Clothes Jewlery,Gold Nose Stud,NoseStud_Gold,3,10
+Sell,Clothes Jewlery,Silver Nose Stud,NoseStud_Silver,2,10
+Sell,Clothes Jewlery,Large Gold Looped Earrings,Earring_LoopLrg_Gold,9,10
+Sell,Clothes Jewlery,Large Silver Looped Earrings,Earring_LoopLrg_Silver,6,10
+Sell,Clothes Jewlery,Medium Silver Looped Earrings,Earring_LoopMed_Silver,4,10
+Sell,Clothes Jewlery,Medium Gold Looped Earrings,Earring_LoopMed_Gold,6,10
+Sell,Clothes Jewlery,Small Silver Looped Earrings,Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top,2,10
+Sell,Clothes Jewlery,Small Gold Looped Earrings,Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top,3,10
+Sell,Clothes Jewlery,Gold Stud Earrings,Earring_Stud_Gold,3,10
+Sell,Clothes Jewlery,Silver Stud Earrings,Earring_Stud_Silver,2,10
+Sell,Clothes Jewlery,Sapphire Stone Earrings,Earring_Stone_Sapphire,10,10
+Sell,Clothes Jewlery,Emerald Earrings,Earring_Stone_Emerald,10,10
+Sell,Clothes Jewlery,Ruby Earrings,Earring_Stone_Ruby,10,10
+Sell,Clothes Jewlery,Pearl Earrings,Earring_Pearl,15,10
+Sell,Clothes Jewlery,Dangly Sapphire Earrings,Earring_Dangly_Sapphire,10,10
+Sell,Clothes Jewlery,Dangly Emerald Earrings,Earring_Dangly_Emerald,10,10
+Sell,Clothes Jewlery,Dangly Ruby Earrings,Earring_Dangly_Ruby,10,10
+Sell,Clothes Jewlery,Dangly Diamond Earrings,Earring_Dangly_Diamond,25,10
+Sell,Clothes Jewlery,Dangly Pearl Earrings,Earring_Dangly_Pearl,15,10
+Sell,Clothes Jewlery,Gold Ring,Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold,6,10
+Sell,Clothes Jewlery,Silver Ring,Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver,4,10
+Sell,Clothes Jewlery,Diamond on a Silver Ring,Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond,29,10
+Sell,Clothes Jewlery,Ruby on a Gold Ring,Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby,16,10
+Sell,Clothes Jewlery,Diamond on a Gold Ring,Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond,31,10
+Sell,Clothes Jewlery,Classic Wrist Watch with Black Strap,WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack,10,10
+Sell,Clothes Jewlery,Classic Wrist Watch with Brown Strap,WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown,10,10
+Sell,Clothes Jewlery,Standard Military Issue Wrist Watch,WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary,20,10
+Sell,Clothes Jewlery,Gold Wrist Watch,WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold,100,10
+Sell,Clothes Jewlery,Black Digital Watch,WristWatch_Right_DigitalBlack/WristWatch_Left_DigitalBlack,10,10
+Sell,Clothes Jewlery,Red Digital Watch,WristWatch_Right_DigitalRed/WristWatch_Left_DigitalRed,10,10
+Sell,Clothes Jewlery,Metallic Dress Style Digital Watch,WristWatch_Right_DigitalDress/WristWatch_Left_DigitalDress,25,10
+Sell,Clothes Jewlery,Gold Bangle,Bracelet_BangleRightGold/Bracelet_BangleLeftGold,90,10
+Sell,Clothes Jewlery,Gold Chain Bracelet,Bracelet_ChainRightGold/Bracelet_ChainLeftGold,30,10
+Sell,Clothes Jewlery,Silver Bangle,Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver,60,10
+Sell,Clothes Jewlery,Silver Chain Bracelet,Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver,30,10
+Sell,Clothes Jewlery,Friendship Bracelet,Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT,1,10
+Sell,Clothes Jewlery,Earrings,Earrings,1,10
+Sell,Clothes Jewlery,Wedding Ring,WeddingRing_Man,6,10
+Sell,Clothes Jewlery,Wedding Ring,WeddingRing_Woman,6,10

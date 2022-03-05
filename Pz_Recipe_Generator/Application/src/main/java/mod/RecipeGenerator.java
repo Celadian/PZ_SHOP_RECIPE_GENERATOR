@@ -8,18 +8,29 @@ import java.util.Scanner;
 
 public class RecipeGenerator {
 
-    String urlInput = "D:\\Projects\\Pz_Recipe_Generator\\input\\";
-    String urlOutput = "D:\\Projects\\Pz_Recipe_Generator\\output\\";
+    //TODO: Replace with dynamic path
+    //INSTRUCTIONS: replace these with the path to your project location
+    String urlInput = "D:\\Projects\\PZ_SHOP_RECIPE_GENERATOR\\Pz_Recipe_Generator\\input";
+    String urlOutput = "D:\\Projects\\PZ_SHOP_RECIPE_GENERATOR\\Pz_Recipe_Generator\\output";
 
 
     public RecipeGenerator() {
-        this.getFilesInInputFolder().forEach(file -> {
-            this.saveFormattedFile(this.generateRecipe(file), file);
-        });
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Constructed generator");
+        try {
+            this.getFilesInInputFolder().forEach(file -> {
+                this.saveFormattedFile(this.generateRecipe(file), file);
+            });
+            System.out.println("Recipe succesfully generated. Press enter to close this window");
+            scanner.nextLine();
+        } catch(Exception e) {
+            System.out.println(e);
+            e.printStackTrace();
+        }
     }
 
     private List<String> getFilesInInputFolder() {
-        return Arrays.asList(new File("D:\\Projects\\Pz_Recipe_Generator\\input").list());
+        return Arrays.asList(new File(urlInput).list());
     }
 
     ;
@@ -33,13 +44,13 @@ public class RecipeGenerator {
         List<Recipe> non_formatted_recipe_list = new ArrayList<Recipe>();
         BufferedReader bufferedReader;
         try {
-            bufferedReader = new BufferedReader(new FileReader(urlInput + "fileName"));
+            bufferedReader = new BufferedReader(new FileReader(urlInput + "\\" + file));
             String line = bufferedReader.readLine();
             while (line != null) {
                 System.out.println(line);
-                String[] lineSplit = line.split(",", 5);
+                String[] lineSplit = line.split(",", 6);
                 System.out.println(lineSplit);
-                non_formatted_recipe_list.add(new Recipe(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4]));
+                non_formatted_recipe_list.add(new Recipe(lineSplit[0], lineSplit[1], lineSplit[2], lineSplit[3], lineSplit[4], lineSplit[5]));
                 line = bufferedReader.readLine();
             }
             bufferedReader.close();
@@ -55,7 +66,7 @@ public class RecipeGenerator {
         non_formatted_recipe_list.forEach(recipe -> {
             switch (recipe.txnType) {
                 case "Buy":
-                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " " + recipe.dispName + " {");
                     sb.append("\n\t\tMoney=" + recipe.money + ",");
                     sb.append("\n\t\tResult:" + recipe.itemName + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
@@ -64,7 +75,7 @@ public class RecipeGenerator {
                     sb.append("\n\t}");
                     break;
                 case "Sell":
-                    sb.append("\n\trecipe " + recipe.txnType + "" + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " " + recipe.dispName + " {");
                     sb.append("\n\t\t" + recipe.itemName + ",");
                     sb.append("\n\t\tResult: Money=" + recipe.money + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
@@ -82,17 +93,16 @@ public class RecipeGenerator {
         return sb.toString();
     }
 
-    private void saveFormattedFile(String formattedRecipeList, String outputFileName) {
-        Scanner scanner = new Scanner(System.in);
+    private void saveFormattedFile(String formattedRecipeList, String fileName) {
+        String outputFileName = fileName.substring(0 ,fileName.length() - 4);
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(urlOutput + outputFileName));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(urlOutput + "\\" + outputFileName + ".txt"));
             writer.write(formattedRecipeList);
             writer.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println("Recipe succesfully generated. Press enter to close this window");
-        scanner.nextLine();
+
     }
 }
 

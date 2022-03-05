@@ -1,0 +1,46 @@
+Sell,Foraged,Dead Bird,DeadBird,25,10
+Sell,Foraged,Dead Mouse,DeadMouse,25,10
+Sell,Foraged,Dead Rabbit,DeadRabbit,50,10
+Sell,Foraged,Dead Rat,DeadRat,25,10
+Sell,Foraged,Dead Squirrel,DeadSquirrel,25,10
+Sell,Foraged,Rabbit Meat,Rabbitmeat,15,10
+Sell,Foraged,Small Animal Meat,Smallanimalmeat,10,10
+Sell,Foraged,Small Bird Meat,Smallbirdmeat,10,10
+Sell,Foraged,Bass,Bass,25,10
+Sell,Foraged,Catfish,Catfish,25,10
+Sell,Foraged,Crappie,Crappie,25,10
+Sell,Foraged,Fish Fillet,FishFillet,15,10
+Buy,Foraged,Little Bait Fish,BaitFish,10,10
+Sell,Foraged,Perch,Perch,30,10
+Sell,Foraged,Pike,Pike,30,10
+Sell,Foraged,Salmon,Salmon,45,10
+Sell,Foraged,Sunfish,Panfish,30,10
+Sell,Foraged,Trout,Trout,30,10
+Sell,Foraged,Black Sage,BlackSage,10,10
+Sell,Foraged,Cockroach,Cockroach,1,10
+Sell,Foraged,Common Mallow,CommonMallow,10,10
+Sell,Foraged,Cricket,Cricket,1,10
+Sell,Foraged,Ginseng,Ginseng,10,10
+Sell,Foraged,Grape Leaves,GrapeLeaves,10,10
+Sell,Foraged,Grasshopper,Grasshopper,1,10
+Sell,Foraged,Lemon Grass,LemonGrass,10,10
+Sell,Foraged,Rosehips,Rosehips,10,10
+Sell,Foraged,Violets,Violets,10,10
+Sell,Foraged,Wild Eggs,WildEggs,10,10
+Buy,Foraged,Worm,Worm,10,10
+Sell,Foraged,Apple,Apple,10,10
+Sell,Foraged,Banana,Banana,10,10
+Sell,Foraged,Berry,BerryBlack,1,10
+Sell,Foraged,Berry,BerryBlue,1,10
+Sell,Foraged,Berry,BerryGeneric1,1,10
+Sell,Foraged,Berry,BerryGeneric2,1,10
+Sell,Foraged,Berry,BerryGeneric3,1,10
+Sell,Foraged,Berry,BerryGeneric4,1,10
+Sell,Foraged,Berry,BerryGeneric5,1,10
+Sell,Foraged,Berry,BerryPoisonIvy,1,10
+Sell,Foraged,Comfrey,Comfrey,10,10
+Sell,Foraged,Plantain,Plantain,10,10
+Sell,Foraged,Wild Garlic,WildGarlic,10,10
+Sell,Foraged,Comfrey Poultice,ComfreyCataplasm,25,10
+Sell,Foraged,Plantain Poultice,PlantainCataplasm,25,10
+Sell,Foraged,Wild Garlic Poultice,WildGarlicCataplasm,25,10

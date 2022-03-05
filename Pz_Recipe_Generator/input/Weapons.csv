@@ -1,0 +1,62 @@
+Buy,Weapon,Hunting Knife,HuntingKnife,250,10
+Buy,Weapon Ammo,Varmint Rifle,VarmintRifle,250,10
+Buy,Weapon Ammo,Hunting Rifle,HuntingRifle,350,10
+Buy,Weapon Ammo,9mm Round,Bullets9mm,100,10
+Buy,Weapon Ammo,.223 Round,223Bullets,100,10
+Buy,Weapon Ammo,.308 Round,308Bullets,100,10
+Buy,Weapon Ammo,Shotgun Shells,ShotgunShells,100,10
+Buy,Weapon Attachments,Ammo Straps,AmmoStraps,250,10
+Buy,Weapon Attachments,Choke Tube Full,ChokeTubeFull,250,10
+Buy,Weapon Attachments,Choke Tube Improved,ChokeTubeImproved,250,10
+Buy,Weapon Attachments,Fiberglass Stock,FiberglassStock,300,10
+Buy,Weapon Attachments,Iron Sight,IronSight,250,10
+Buy,Weapon Attachments,Laser,Laser,300,10
+Buy,Weapon Attachments,Recoil Pad,RecoilPad,250,10
+Buy,Weapon Attachments,Red Dot,RedDot,300,10
+Buy,Weapon Attachments,Sling,Sling,150,10
+Buy,Weapon Attachments,x2 Scope,x2Scope,150,10
+Buy,Weapon Attachments,x4 Scope,x4Scope,300,10
+Buy,Weapon Attachments,x8 Scope,x8Scope,600,10
+Buy,Weapon Axe Tool,Axe,Axe,500,10
+Buy,Weapon Axe Tool,Hand Axe,HandAxe,250,10
+Buy,Weapon Firearm,Sawed-off JS-2000 Shotgun,ShotgunSawnoff,350,10
+Buy,Weapon Firearm,Shotgun (disambiguation),Shotgun,500,10
+Buy,Weapon Firearm,Pistol (disambiguation),Pistol,250,10
+Buy,Weapon Long Blunt,Baseball Bat,BaseballBat,100,10
+Buy,Weapon Long Blunt,Golf Club,Golfclub,50,10
+Buy,Weapon Long Blunt,Spiked Baseball Bat,BaseballBatNails,150,10
+Buy,Weapon Long Blunt,Spiked Plank,PlankNail,75,10
+Buy,Weapon Short Blunt,Ball-peen Hammer,BallPeenHammer,75,10
+Buy,Weapon Short Blunt,Club Hammer,ClubHammer,75,10
+Buy,Weapon Spear,Crafted Spear,WoodenLance,50,10
+Buy,Weapon Throw,Aerosol Bomb,Aerosolbomb,200,10
+Buy,Weapon Throw,Aerosol Bomb with Timer,AerosolbombTriggered,350,10
+Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV1,350,10
+Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV2,350,10
+Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV3,350,10
+Buy,Weapon Throw,Remote Aerosol Bomb,AerosolbombRemote,50,10
+Buy,Weapon Throw,Fire Bomb,FlameTrap,300,10
+Buy,Weapon Throw,Flame Trap with Timer,FlameTrapTriggered,450,10
+Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV1,450,10
+Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV2,450,10
+Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV3,450,10
+Buy,Weapon Throw,Remote Flame Trap,FlameTrapRemote,50,10
+Buy,Weapon Throw,Molotov Cocktail,Molotov,100,10
+Buy,Weapon Throw,Noise Maker,NoiseTrap,100,10
+Buy,Weapon Throw,Noise Generator with Timer,NoiseTrapTriggered,250,10
+Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV1,250,10
+Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV2,250,10
+Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV3,250,10
+Buy,Weapon Throw,Remote Noise Generator,NoiseTrapRemote,50,10
+Buy,Weapon Throw,Pipe Bomb,PipeBomb,100,10
+Buy,Weapon Throw,Pipe Bomb with Timer,PipeBombTriggered,250,10
+Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV1,250,10
+Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV2,250,10
+Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV3,250,10
+Buy,Weapon Throw,Remote Pipe Bomb,PipeBombRemote,50,10
+Buy,Weapon Throw,Smoke Bomb,SmokeBomb,100,10
+Buy,Weapon Throw,Smoke Bomb with Timer,SmokeBombRemote,50,10
+Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV1,250,10
+Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV2,250,10
+Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV3,250,10
+Buy,Weapon Throw,Remote Smoke Bomb,SmokeBombTriggered,250,10
