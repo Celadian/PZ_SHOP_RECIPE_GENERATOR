@@ -2,13 +2,13 @@
 # PZ_SHOP_RECIPE_GENERATOR
 
 ### Description
-     Converts csv files from input into recipe text files in output.
+Converts csv files from input into recipe text files in output.
 ### Data Source
-    https://docs.google.com/spreadsheets/d/10prL77W5hVMRwuRhYPEHwfJQ6hDm3HQoUp84thegcZk/edit?usp=sharing
-    You can go to the link here
-    and either copy it to edit it or just use it as is. 
-    Big thank you to the heros who do the wiki. It could use a little work if someone has time. The stuff marked
-    blue on the sheets page is stuff that had the wrong item id name on the wiki. 
+https://docs.google.com/spreadsheets/d/10prL77W5hVMRwuRhYPEHwfJQ6hDm3HQoUp84thegcZk/edit?usp=sharing
+You can go to the link here
+and either copy it to edit it or just use it as is. 
+Big thank you to the heros who do the wiki. It could use a little work if someone has time. The stuff marked
+blue on the sheets page is stuff that had the wrong item id name on the wiki. 
 
 ### Instructions from Sheets to recipes
 **In Google sheets(Or excel):**
