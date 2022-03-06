@@ -57,21 +57,14 @@ module Base {
 	}
 	recipe Buy Farming Dirt Bag {
 		Money=150,
-		Result:DirtBag,
+		Result:Dirtbag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Farming Insecticide Spray {
+	recipe Buy Farming Gardening Spray {
 		Money=250,
-		Result:GardeningSprayCigarettes,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Farming Mildew Spray {
-		Money=250,
-		Result:GardeningSprayMilk,
+		Result:GardeningSprayEmpty,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -85,49 +78,49 @@ module Base {
 	}
 	recipe Buy Farming Broccoli Seeds {
 		Money=50,
-		Result:BroccoliSeed,
+		Result:BroccoliBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Cabbage Seed {
 		Money=50,
-		Result:CabbageSeed,
+		Result:CabbageBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Carrot Seeds {
 		Money=50,
-		Result:CarrotSeed,
+		Result:CarrotBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Potato Seeds {
 		Money=50,
-		Result:PotatoSeed,
+		Result:PotatoBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Radish Seeds {
 		Money=50,
-		Result:RedRadishSeed,
+		Result:RadishBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Strawberry Seeds {
 		Money=50,
-		Result:StrewberrieSeed,
+		Result:StrewberrieBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Farming Tomato Seeds {
 		Money=50,
-		Result:TomatoSeed,
+		Result:TomatoBagSeed,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,

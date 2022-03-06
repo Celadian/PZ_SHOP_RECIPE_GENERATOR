@@ -27,13 +27,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Appearance Blonde Hair Dye {
-		Money=50,
-		Result:HairDyeBlonde,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Appearance Black Hair Dye {
 		Money=50,
 		Result:HairDyeBlack,
@@ -41,51 +34,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Appearance White Hair Dye {
+	recipe Buy Household Appearance Blonde Hair Dye {
 		Money=50,
-		Result:HairDyeWhite,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Pink Hair Dye {
-		Money=50,
-		Result:HairDyePink,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Yellow Hair Dye {
-		Money=50,
-		Result:HairDyeYellow,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Red Hair Dye {
-		Money=50,
-		Result:HairDyeRed,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Strawberry Blonde Hair Dye {
-		Money=50,
-		Result:HairDyeGinger,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Light Brown Hair Dye {
-		Money=50,
-		Result:HairDyeLightBrown,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Green Hair Dye {
-		Money=50,
-		Result:HairDyeGreen,
+		Result:HairDyeBlonde,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -93,20 +44,6 @@ module Base {
 	recipe Buy Household Appearance Blue Hair Dye {
 		Money=50,
 		Result:HairDyeBlue,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Hair Gel {
-		Money=50,
-		Result:Hairgel,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Appearance Lipstick {
-		Money=50,
-		Result:Lipstick,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -125,6 +62,41 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Household Appearance Green Hair Dye {
+		Money=50,
+		Result:HairDyeGreen,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Hair Gel {
+		Money=50,
+		Result:Hairgel,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Hairspray {
+		Money=50,
+		Result:Hairspray,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Light Brown Hair Dye {
+		Money=50,
+		Result:HairDyeLightBrown,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Lipstick {
+		Money=50,
+		Result:Lipstick,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Household Appearance Mirror {
 		Money=50,
 		Result:Mirror,
@@ -139,6 +111,20 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Household Appearance Pink Hair Dye {
+		Money=50,
+		Result:HairDyePink,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Red Hair Dye {
+		Money=50,
+		Result:HairDyeRed,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Household Appearance Ring {
 		Money=50,
 		Result:Ring,
@@ -146,9 +132,23 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Appearance Hairspray {
+	recipe Buy Household Appearance Strawberry Blonde Hair Dye {
 		Money=50,
-		Result:Hairspray,
+		Result:HairDyeGinger,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance White Hair Dye {
+		Money=50,
+		Result:HairDyeWhite,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Appearance Yellow Hair Dye {
+		Money=50,
+		Result:HairDyeYellow,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -160,9 +160,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Cleaning Household Cleaning Liquid {
+	recipe Buy Household Cleaning Bleach {
 		Money=50,
-		Result:Household CleaningLiquid,
+		Result:Bleach,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -170,6 +170,13 @@ module Base {
 	recipe Buy Household Cleaning Dish Towel {
 		Money=50,
 		Result:DishCloth,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Cleaning Household Cleaning Liquid {
+		Money=50,
+		Result:Household CleaningLiquid,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -188,23 +195,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Cleaning Bleach {
-		Money=50,
-		Result:Bleach,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Cooking Baking Pan {
 		Money=50,
 		Result:BakingPan,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Cooking Empty Jar {
-		Money=50,
-		Result:BoxOfJars,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -232,7 +225,21 @@ module Base {
 	}
 	recipe Buy Household Cooking Empty Jar {
 		Money=50,
+		Result:BoxOfJars,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Cooking Empty Jar {
+		Money=50,
 		Result:EmptyJar,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Cooking Empty Jar {
+		Money=50,
+		Result:JarLid,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -254,13 +261,6 @@ module Base {
 	recipe Buy Household Cooking Griddle Pan {
 		Money=50,
 		Result:GridlePan,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Cooking Empty Jar {
-		Money=50,
-		Result:JarLid,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -310,13 +310,6 @@ module Base {
 	recipe Buy Household Cooking Spoon {
 		Money=50,
 		Result:Spoon,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Electronics Video Game {
-		Money=50,
-		Result:VideoGame,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -377,6 +370,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Household Electronics Video Game {
+		Money=50,
+		Result:VideoGame,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Household Fuel Propane Tank {
 		Money=50,
 		Result:PropaneTank,
@@ -384,58 +384,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture Toys-R-Mine Walkie Talkie {
+	recipe Buy Household Furniture Antique Television {
 		Money=50,
-		Result:WalkieTalkie1,
+		Result:TvAntique,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture ValuTech Walkie Talkie {
+	recipe Buy Household Furniture Lamp {
 		Money=50,
-		Result:WalkieTalkie2,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture Premium Tech. Walkie Talkie {
-		Money=50,
-		Result:WalkieTalkie3,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture Tactical Walkie Talkie {
-		Money=50,
-		Result:WalkieTalkie4,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture US Army Walkie Talkie {
-		Money=50,
-		Result:WalkieTalkie5,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture Makeshift Walkie Talkie {
-		Money=50,
-		Result:WalkieTalkieMakeShift,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture Premium Technologies Ham Survival Radio {
-		Money=50,
-		Result:HamRadio1,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture US ARMY COMM. Ham Survival Radio {
-		Money=50,
-		Result:HamRadio2,
+		Result:Lamp,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -447,20 +405,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture Premium Technologies Survival Radio {
-		Money=50,
-		Result:RadioRed,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture ValuTech Survival Radio {
-		Money=50,
-		Result:RadioBlack,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Furniture Makeshift Survival Radio {
 		Money=50,
 		Result:RadioMakeShift,
@@ -468,16 +412,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture Premium Technologies Television {
+	recipe Buy Household Furniture Makeshift Walkie Talkie {
 		Money=50,
-		Result:TvWideScreen,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Furniture ValuTech Television {
-		Money=50,
-		Result:TvBlack,
+		Result:WalkieTalkieMakeShift,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -496,23 +433,79 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture Lamp {
+	recipe Buy Household Furniture Premium Tech. Walkie Talkie {
 		Money=50,
-		Result:Lamp,
+		Result:WalkieTalkie3,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Furniture Antique Television {
+	recipe Buy Household Furniture Premium Technologies Ham Survival Radio {
 		Money=50,
-		Result:TvAntique,
+		Result:HamRadio1,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Misc Paperclip {
+	recipe Buy Household Furniture Premium Technologies Survival Radio {
 		Money=50,
-		Result:Paperclip,
+		Result:RadioRed,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture Premium Technologies Television {
+		Money=50,
+		Result:TvWideScreen,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture Tactical Walkie Talkie {
+		Money=50,
+		Result:WalkieTalkie4,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture Toys-R-Mine Walkie Talkie {
+		Money=50,
+		Result:WalkieTalkie1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture US ARMY COMM. Ham Survival Radio {
+		Money=50,
+		Result:HamRadio2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture US Army Walkie Talkie {
+		Money=50,
+		Result:WalkieTalkie5,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture ValuTech Survival Radio {
+		Money=50,
+		Result:RadioBlack,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture ValuTech Television {
+		Money=50,
+		Result:TvBlack,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Furniture ValuTech Walkie Talkie {
+		Money=50,
+		Result:WalkieTalkie2,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -534,13 +527,6 @@ module Base {
 	recipe Buy Household Misc Bell {
 		Money=50,
 		Result:Bell,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Misc Chess Pieces {
-		Money=50,
-		Result:ChessBlack,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -569,6 +555,20 @@ module Base {
 	recipe Buy Household Misc CD {
 		Money=50,
 		Result:Disc,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Misc Chess Pieces {
+		Money=50,
+		Result:ChessBlack,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Misc Chess Pieces {
+		Money=50,
+		Result:ChessWhite,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -643,16 +643,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Misc Frame {
+	recipe Buy Household Misc Football {
 		Money=50,
-		Result:Frame,
+		Result:Football,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Misc Football {
+	recipe Buy Household Misc Frame {
 		Money=50,
-		Result:Football,
+		Result:Frame,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -678,6 +678,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Household Misc Paperclip {
+		Money=50,
+		Result:Paperclip,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Household Misc Playing Cards {
 		Money=50,
 		Result:CardDeck,
@@ -687,7 +694,7 @@ module Base {
 	}
 	recipe Buy Household Misc Pool Ball {
 		Money=50,
-		Result:Poolball,
+		Result:PoolBall,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -769,13 +776,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Misc Chess Pieces {
-		Money=50,
-		Result:ChessWhite,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Misc Water Dish {
 		Money=50,
 		Result:WaterDish,
@@ -793,6 +793,13 @@ module Base {
 	recipe Buy Household Misc MP Car Key {
 		Money=50,
 		Result:CarKey,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Misc MP Combination Padlock {
+		Money=50,
+		Result:CombinationPadlock,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -839,23 +846,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Misc MP Combination Padlock {
-		Money=50,
-		Result:CombinationPadlock,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Misc MP Padlock {
 		Money=50,
 		Result:Padlock,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Useful Knitting Needles {
-		Money=50,
-		Result:KnittingNeedles,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -874,9 +867,37 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Household Useful Empty Notebook {
+		Money=50,
+		Result:Notebook,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Household Useful Eraser {
 		Money=50,
 		Result:Eraser,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Journal {
+		Money=50,
+		Result:Journal,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Knitting Needles {
+		Money=50,
+		Result:KnittingNeedles,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Letter Opener {
+		Money=50,
+		Result:LetterOpener,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -916,20 +937,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Useful Empty Notebook {
-		Money=50,
-		Result:Notebook,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Household Useful Journal {
-		Money=50,
-		Result:Journal,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Household Useful Sheet of Paper {
 		Money=50,
 		Result:SheetPaper2,
@@ -937,9 +944,51 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Household Useful Letter Opener {
+	recipe Buy Household Misc Plunger {
 		Money=50,
-		Result:LetterOpener,
+		Result:Plunger,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Umbrella Black {
+		Money=50,
+		Result:Umbrella Black,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Umbrella Blue {
+		Money=50,
+		Result:Umbrella Blue,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Umbrella Red {
+		Money=50,
+		Result:Umbrella Red,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Umbrella White {
+		Money=50,
+		Result:Umbrella White,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Exercise BarBell {
+		Money=500,
+		Result:BarBell,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Household Useful Exercise DumbBell {
+		Money=250,
+		Result:DumbBell,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,

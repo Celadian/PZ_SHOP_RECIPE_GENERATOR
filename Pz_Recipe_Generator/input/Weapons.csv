@@ -1,9 +1,19 @@
 Buy,Weapon,Hunting Knife,HuntingKnife,250,10
-Buy,Weapon Ammo,Varmint Rifle,VarmintRifle,250,10
-Buy,Weapon Ammo,Hunting Rifle,HuntingRifle,350,10
-Buy,Weapon Ammo,9mm Round,Bullets9mm,100,10
-Buy,Weapon Ammo,.223 Round,223Bullets,100,10
-Buy,Weapon Ammo,.308 Round,308Bullets,100,10
+Buy,Weapon Firearm,M14 Rifle,AssaultRifle2,1500,10
+Buy,Weapon Ammunition,Box of .308 Bullets,308Box,250,10
+Buy,Weapon Clip,M14 Magazine,308Clip,350,10
+Buy,Weapon Firearm,M16 Assault Rifle,AssaultRifle,2500,10
+Buy,Weapon Ammunition,Box of .556 Bullets,556Box,250,10
+Buy,Weapon Clip,M16 Magazine,556Clip,350,10
+Buy,Weapon Firearm,MSR700 Rifle,VarmintRifle,750,10
+Buy,Weapon Ammunition,Box of .223 Bullets,223Box,250,10
+Buy,Weapon Clip,MSR700 Magazine,223Clip,350,10
+Buy,Weapon Firearm,MSR788 Rifle,HuntingRifle,2500,10
+Buy,Weapon Ammunition,Box of .308 Bullets,308Box,250,10
+Buy,Weapon Clip,MSR788 Magazine,308Clip,350,10
+Buy,Weapon Firearm,TEST: Sniper Rifle,SniperRifle,10000,10
+Buy,Weapon Firearm,TEST: Sniper Rifle (Camo),SniperRifleCamo,10000,10
+Buy,Weapon Short Blunt,10,Nightstick,250,
 Buy,Weapon Ammo,Shotgun Shells,ShotgunShells,100,10
 Buy,Weapon Attachments,Ammo Straps,AmmoStraps,250,10
 Buy,Weapon Attachments,Choke Tube Full,ChokeTubeFull,250,10
@@ -19,9 +29,21 @@ Buy,Weapon Attachments,x4 Scope,x4Scope,300,10
 Buy,Weapon Attachments,x8 Scope,x8Scope,600,10
 Buy,Weapon Axe Tool,Axe,Axe,500,10
 Buy,Weapon Axe Tool,Hand Axe,HandAxe,250,10
-Buy,Weapon Firearm,Sawed-off JS-2000 Shotgun,ShotgunSawnoff,350,10
-Buy,Weapon Firearm,Shotgun (disambiguation),Shotgun,500,10
-Buy,Weapon Firearm,Pistol (disambiguation),Pistol,250,10
+Buy,Weapon Firearm,Double Barrel Shotgun,DoubleBarrelShotgun,500,10
+Buy,Weapon Firearm,JS-2000 Shotgun,Shotgun,1000,10
+Buy,Weapon Firearm Pistol,Desert Eagle(D-E),Pistol3,750,10
+Buy,Weapon Ammunition,Box of .44 Magnum Bullets,BoxOf44Magnum,250,10
+Buy,Weapon Clip,.44 Magazine,44Clip,350,10
+Buy,Weapon Firearm Pistol,M1911 Pistol,Pistol2,500,10
+Buy,Weapon Ammunition,Box of .45 Auto Bullets,BoxOf45Auto,125,10
+Buy,Weapon Clip,.45 Auto Magazine,45Clip,250,10
+Buy,Weapon Firearm Pistol,M36 Revolver,Revolver_Short,300,10
+Buy,Weapon Ammunition,Box of .38 Special Bullets,BoxOf38Special,150,10
+Buy,Weapon Firearm Pistol,M625 Revolver,Revolver,500,10
+Buy,Weapon Firearm Pistol,M9 Pistol,Pistol,300,10
+Buy,Weapon Ammunition,Box of 9mm Bullets,Bullets9mmBox,100,10
+Buy,Weapon Clip,9mm Magazine,9mmClip,150,10
+Buy,Weapon Firearm Pistol,Magnum,Revolver_Long,750,10
 Buy,Weapon Long Blunt,Baseball Bat,BaseballBat,100,10
 Buy,Weapon Long Blunt,Golf Club,Golfclub,50,10
 Buy,Weapon Long Blunt,Spiked Baseball Bat,BaseballBatNails,150,10
@@ -60,3 +82,32 @@ Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV1,250,10
 Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV2,250,10
 Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV3,250,10
 Buy,Weapon Throw,Remote Smoke Bomb,SmokeBombTriggered,250,10
+Buy,Weapon Axe,PickAxe,PickAxe,500,10
+Buy,Weapon Improvised,GuitarAcoustic,GuitarAcoustic,,
+Buy,Weapon Improvised,Canoe Paddle Double,CanoePadelX2,250,10
+Buy,Weapon Improvised,Canoe Paddle ,CanoePadel,75,10
+Buy,Weapon Improvised,Chainsaw?,Chainsaw,1000,10
+Buy,Weapon Improvised,Electric Bass Black,GuitarElectricBassBlack,100,10
+Buy,Weapon Improvised,Electric Bass Blue,GuitarElectricBassBlue,100,10
+Buy,Weapon Improvised,Electric Bass Red,GuitarElectricBassRed,100,10
+Buy,Weapon Improvised,Electric Guitar Black,GuitarElectricBassBlack,100,10
+Buy,Weapon Improvised,Electric Guitar Blue,GuitarElectricBassBlue,100,10
+Buy,Weapon Improvised,Electric Guitar Red,GuitarElectricBassRed,100,10
+Buy,Weapon Improvised,Hockey Stick,HockeyStick,100,10
+Buy,Weapon Improvised,Ice Hockey Stick,IceHockeyStick,100,10
+Buy,Weapon Improvised,Keytar,Keytar,100,10
+Buy,Weapon Improvised,Lacrosse Stick,LacrosseStick,100,10
+Buy,Weapon Improvised,Leaf Rake,LeafRake,100,10
+Buy,Weapon Improvised,Saxophone,Saxophone,100,10
+Buy,Weapon Improvised,Pool Cue,Pool Cue,100,10
+Buy,Weapon Improvised,Tennis Racket,TennisRacket,100,10
+Buy,Weapon Improvised,Trumpet,Trumpet,100,10
+Buy,Weapon Improvised,Banjo,Banjo,100,10
+Buy,Weapon Improvised,Chair Leg,ChairLeg,100,10
+Buy,Weapon Improvised,Flute,Flute,100,10
+Buy,Weapon Improvised,Lead Pipe,LeadPipe,100,10
+Buy,Weapon Improvised,Drumstick,Drumstick,100,10
+Buy,Weapon Improvised,Violin,Violin,100,10
+Buy,Weapon Long Blade,Katana,Katana,5000,10
+Buy,Weapon Long Blade,Machete,Machete,2500,10
+Buy,Weapon Improvised,Ice Pick,Ice Pick,100,10

@@ -6,14 +6,13 @@ Buy,Farming,Shovel Variant,Shovel2,250,10
 Buy,Farming,Snow Shovel,SnowShovel,250,10
 Buy,Farming,Trowel,HandShovel,100,10
 Buy,Farming,Compost Bag,CompostBag,150,10
-Buy,Farming,Dirt Bag,DirtBag,150,10
-Buy,Farming,Insecticide Spray,GardeningSprayCigarettes,250,10
-Buy,Farming,Mildew Spray,GardeningSprayMilk,250,10
+Buy,Farming,Dirt Bag,Dirtbag,150,10
+Buy,Farming,Gardening Spray,GardeningSprayEmpty,250,10
 Buy,Farming,NPK Fertilizer,Fertilizer,500,10
-Buy,Farming,Broccoli Seeds,BroccoliSeed,50,10
-Buy,Farming,Cabbage Seed,CabbageSeed,50,10
-Buy,Farming,Carrot Seeds,CarrotSeed,50,10
-Buy,Farming,Potato Seeds,PotatoSeed,50,10
-Buy,Farming,Radish Seeds,RedRadishSeed,50,10
-Buy,Farming,Strawberry Seeds,StrewberrieSeed,50,10
-Buy,Farming,Tomato Seeds,TomatoSeed,50,10
+Buy,Farming,Broccoli Seeds,BroccoliBagSeed,50,10
+Buy,Farming,Cabbage Seed,CabbageBagSeed,50,10
+Buy,Farming,Carrot Seeds,CarrotBagSeed,50,10
+Buy,Farming,Potato Seeds,PotatoBagSeed,50,10
+Buy,Farming,Radish Seeds,RadishBagSeed,50,10
+Buy,Farming,Strawberry Seeds,StrewberrieBagSeed,50,10
+Buy,Farming,Tomato Seeds,TomatoBagSeed,50,10

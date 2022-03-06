@@ -57,7 +57,7 @@ module Base {
 	}
 	recipe Buy Clothes Dress Knee-length Dress {
 		Money=100,
-		Result:Dress_Knee,
+		Result:Dress_Knees,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -76,7 +76,7 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Clothes Eyes Glasses {
+	recipe Buy Clothes Eyes Reflective Ski Sunglasses {
 		Money=100,
 		Result:Glasses,
 		Time:10,
@@ -589,7 +589,7 @@ module Base {
 	}
 	recipe Buy Clothes hat Visor White {
 		Money=100,
-		Result:Hat_VisorWhiteTINT,
+		Result:Hat_Visor_WhiteTINT,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -960,7 +960,7 @@ module Base {
 	}
 	recipe Buy Clothes mask Hockey Goalie Mask {
 		Money=100,
-		Result:HockeyMask,
+		Result:Hat_HockeyMask,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1198,7 +1198,7 @@ module Base {
 	}
 	recipe Buy Clothes Pants Santa Suit Pants Green {
 		Money=100,
-		Result:Trousers_SantaGreen,
+		Result:Trousers_SantaGReen,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1296,42 +1296,42 @@ module Base {
 	}
 	recipe Buy Clothes Shirt Bandeau {
 		Money=100,
-		Result:Shirt_BoobTube,
+		Result:BoobTube,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Clothes Shirt Bowling Shirt Blue {
 		Money=100,
-		Result:Shirt_BowlingBlue,
+		Result:Shirt_Bowling_Blue,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Clothes Shirt Bowling Shirt Brown {
 		Money=100,
-		Result:Shirt_BowlingBrown,
+		Result:Shirt_Bowling_Brown,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Clothes Shirt Bowling Shirt Green {
 		Money=100,
-		Result:Shirt_BowlingGreen,
+		Result:Shirt_Bowling_Green,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Clothes Shirt Bowling Shirt Pink {
 		Money=100,
-		Result:Shirt_BowlingPink,
+		Result:Shirt_Bowling_Pink,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Buy Clothes Shirt Bowling Shirt White {
 		Money=100,
-		Result:Shirt_BowlingWhite,
+		Result:Shirt_Bowling_White,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1380,7 +1380,7 @@ module Base {
 	}
 	recipe Buy Clothes Shirt Fireman T-shirt White {
 		Money=100,
-		Result:Tshirt_Profession_FiremaWhite,
+		Result:Tshirt_Profession_FiremanWhite,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,

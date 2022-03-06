@@ -34,6 +34,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Tool Carpentry Sledgehammer Variant {
+		Money=500,
+		Result:Sledgehammer2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Tool Carpentry Wood Axe {
 		Money=500,
 		Result:WoodAxe,
@@ -92,7 +99,7 @@ module Base {
 	}
 	recipe Buy Tool Mechanics Wrench {
 		Money=100,
-		Result:Spanner,
+		Result:Wrench,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -104,7 +111,7 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Tool Metalworking Welding Rods {
+	recipe Buy Tool Metalwork Welding Rods {
 		Money=150,
 		Result:WeldingRods,
 		Time:10,

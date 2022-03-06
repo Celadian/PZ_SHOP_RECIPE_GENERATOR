@@ -1,28 +1,28 @@
 Buy,Material Electrical,Amplifier,Amplifier,50,10
 Buy,Material Electrical,Battery,Battery,150,10
+Buy,Material Electrical,Blue Light Bulb,LightBulbBlue,50,10
 Buy,Material Electrical,Crafted Timer,TimerCrafted,50,10
 Buy,Material Electrical,Crafted Trigger,TriggerCrafted,50,10
+Buy,Material Electrical,Cyan Light Bulb,LightBulbCyan,50,10
 Buy,Material Electrical,Electric Wire,ElectricWire,50,10
 Buy,Material Electrical,Electronics Scrap,ElectronicsScrap,50,10
-Buy,Material Electrical,Motion Sensor,MotionSensor,50,10
-Buy,Material Electrical,Survival Radio Receiver,RadioReceiver,50,10
-Buy,Material Electrical,RadioMag3,RadioTransmitter,50,10
-Buy,Material Electrical,Light Bulb,LightBulb,50,10
-Buy,Material Electrical,Red Light Bulb,LightBulbRed,50,10
 Buy,Material Electrical,Green Light Bulb,LightBulbGreen,50,10
-Buy,Material Electrical,Blue Light Bulb,LightBulbBlue,50,10
-Buy,Material Electrical,Yellow Light Bulb,LightBulbYellow,50,10
-Buy,Material Electrical,Cyan Light Bulb,LightBulbCyan,50,10
+Buy,Material Electrical,Light Bulb,LightBulb,50,10
 Buy,Material Electrical,Magenta Light Bulb,LightBulbMagenta,50,10
+Buy,Material Electrical,Motion Sensor,MotionSensor,50,10
 Buy,Material Electrical,Orange Light Bulb,LightBulbOrange,50,10
-Buy,Material Electrical,Purple Light Bulb,LightBulbPurple,50,10
 Buy,Material Electrical,Pink Light Bulb,LightBulbPink,50,10
+Buy,Material Electrical,Purple Light Bulb,LightBulbPurple,50,10
+Buy,Material Electrical,RadioMag3,RadioTransmitter,50,10
+Buy,Material Electrical,Red Light Bulb,LightBulbRed,50,10
+Buy,Material Electrical,Survival Radio Receiver,RadioReceiver,50,10
 Buy,Material Electrical,V1 Remote Controller,RemoteCraftedV1,50,10
 Buy,Material Electrical,V2 Remote Controller,RemoteCraftedV2,50,10
 Buy,Material Electrical,V3 Remote Controller,RemoteCraftedV3,50,10
+Buy,Material Electrical,Yellow Light Bulb,LightBulbYellow,50,10
 Buy,Material Fuel,Charcoal,Charcoal,150,10
 Buy,Material Fuel,Gas Can,PetrolCan,500,10
-Buy,Material Metal,Nails,NailsBox,50,10
+Buy,Material Metal,Barbed Wire,BarbedWire,50,10
 Buy,Material Metal,Box of Screws,Screws,50,10
 Buy,Material Metal,Door Hinge,Hinge,50,10
 Buy,Material Metal,Doorknob,Doorknob,50,10
@@ -30,32 +30,33 @@ Buy,Material Metal,Metal Bar,MetalBar,50,10
 Buy,Material Metal,Metal Pipe,MetalPipe,50,10
 Buy,Material Metal,Metal Pipe,Pipe,50,10
 Buy,Material Metal,Metal Sheet,SheetMetal,150,10
-Sell,Material Metal,Scrap Metal,ScrapMetal,50,10
+Buy,Material Metal,Nails,NailsBox,50,10
+Sell,Material Metal,Scrap Metal,ScrapMetal,10,10
 Buy,Material Metal,Small Metal Sheet,SmallSheetMetal,50,10
-Buy,Material Metal,Tent Peg,Tentpeg,50,10
-Sell,Material Metal,Unusable Metal,UnusableMetal,50,10
-Buy,Material Metal,Barbed Wire,BarbedWire,50,10
+Buy,Material Metal,Tent Peg,TentPeg,50,10
+Sell,Material Metal,Unusable Metal,UnusableMetal,10,10
 Buy,Material Metal Electrical,Aluminum,Aluminum,50,10
-Buy,Material Metal Electrical,Wire,Wire,50,10
-Buy,Material Misc,Concrete Powder,ConcretePowder,50,10
-Buy,Material Misc,Plaster Powder,PlasterPowder,50,10
-Buy,Material Misc,Box of Sparklers,Sparklers,50,10
-Buy,Material Misc,Gravel Bag,GravelBag,50,10
-Buy,Material Misc,Gunpowder,GunPowder,50,10
-Buy,Material Misc,Sand Bag,SandBag,50,10
-Buy,Material Misc,Stone,Stone,50,10
+Buy,Material Metal ,Wire,Wire,50,10
 Buy,Material Misc,Black Paint,PaintBlack,50,10
 Buy,Material Misc,Blue Paint,PaintBlue,50,10
+Buy,Material Misc,Box of Sparklers,Sparklers,50,10
 Buy,Material Misc,Brown Paint,PaintBrown,50,10
+Buy,Material Misc,Concrete Powder,ConcretePowder,50,10
 Buy,Material Misc,Cyan Paint,PaintCyan,50,10
-Buy,Material Misc,Green Paint,PaintGreen,50,10
+Buy,Material Misc,PickAxe Handle,PickAxeHandle,50,10
+Buy,Material Misc,Gravel Bag,Gravelbag,50,10
 Buy,Material Misc,Gray Paint,PaintGrey,50,10
+Buy,Material Misc,Green Paint,PaintGreen,50,10
+Buy,Material Misc,Gunpowder,GunPowder,50,10
 Buy,Material Misc,Light Blue Paint,PaintLightBlue,50,10
 Buy,Material Misc,Light Brown Paint,PaintLightBrown,50,10
 Buy,Material Misc,Orange Paint,PaintOrange,50,10
 Buy,Material Misc,Pink Paint,PaintPink,50,10
+Buy,Material Misc,Plaster Powder,PlasterPowder,50,10
 Buy,Material Misc,Purple Paint,PaintPurple,50,10
 Buy,Material Misc,Red Paint,PaintRed,50,10
+Buy,Material Misc,Sand Bag,SandBag,50,10
+Buy,Material Misc,Stone,Stone,50,10
 Buy,Material Misc,Turquoise Paint,PaintTurquoise,50,10
 Buy,Material Misc,White Paint,PaintWhite,50,10
 Buy,Material Misc,Yellow Paint,PaintYellow,50,10
@@ -67,6 +68,6 @@ Buy,Material Textile,Ripped Sheets,RippedSheets,50,10
 Buy,Material Textile,Sheet,Sheet,25,10
 Buy,Material Textile,Tarp,Tarp,50,10
 Buy,Material Wood,Log,Log,45,10
+Buy,Material Wood,Notched Wooden Plank,PercedWood,50,10
 Buy,Material Wood,Plank,Plank,10,10
 Sell,Material Wood,Scrap Wood,UnusableWood,10,10
-Buy,Material Wood,Notched Wooden Plank,PercedWood,50,10

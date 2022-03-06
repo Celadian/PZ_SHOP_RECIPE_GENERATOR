@@ -6,10 +6,10 @@ Buy,Clothes Belt,Holster,HolsterSimple,150,10
 Buy,Clothes Belt,Shells Ammo Strap,AmmoStrap_Shells,150,10
 Buy,Clothes Dress,Dress,Dress_Normal,100,10
 Buy,Clothes Dress,Hospital Gown,HospitalGown,100,10
-Buy,Clothes Dress,Knee-length Dress,Dress_Knee,100,10
+Buy,Clothes Dress,Knee-length Dress,Dress_Knees,100,10
 Buy,Clothes Dress,Long Dress,Dress_Long,100,10
 Buy,Clothes Dress,Short Dress,Dress_Short,100,10
-Buy,Clothes Eyes,Glasses,Glasses,100,10
+Buy,Clothes Eyes,Reflective Ski Sunglasses,Glasses,100,10
 Buy,Clothes Eyes,Aviator Glasses,Glasses_Aviators,100,10
 Buy,Clothes Eyes,Glasses,Glasses_Normal,100,10
 Buy,Clothes Eyes,Reading Glasses,Glasses_Reading,40,10
@@ -82,7 +82,7 @@ Buy,Clothes hat,Sweatband,Hat_Sweatband,100,10
 Buy,Clothes hat,Tin Foil Hat,Hat_TinFoilHat,100,10
 Buy,Clothes hat,Visor Black,Hat_VisorBlack,100,10
 Buy,Clothes hat,Visor Red,Hat_VisorRed,100,10
-Buy,Clothes hat,Visor White,Hat_VisorWhiteTINT,100,10
+Buy,Clothes hat,Visor White,Hat_Visor_WhiteTINT,100,10
 Buy,Clothes hat,Wedding Veil,Hat_WeddingVeil,100,10
 Buy,Clothes hat,Winter Hat,Hat_WinterHat,100,10
 Buy,Clothes hat,Woolly Hat,Hat_WoolyHat,100,10
@@ -135,7 +135,7 @@ Buy,Clothes mask,Bandana (Face),Hat_BandanaMask,100,10
 Buy,Clothes mask,Bandana (Face),Hat_BandanaMaskTINT,100,10
 Buy,Clothes mask,Dust Mask,Hat_DustMask,100,10
 Buy,Clothes mask,Gas Mask,Hat_GasMask,100,10
-Buy,Clothes mask,Hockey Goalie Mask,HockeyMask,100,10
+Buy,Clothes mask,Hockey Goalie Mask,Hat_HockeyMask,100,10
 Buy,Clothes mask,Medical Mask Blue,Hat_SurgicalMask_Blue,100,10
 Buy,Clothes mask,Medical Mask Green,Hat_SurgicalMask_Green,100,10
 Buy,Clothes mask,Open Balaclava,Hat_BalaclavaFace,100,10
@@ -169,7 +169,7 @@ Buy,Clothes Pants,Police Deputy Pants,Trousers_PoliceGrey,100,10
 Buy,Clothes Pants,Prison Guard Pants,Trousers_PrisonGuard,100,10
 Buy,Clothes Pants,Ranger Pants,Trousers_Ranger,100,10
 Buy,Clothes Pants,Santa Suit Pants,Trousers_Santa,100,10
-Buy,Clothes Pants,Santa Suit Pants Green,Trousers_SantaGreen,100,10
+Buy,Clothes Pants,Santa Suit Pants Green,Trousers_SantaGReen,100,10
 Buy,Clothes Pants,Medical Pants,Trousers_Scrubs,100,10
 Buy,Clothes Pants,Suit Pants,Trousers_Suit,100,10
 Buy,Clothes Pants,Suit Pants,Trousers_SuitTEXTURE,100,10
@@ -183,19 +183,19 @@ Buy,Clothes Pants,Navy Blue Trousers,Trousers_NavyBlue,100,10
 Buy,Clothes Shirt,Baseball Shirt KY,Shirt_Baseball_KY,100,10
 Buy,Clothes Shirt,Baseball Shirt Rangers,Shirt_Baseball_Rangers,100,10
 Buy,Clothes Shirt,Baseball Shirt Z,Shirt_Baseball_Z,100,10
-Buy,Clothes Shirt,Bandeau,Shirt_BoobTube,100,10
-Buy,Clothes Shirt,Bowling Shirt Blue,Shirt_BowlingBlue,100,10
-Buy,Clothes Shirt,Bowling Shirt Brown,Shirt_BowlingBrown,100,10
-Buy,Clothes Shirt,Bowling Shirt Green,Shirt_BowlingGreen,100,10
-Buy,Clothes Shirt,Bowling Shirt Pink,Shirt_BowlingPink,100,10
-Buy,Clothes Shirt,Bowling Shirt White,Shirt_BowlingWhite,100,10
+Buy,Clothes Shirt,Bandeau,BoobTube,100,10
+Buy,Clothes Shirt,Bowling Shirt Blue,Shirt_Bowling_Blue,100,10
+Buy,Clothes Shirt,Bowling Shirt Brown,Shirt_Bowling_Brown,100,10
+Buy,Clothes Shirt,Bowling Shirt Green,Shirt_Bowling_Green,100,10
+Buy,Clothes Shirt,Bowling Shirt Pink,Shirt_Bowling_Pink,100,10
+Buy,Clothes Shirt,Bowling Shirt White,Shirt_Bowling_White,100,10
 Buy,Clothes Shirt,Crop Top,Shirt_CropTopNoArmTINT,100,10
 Buy,Clothes Shirt,Crop Top Arms,Shirt_CropTopTINT,100,10
 Buy,Clothes Shirt,Denim Shirt,Shirt_Denim,100,10
 Buy,Clothes Shirt,Fireman T-shirt Blue,Tshirt_Profession_FiremanBlue,100,10
 Buy,Clothes Shirt,Fireman T-shirt Red,Tshirt_Profession_FiremanRed,100,10
 Buy,Clothes Shirt,Fireman T-shirt Red Variant,Tshirt_Profession_FiremanRed02,100,10
-Buy,Clothes Shirt,Fireman T-shirt White,Tshirt_Profession_FiremaWhite,100,10
+Buy,Clothes Shirt,Fireman T-shirt White,Tshirt_Profession_FiremanWhite,100,10
 Buy,Clothes Shirt,Formal Shirt,Shirt_FormalWhite,100,10
 Buy,Clothes Shirt,Hawaiian Shirt,Shirt_HawaiianTINT,100,10
 Buy,Clothes Shirt,Hawaiian Shirt Red,Shirt_HawaiianRed,100,10

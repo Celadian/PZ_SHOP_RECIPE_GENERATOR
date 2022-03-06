@@ -34,6 +34,27 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Animal Bacon {
+		Money=250,
+		Result:Bacon,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Animal BaconBits {
+		Money=100,
+		Result:BaconBits,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Animal BaconRashers {
+		Money=100,
+		Result:BaconRashers,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Animal Chicken {
 		Money=250,
 		Result:Chicken,
@@ -90,37 +111,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Food  Animal Bacon {
-		Money=250,
-		Result:Bacon,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Animal BaconBits {
-		Money=100,
-		Result:BaconBits,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Animal BaconRashers {
-		Money=100,
-		Result:BaconRashers,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Food  Canned CannedBeans {
 		Money=50,
 		Result:TinnedBeans,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Canned CannedSpaghettiBolognese {
-		Money=50,
-		Result:CannedBolognese,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -184,6 +177,13 @@ module Base {
 	recipe Buy Food  Canned CannedSoup {
 		Money=50,
 		Result:TinnedSoup,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Canned CannedSpaghettiBolognese {
+		Money=50,
+		Result:CannedBolognese,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -328,62 +328,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Food  Ingredients Flour {
-		Money=50,
-		Result:Flour,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Rice {
-		Money=50,
-		Result:Rice,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Tortilla {
-		Money=50,
-		Result:Tortilla,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients TortillaChips {
-		Money=50,
-		Result:TortillaChips,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Butter {
-		Money=50,
-		Result:Butter,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Cheese {
-		Money=50,
-		Result:Cheese,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Yeast {
-		Money=50,
-		Result:Yeast,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Ingredients Yoghurt {
-		Money=50,
-		Result:Yoghurt,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Food  Ingredients Avocado {
 		Money=50,
 		Result:Avocado,
@@ -405,6 +349,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Ingredients Butter {
+		Money=50,
+		Result:Butter,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Ingredients CabBage {
 		Money=50,
 		Result:CabBage,
@@ -419,6 +370,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Ingredients Cheese {
+		Money=50,
+		Result:Cheese,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Ingredients Corn {
 		Money=50,
 		Result:Corn,
@@ -429,6 +387,13 @@ module Base {
 	recipe Buy Food  Ingredients Eggplant {
 		Money=50,
 		Result:Eggplant,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Ingredients Flour {
+		Money=50,
+		Result:Flour,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -531,9 +496,44 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Ingredients Rice {
+		Money=50,
+		Result:Rice,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Ingredients Tomato {
 		Money=50,
 		Result:Tomato,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Ingredients Tortilla {
+		Money=50,
+		Result:Tortilla,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Ingredients TortillaChips {
+		Money=50,
+		Result:TortillaChips,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Ingredients Yeast {
+		Money=50,
+		Result:Yeast,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Ingredients Yoghurt {
+		Money=50,
+		Result:Yoghurt,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -552,9 +552,72 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Prepped Bagel {
+		Money=50,
+		Result:Bagel,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped BeefJerky {
+		Money=50,
+		Result:BeefJerky,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped BlackForestCakeSlice {
+		Money=50,
+		Result:CakeBlackForest,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Bread {
+		Money=50,
+		Result:Bread,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Prepped BreadDough {
 		Money=50,
 		Result:BreadDough,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped BreadSlices {
+		Money=50,
+		Result:BreadSlices,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Burger {
+		Money=50,
+		Result:BurgerRecipe,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Burger {
+		Money=50,
+		Result:Burger,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Burrito {
+		Money=50,
+		Result:BurritoRecipe,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Cake {
+		Money=50,
+		Result:CakeRaw,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -573,216 +636,6 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Food  Prepped PieDough {
-		Money=50,
-		Result:PieDough,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped PiePreparation {
-		Money=50,
-		Result:PiePrep,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Burger {
-		Money=50,
-		Result:BurgerRecipe,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Cake {
-		Money=50,
-		Result:CakeRaw,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Pie {
-		Money=50,
-		Result:PieWholeRaw,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Sandwich {
-		Money=50,
-		Result:Sandwich,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Burrito {
-		Money=50,
-		Result:BurritoRecipe,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Taco {
-		Money=50,
-		Result:Taco,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped BeefJerky {
-		Money=50,
-		Result:BeefJerky,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Ham {
-		Money=50,
-		Result:Ham,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Cherry {
-		Money=50,
-		Result:Cherry,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Grapes {
-		Money=50,
-		Result:Grapes,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Lemon {
-		Money=50,
-		Result:Lemon,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Lime {
-		Money=50,
-		Result:Lime,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Orange {
-		Money=50,
-		Result:Orange,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Peach {
-		Money=50,
-		Result:Peach,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Pineapple {
-		Money=50,
-		Result:Pineapple,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Strawberries {
-		Money=50,
-		Result:Strewberrie,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Watermelon {
-		Money=50,
-		Result:Watermelon,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped WatermelonChunks {
-		Money=50,
-		Result:WatermelonSmashed,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped WatermelonSlice {
-		Money=50,
-		Result:WatermelonSliced,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Bread {
-		Money=50,
-		Result:Bread,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped BreadSlices {
-		Money=50,
-		Result:BreadSlices,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped CanofOats {
-		Money=50,
-		Result:OatsRaw,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped InstantPopcorn {
-		Money=50,
-		Result:Popcorn,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Pasta {
-		Money=50,
-		Result:Pasta,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped DryRamenNoodles {
-		Money=50,
-		Result:Ramen,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Bagel {
-		Money=50,
-		Result:Bagel,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped BlackForestCakeSlice {
-		Money=50,
-		Result:CakeBlackForest,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Food  Prepped Burger {
-		Money=50,
-		Result:Burger,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Food  Prepped CakeSlice {
 		Money=50,
 		Result:CakeSlice,
@@ -793,6 +646,13 @@ module Base {
 	recipe Buy Food  Prepped CandyCane {
 		Money=50,
 		Result:Candycane,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped CanofOats {
+		Money=50,
+		Result:OatsRaw,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -821,6 +681,13 @@ module Base {
 	recipe Buy Food  Prepped CheeseSandwich {
 		Money=50,
 		Result:CheeseSandwich,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Cherry {
+		Money=50,
+		Result:Cherry,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -916,9 +783,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Food  Prepped FrostedDoughnut {
+	recipe Buy Food  Prepped DryRamenNoodles {
 		Money=50,
-		Result:DoughnutFrosted,
+		Result:Ramen,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -933,6 +800,27 @@ module Base {
 	recipe Buy Food  Prepped Fries {
 		Money=50,
 		Result:Fries,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped FrostedDoughnut {
+		Money=50,
+		Result:DoughnutFrosted,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Grapes {
+		Money=50,
+		Result:Grapes,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Ham {
+		Money=50,
+		Result:Ham,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -958,9 +846,30 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Prepped InstantPopcorn {
+		Money=50,
+		Result:Popcorn,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Prepped JellyDoughnut {
 		Money=50,
 		Result:DoughnutJelly,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Lemon {
+		Money=50,
+		Result:Lemon,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Lime {
+		Money=50,
+		Result:Lime,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1021,9 +930,30 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Prepped Orange {
+		Money=50,
+		Result:Orange,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Prepped Pancakes {
 		Money=50,
 		Result:Pancakes,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Pasta {
+		Money=50,
+		Result:Pasta,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Peach {
+		Money=50,
+		Result:Peach,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1049,9 +979,37 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Prepped Pie {
+		Money=50,
+		Result:PieWholeRaw,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped PieDough {
+		Money=50,
+		Result:PieDough,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped PiePreparation {
+		Money=50,
+		Result:PiePrep,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Prepped PieSlice {
 		Money=50,
 		Result:Pie,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Pineapple {
+		Money=50,
+		Result:Pineapple,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1098,6 +1056,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Food  Prepped Sandwich {
+		Money=50,
+		Result:Sandwich,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Food  Prepped SesameBagel {
 		Money=50,
 		Result:BagelSesame,
@@ -1108,6 +1073,13 @@ module Base {
 	recipe Buy Food  Prepped ShortbreadCookie {
 		Money=50,
 		Result:CookiesShortbread,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Strawberries {
+		Money=50,
+		Result:Strewberrie,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1129,6 +1101,13 @@ module Base {
 	recipe Buy Food  Prepped SunflowerSeeds {
 		Money=50,
 		Result:SunflowerSeeds,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Taco {
+		Money=50,
+		Result:Taco,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -1157,6 +1136,27 @@ module Base {
 	recipe Buy Food  Prepped Waffles {
 		Money=50,
 		Result:Waffles,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped Watermelon {
+		Money=50,
+		Result:Watermelon,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped WatermelonChunks {
+		Money=50,
+		Result:WatermelonSmashed,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Food  Prepped WatermelonSlice {
+		Money=50,
+		Result:WatermelonSliced,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,

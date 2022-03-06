@@ -6,6 +6,20 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Storage Briefcase {
+		Money=100,
+		Result:Briefcase,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Storage Cooler {
+		Money=100,
+		Result:Cooler,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Storage DuffelBag {
 		Money=250,
 		Result:Bag_DuffelBag,
@@ -27,58 +41,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Storage Normal Hiking Bag {
-		Money=250,
-		Result:Bag_NormalHikingBag,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Large Backpack {
-		Money=900,
-		Result:Bag_ALICEpack,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Military Backpack {
-		Money=1000,
-		Result:Bag_ALICEpack_Army,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Satchel {
+	recipe Buy Storage First Aid Kit {
 		Money=100,
-		Result:Bag_Satchel,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage School Bag {
-		Money=100,
-		Result:Bag_Schoolbag,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Golf Bag {
-		Money=100,
-		Result:Bag_GolfBag,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Briefcase {
-		Money=100,
-		Result:Briefcase,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Storage Cooler {
-		Money=100,
-		Result:Cooler,
+		Result:FirstAidKit,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -90,16 +55,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Storage First Aid Kit {
+	recipe Buy Storage Garbage Bag {
 		Money=100,
-		Result:FirstAidKit,
+		Result:Garbagebag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Storage GarBage Bag {
+	recipe Buy Storage Golf Bag {
 		Money=100,
-		Result:GarBageBag,
+		Result:Bag_GolfBag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -134,7 +99,14 @@ module Base {
 	}
 	recipe Buy Storage HandBag {
 		Money=50,
-		Result:HandBag,
+		Result:Handbag,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Storage Large Backpack {
+		Money=900,
+		Result:Bag_ALICEpack,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -153,9 +125,23 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Storage Military Backpack {
+		Money=1000,
+		Result:Bag_ALICEpack_Army,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Storage Normal Hiking Bag {
+		Money=250,
+		Result:Bag_NormalHikingBag,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Storage Plastic Bag {
 		Money=25,
-		Result:PlasticBag,
+		Result:Plasticbag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -169,7 +155,21 @@ module Base {
 	}
 	recipe Buy Storage Sack {
 		Money=250,
-		Result:EmptySandBag,
+		Result:EmptySandbag,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Storage Satchel {
+		Money=100,
+		Result:Bag_Satchel,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Storage School Bag {
+		Money=100,
+		Result:Bag_Schoolbag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,

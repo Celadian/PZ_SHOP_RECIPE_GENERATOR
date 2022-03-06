@@ -13,6 +13,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Electrical Blue Light Bulb {
+		Money=50,
+		Result:LightBulbBlue,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Electrical Crafted Timer {
 		Money=50,
 		Result:TimerCrafted,
@@ -23,6 +30,13 @@ module Base {
 	recipe Buy Material Electrical Crafted Trigger {
 		Money=50,
 		Result:TriggerCrafted,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Electrical Cyan Light Bulb {
+		Money=50,
+		Result:LightBulbCyan,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -41,23 +55,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Electrical Motion Sensor {
+	recipe Buy Material Electrical Green Light Bulb {
 		Money=50,
-		Result:MotionSensor,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical Survival Radio Receiver {
-		Money=50,
-		Result:RadioReceiver,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical RadioMag3 {
-		Money=50,
-		Result:RadioTransmitter,
+		Result:LightBulbGreen,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -69,44 +69,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Electrical Red Light Bulb {
-		Money=50,
-		Result:LightBulbRed,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical Green Light Bulb {
-		Money=50,
-		Result:LightBulbGreen,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical Blue Light Bulb {
-		Money=50,
-		Result:LightBulbBlue,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical Yellow Light Bulb {
-		Money=50,
-		Result:LightBulbYellow,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Electrical Cyan Light Bulb {
-		Money=50,
-		Result:LightBulbCyan,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
 	recipe Buy Material Electrical Magenta Light Bulb {
 		Money=50,
 		Result:LightBulbMagenta,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Electrical Motion Sensor {
+		Money=50,
+		Result:MotionSensor,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -118,6 +90,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Electrical Pink Light Bulb {
+		Money=50,
+		Result:LightBulbPink,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Electrical Purple Light Bulb {
 		Money=50,
 		Result:LightBulbPurple,
@@ -125,9 +104,23 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Electrical Pink Light Bulb {
+	recipe Buy Material Electrical RadioMag3 {
 		Money=50,
-		Result:LightBulbPink,
+		Result:RadioTransmitter,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Electrical Red Light Bulb {
+		Money=50,
+		Result:LightBulbRed,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Electrical Survival Radio Receiver {
+		Money=50,
+		Result:RadioReceiver,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -153,6 +146,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Electrical Yellow Light Bulb {
+		Money=50,
+		Result:LightBulbYellow,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Fuel Charcoal {
 		Money=150,
 		Result:Charcoal,
@@ -167,9 +167,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Metal Nails {
+	recipe Buy Material Metal Barbed Wire {
 		Money=50,
-		Result:NailsBox,
+		Result:BarbedWire,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -223,9 +223,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Metal Nails {
+		Money=50,
+		Result:NailsBox,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Sell Material Metal Scrap Metal {
 		ScrapMetal,
-		Result: Money=50,
+		Result: Money=10,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Sell,
@@ -239,24 +246,17 @@ module Base {
 	}
 	recipe Buy Material Metal Tent Peg {
 		Money=50,
-		Result:Tentpeg,
+		Result:TentPeg,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
 	recipe Sell Material Metal Unusable Metal {
 		UnusableMetal,
-		Result: Money=50,
+		Result: Money=10,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Sell,
-	}
-	recipe Buy Material Metal Barbed Wire {
-		Money=50,
-		Result:BarbedWire,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
 	}
 	recipe Buy Material Metal Electrical Aluminum {
 		Money=50,
@@ -265,58 +265,9 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Metal Electrical Wire {
+	recipe Buy Material Metal  Wire {
 		Money=50,
 		Result:Wire,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Concrete Powder {
-		Money=50,
-		Result:ConcretePowder,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Plaster Powder {
-		Money=50,
-		Result:PlasterPowder,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Box of Sparklers {
-		Money=50,
-		Result:Sparklers,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Gravel Bag {
-		Money=50,
-		Result:GravelBag,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Gunpowder {
-		Money=50,
-		Result:GunPowder,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Sand Bag {
-		Money=50,
-		Result:SandBag,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
-	}
-	recipe Buy Material Misc Stone {
-		Money=50,
-		Result:Stone,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -335,9 +286,23 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Misc Box of Sparklers {
+		Money=50,
+		Result:Sparklers,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Misc Brown Paint {
 		Money=50,
 		Result:PaintBrown,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Concrete Powder {
+		Money=50,
+		Result:ConcretePowder,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -349,9 +314,16 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
-	recipe Buy Material Misc Green Paint {
+	recipe Buy Material Misc PickAxe Handle {
 		Money=50,
-		Result:PaintGreen,
+		Result:PickAxeHandle,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Gravel Bag {
+		Money=50,
+		Result:Gravelbag,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -359,6 +331,20 @@ module Base {
 	recipe Buy Material Misc Gray Paint {
 		Money=50,
 		Result:PaintGrey,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Green Paint {
+		Money=50,
+		Result:PaintGreen,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Gunpowder {
+		Money=50,
+		Result:GunPowder,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -391,6 +377,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Misc Plaster Powder {
+		Money=50,
+		Result:PlasterPowder,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Misc Purple Paint {
 		Money=50,
 		Result:PaintPurple,
@@ -401,6 +394,20 @@ module Base {
 	recipe Buy Material Misc Red Paint {
 		Money=50,
 		Result:PaintRed,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Sand Bag {
+		Money=50,
+		Result:SandBag,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
+	recipe Buy Material Misc Stone {
+		Money=50,
+		Result:Stone,
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
@@ -482,6 +489,13 @@ module Base {
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Buy,
 	}
+	recipe Buy Material Wood Notched Wooden Plank {
+		Money=50,
+		Result:PercedWood,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Buy,
+	}
 	recipe Buy Material Wood Plank {
 		Money=10,
 		Result:Plank,
@@ -495,12 +509,5 @@ module Base {
 		Time:10,
 		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
 		Category: SShop Sell,
-	}
-	recipe Buy Material Wood Notched Wooden Plank {
-		Money=50,
-		Result:PercedWood,
-		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
-		Category: SShop Buy,
 	}
 }
