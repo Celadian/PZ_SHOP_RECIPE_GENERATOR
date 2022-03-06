@@ -13,7 +13,7 @@ Buy,Weapon Ammunition,Box of .308 Bullets,308Box,250,10
 Buy,Weapon Clip,MSR788 Magazine,308Clip,350,10
 Buy,Weapon Firearm,TEST: Sniper Rifle,SniperRifle,10000,10
 Buy,Weapon Firearm,TEST: Sniper Rifle (Camo),SniperRifleCamo,10000,10
-Buy,Weapon Short Blunt,10,Nightstick,250,
+Buy,Weapon Short Blunt,Nightstick,Nightstick,250,10
 Buy,Weapon Ammo,Shotgun Shells,ShotgunShells,100,10
 Buy,Weapon Attachments,Ammo Straps,AmmoStraps,250,10
 Buy,Weapon Attachments,Choke Tube Full,ChokeTubeFull,250,10
