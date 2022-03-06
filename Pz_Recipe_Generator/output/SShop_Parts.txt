@@ -1,0 +1,576 @@
+module Base {
+	recipe Buy Standard | Big Seat {
+		Money=250,
+		Result:BigCarSeat1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Big Seat {
+		Money=250,
+		Result:BigCarSeat2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Big Seat {
+		Money=250,
+		Result:BigCarSeat3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Big Gas Tank {
+		Money=500,
+		Result:BigGasTank1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Big Gas Tank {
+		Money=500,
+		Result:BigGasTank2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Big Gas Tank {
+		Money=500,
+		Result:BigGasTank3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Car Battery {
+		Money=500,
+		Result:CarBattery1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Car Battery {
+		Money=750,
+		Result:CarBattery2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Car Battery {
+		Money=500,
+		Result:CarBattery3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Hood {
+		Money=500,
+		Result:EngineDoor1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Hood {
+		Money=250,
+		Result:EngineDoor2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Hood {
+		Money=500,
+		Result:EngineDoor3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Misc | Spare Engine Parts {
+		Money=100,
+		Result:EngineParts,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Front Door {
+		Money=100,
+		Result:FrontCarDoor1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Front Door {
+		Money=125,
+		Result:FrontCarDoor2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Front Door {
+		Money=100,
+		Result:FrontCarDoor3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Front Window {
+		Money=100,
+		Result:FrontWindow1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Front Window {
+		Money=100,
+		Result:FrontWindow2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Front Window {
+		Money=125,
+		Result:FrontWindow3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Performance Brake {
+		Money=500,
+		Result:ModernBrake1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Performance Brake {
+		Money=100,
+		Result:ModernBrake2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Performance Brake {
+		Money=500,
+		Result:ModernBrake3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Performance Muffler {
+		Money=500,
+		Result:ModernCarMuffler1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Performance Muffler {
+		Money=250,
+		Result:ModernCarMuffler2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Performance Muffler {
+		Money=500,
+		Result:ModernCarMuffler3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Performance Suspension {
+		Money=250,
+		Result:ModernSuspension1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Performance Suspension {
+		Money=500,
+		Result:ModernSuspension2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Performance Suspension {
+		Money=250,
+		Result:ModernSuspension3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Performance Tire {
+		Money=500,
+		Result:ModernTire1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Performance Tire {
+		Money=350,
+		Result:ModernTire2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Performance Tire {
+		Money=500,
+		Result:ModernTire3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Regular Brake {
+		Money=250,
+		Result:NormalBrake1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Regular Brake {
+		Money=75,
+		Result:NormalBrake2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Regular Brake {
+		Money=250,
+		Result:NormalBrake3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Average Muffler {
+		Money=250,
+		Result:NormalCarMuffler1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Average Muffler {
+		Money=100,
+		Result:NormalCarMuffler2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Average Muffler {
+		Money=250,
+		Result:NormalCarMuffler3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Standard Seat {
+		Money=100,
+		Result:NormalCarSeat1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Standard Seat {
+		Money=100,
+		Result:NormalCarSeat2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Standard Seat {
+		Money=100,
+		Result:NormalCarSeat3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Standard Gas Tank {
+		Money=250,
+		Result:NormalGasTank1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Standard Gas Tank {
+		Money=250,
+		Result:NormalGasTank2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Standard Gas Tank {
+		Money=250,
+		Result:NormalGasTank3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Regular Suspension {
+		Money=100,
+		Result:NormalSuspension1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Regular Suspension {
+		Money=250,
+		Result:NormalSuspension2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Regular Suspension {
+		Money=100,
+		Result:NormalSuspension3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Regular Tire {
+		Money=250,
+		Result:NormalTire1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Regular Tire {
+		Money=250,
+		Result:NormalTire2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Regular Tire {
+		Money=250,
+		Result:NormalTire3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Old Brake {
+		Money=100,
+		Result:OldBrake1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Old Brake {
+		Money=50,
+		Result:OldBrake2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Old Brake {
+		Money=100,
+		Result:OldBrake3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Old Muffler {
+		Money=100,
+		Result:OldCarMuffler1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Old Muffler {
+		Money=50,
+		Result:OldCarMuffler2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Old Muffler {
+		Money=100,
+		Result:OldCarMuffler3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Valu-Tire {
+		Money=100,
+		Result:OldTire1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Valu-Tire {
+		Money=100,
+		Result:OldTire2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Valu-Tire {
+		Money=100,
+		Result:OldTire3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Rear Door {
+		Money=100,
+		Result:RearCarDoor1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Rear Door {
+		Money=125,
+		Result:RearCarDoor2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Rear Door {
+		Money=100,
+		Result:RearCarDoor3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Double Rear Door {
+		Money=250,
+		Result:RearCarDoorDouble1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Double Rear Door {
+		Money=200,
+		Result:RearCarDoorDouble2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Double Rear Door {
+		Money=250,
+		Result:RearCarDoorDouble3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Rear Window {
+		Money=100,
+		Result:RearWindow1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Rear Window {
+		Money=100,
+		Result:RearWindow2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Rear Window {
+		Money=125,
+		Result:RearWindow3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Rear Windshield {
+		Money=250,
+		Result:RearWindshield1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Rear Windshield {
+		Money=500,
+		Result:RearWindshield2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Rear Windshield {
+		Money=250,
+		Result:RearWindshield3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Small Gas Tank {
+		Money=100,
+		Result:SmallGasTank1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Small Gas Tank {
+		Money=100,
+		Result:SmallGasTank2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Small Gas Tank {
+		Money=100,
+		Result:SmallGasTank3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Sports Seat {
+		Money=500,
+		Result:SportCarSeat1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Sports Seat {
+		Money=250,
+		Result:SportCarSeat2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Sports Seat {
+		Money=250,
+		Result:SportCarSeat3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Trunk Lid {
+		Money=250,
+		Result:TrunkDoor1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Trunk Lid {
+		Money=150,
+		Result:TrunkDoor2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Trunk Lid {
+		Money=250,
+		Result:TrunkDoor3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Standard | Windshield {
+		Money=500,
+		Result:Windshield1,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Heavy-Duty | Windshield {
+		Money=500,
+		Result:Windshield2,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+	recipe Buy Sport | Windshield {
+		Money=500,
+		Result:Windshield3,
+		Time:10,
+		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		Category: SShop Parts,
+	}
+}

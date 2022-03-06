@@ -1,0 +1,433 @@
+Buy,Belt,Belt,Belt,25,10
+Buy,Belt,Belt Alternative,Belt2,25,10
+Buy,Belt,Bullets Ammo Strap,AmmoStrap_Bullets,100,10
+Buy,Belt,Double Holster,HolsterDouble,100,10
+Buy,Belt,Holster,HolsterSimple,150,10
+Buy,Belt,Shells Ammo Strap,AmmoStrap_Shells,150,10
+Sell,Jewlery,Dog Tags,Necklace_DogTag,10,10
+Sell,Jewlery,Gold Necklace,Necklace_Gold,30,10
+Sell,Jewlery,Gold Necklace with Ruby Stone,Necklace_GoldRuby,40,10
+Sell,Jewlery,Gold Necklace with Diamond,Necklace_GoldDiamond,55,10
+Sell,Jewlery,Silver Necklace,Necklace_Silver,20,10
+Sell,Jewlery,Silver Necklace with Sapphire Stone,Necklace_SilverSapphire,30,10
+Sell,Jewlery,Silver Necklace with Crucifix,Necklace_SilverCrucifix,30,10
+Sell,Jewlery,Silver Necklace with Diamond,Necklace_SilverDiamond,45,10
+Sell,Jewlery,Necklace with Crucifix,Necklace_Crucifix,10,10
+Sell,Jewlery,Necklace with Ying and Yang Symbol,Necklace_YingYang,10,10
+Sell,Jewlery,Pearl Necklace,Necklace_Pearl,20,10
+Sell,Jewlery,Long Gold Necklace,NecklaceLong_Gold,45,10
+Sell,Jewlery,Long Gold Necklace with Diamond,NecklaceLong_GoldDiamond,70,10
+Sell,Jewlery,Long Silver Necklace,NecklaceLong_Silver,30,10
+Sell,Jewlery,Long Silver Necklace with Emerald,NecklaceLong_SilverEmerald,40,10
+Sell,Jewlery,Long Silver Necklace with Sapphire Stone,NecklaceLong_SilverSapphire,40,10
+Sell,Jewlery,Long Silver Necklace with Diamond,NecklaceLong_SilverDiamond,55,10
+Sell,Jewlery,Long Necklace with Amber Stone,NecklaceLong_Amber,25,10
+Sell,Jewlery,Black Choker,Necklace_Choker,10,10
+Sell,Jewlery,Choker with Sapphire Stone,Necklace_Choker_Sapphire,20,10
+Sell,Jewlery,Choker with Amber Stone,Necklace_Choker_Amber,20,10
+Sell,Jewlery,Choker with Diamond,Necklace_Choker_Diamond,20,10
+Sell,Jewlery,Gold Nose Ring,NoseRing_Gold,3,10
+Sell,Jewlery,Silver Nose Ring,NoseRing_Silver,2,10
+Sell,Jewlery,Gold Nose Stud,NoseStud_Gold,3,10
+Sell,Jewlery,Silver Nose Stud,NoseStud_Silver,2,10
+Sell,Jewlery,Large Gold Looped Earrings,Earring_LoopLrg_Gold,9,10
+Sell,Jewlery,Large Silver Looped Earrings,Earring_LoopLrg_Silver,6,10
+Sell,Jewlery,Medium Silver Looped Earrings,Earring_LoopMed_Silver,4,10
+Sell,Jewlery,Medium Gold Looped Earrings,Earring_LoopMed_Gold,6,10
+Sell,Jewlery,Small Silver Looped Earrings,Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top,2,10
+Sell,Jewlery,Small Gold Looped Earrings,Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top,3,10
+Sell,Jewlery,Gold Stud Earrings,Earring_Stud_Gold,3,10
+Sell,Jewlery,Silver Stud Earrings,Earring_Stud_Silver,2,10
+Sell,Jewlery,Sapphire Stone Earrings,Earring_Stone_Sapphire,10,10
+Sell,Jewlery,Emerald Earrings,Earring_Stone_Emerald,10,10
+Sell,Jewlery,Ruby Earrings,Earring_Stone_Ruby,10,10
+Sell,Jewlery,Pearl Earrings,Earring_Pearl,15,10
+Sell,Jewlery,Dangly Sapphire Earrings,Earring_Dangly_Sapphire,10,10
+Sell,Jewlery,Dangly Emerald Earrings,Earring_Dangly_Emerald,10,10
+Sell,Jewlery,Dangly Ruby Earrings,Earring_Dangly_Ruby,10,10
+Sell,Jewlery,Dangly Diamond Earrings,Earring_Dangly_Diamond,25,10
+Sell,Jewlery,Dangly Pearl Earrings,Earring_Dangly_Pearl,15,10
+Sell,Jewlery,Gold Ring,Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold,6,10
+Sell,Jewlery,Silver Ring,Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver,4,10
+Sell,Jewlery,Diamond on a Silver Ring,Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond,29,10
+Sell,Jewlery,Ruby on a Gold Ring,Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby,16,10
+Sell,Jewlery,Diamond on a Gold Ring,Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond,31,10
+Sell,Jewlery,Classic Wrist Watch with Black Strap,WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack,10,10
+Sell,Jewlery,Classic Wrist Watch with Brown Strap,WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown,10,10
+Sell,Jewlery,Standard Military Issue Wrist Watch,WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary,20,10
+Sell,Jewlery,Gold Wrist Watch,WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold,100,10
+Sell,Jewlery,Black Digital Watch,WristWatch_Right_DigitalBlack/WristWatch_Left_DigitalBlack,10,10
+Sell,Jewlery,Red Digital Watch,WristWatch_Right_DigitalRed/WristWatch_Left_DigitalRed,10,10
+Sell,Jewlery,Metallic Dress Style Digital Watch,WristWatch_Right_DigitalDress/WristWatch_Left_DigitalDress,25,10
+Sell,Jewlery,Gold Bangle,Bracelet_BangleRightGold/Bracelet_BangleLeftGold,90,10
+Sell,Jewlery,Gold Chain Bracelet,Bracelet_ChainRightGold/Bracelet_ChainLeftGold,30,10
+Sell,Jewlery,Silver Bangle,Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver,60,10
+Sell,Jewlery,Silver Chain Bracelet,Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver,30,10
+Sell,Jewlery,Friendship Bracelet,Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT,1,10
+Sell,Jewlery,Earrings,Earrings,1,10
+Sell,Jewlery,Wedding Ring,WeddingRing_Man,6,10
+Sell,Jewlery,Wedding Ring,WeddingRing_Woman,6,10
+Buy,Dress,Dress,Dress_Normal,100,10
+Buy,Dress,Hospital Gown,HospitalGown,100,10
+Buy,Dress,Knee-length Dress,Dress_Knees,100,10
+Buy,Dress,Long Dress,Dress_Long,100,10
+Buy,Dress,Short Dress,Dress_Short,100,10
+Buy,Eyes,Aviator Glasses,Glasses_Aviators,100,10
+Buy,Eyes,Eyepatch,Glasses_Eyepatch_Left,100,10
+Buy,Eyes,Eyepatch,Glasses_Eyepatch_Right,100,10
+Buy,Eyes,Glasses,Glasses_Normal,100,10
+Buy,Eyes,Reading Glasses,Glasses_Reading,40,10
+Buy,Eyes,Reflective Ski Sunglasses,Glasses,100,10
+Buy,Eyes,Safety Goggles,Glasses_SafetyGoggles,40,10
+Buy,Eyes,Shooting Glasses,Glasses_Shooting,100,10
+Buy,Eyes,Ski Goggles,Glasses_SkiGoggles,150,10
+Buy,Eyes,Sunglasses,Glasses_Sun,10,10
+Buy,Eyes,Swimming Goggles,Glasses_SwimmingGoggles,10,10
+Buy,Full Suit,Airforce Coveralls,Boilersuit_Flying,250,10
+Buy,Full Suit,Bath Robe,LongCoat_Bathrobe,100,10
+Buy,Full Suit,Coveralls,Boilersuit,100,10
+Buy,Full Suit,Coveralls Blue Red,Boilersuit_BlueRed,100,10
+Buy,Full Suit,Hazmat Suit,HazmatSuit,500,10
+Buy,Full Suit,Prisoner Jumpsuit,Boilersuit_Prisoner,100,10
+Buy,Full Suit,Prisoner Jumpsuit,Boilersuit_PrisonerKhaki,100,10
+Buy,Full Suit,Spiffo Suit,SpiffoSuit,100,10
+Buy,Full Suit,Wedding Dress,WeddingDress,100,10
+Buy,Gloves,Boxing Gloves Blue,Gloves_BoxingBlue,100,10
+Buy,Gloves,Boxing Gloves Red,Gloves_BoxingRed,100,10
+Buy,Gloves,Fingerless Gloves,Gloves_FingerlessGloves,100,10
+Buy,Gloves,Gloves,Gloves_WhiteTINT,100,10
+Buy,Gloves,Leather Gloves,Gloves_LeatherGloves,100,10
+Buy,Gloves,Leather Gloves Black,Gloves_LeatherGlovesBlack,100,10
+Buy,Gloves,Long Gloves,Gloves_LongWomenGloves,100,10
+Buy,Gloves,Surgical Gloves,Gloves_Surgical,100,10
+Buy,Hat,Bandana,Hat_Bandana,100,10
+Buy,Hat,Bandana Variant,Hat_BandanaTINT,100,10
+Buy,Hat,Baseball Cap,Hat_BaseballCap,100,10
+Buy,Hat,Baseball Cap Army,Hat_BaseballCapArmy,100,10
+Buy,Hat,Baseball Cap Blue,Hat_BaseballCapBlue,100,10
+Buy,Hat,Baseball Cap Green,Hat_BaseballCapGreen,100,10
+Buy,Hat,Baseball Cap KY,Hat_BaseballCapKY,100,10
+Buy,Hat,Baseball Cap Red,Hat_BaseballCapRed,100,10
+Buy,Hat,Beanie Hat,Hat_Beany,100,10
+Buy,Hat,Beret,Hat_Beret,100,10
+Buy,Hat,Beret,Hat_BeretArmy,100,10
+Buy,Hat,Bonnie Hat,Hat_BonnieHat,100,10
+Buy,Hat,Bonnie Hat,Hat_BonnieHat_CamoGreen,100,10
+Buy,Hat,Bucket Hat,Hat_BucketHat,100,10
+Buy,Hat,Bunny Ears Black,Hat_BunnyEarsBlack,100,10
+Buy,Hat,Bunny Ears Black,Hat_BunnyEarsWhite,100,10
+Buy,Hat,Chef Hat,Hat_ChefHat,100,10
+Buy,Hat,Cowboy Hat,Hat_Cowboy,100,10
+Buy,Hat,Ear Muffs,Hat_EarMuffs,100,10
+Buy,Hat,Ear Protectors,Hat_EarMuff_Protectors,100,10
+Buy,Hat,Fast Food Server Hat,Hat_FastFood,100,10
+Buy,Hat,Fedora,Hat_Fedora,100,10
+Buy,Hat,Fedora,Hat_Fedora_Delmonte,100,10
+Buy,Hat,Golf Cap,Hat_GolfHat,100,10
+Buy,Hat,Golf Cap Dark,Hat_GolfHatTINT,100,10
+Buy,Hat,Ice Cream Server Hat,Hat_FastFood_IceCream,100,10
+Buy,Hat,Medical Cap Blue,Hat_SurgicalCap_Blue,100,10
+Buy,Hat,Medical Cap Green,Hat_SurgicalCap_Green,100,10
+Buy,Hat,Party Hat,Hat_PartyHat_Stars,100,10
+Buy,Hat,Party Hat Dark,Hat_PartyHat_TINT,100,10
+Buy,Hat,Peaked Army Cap,Hat_PeakedCapArmy,100,10
+Buy,Hat,Police Deputy Hat,Hat_Police_Grey,100,10
+Buy,Hat,Police Trooper Hat,Hat_Police,100,10
+Buy,Hat,Raccoon Hat,Hat_Raccoon,100,10
+Buy,Hat,Ranger Hat,Hat_Ranger,100,10
+Buy,Hat,Santa Hat,Hat_SantaHat,100,10
+Buy,Hat,Santa Hat Green,Hat_SantaHatGreen,100,10
+Buy,Hat,Shower Cap,Hat_ShowerCap,100,10
+Buy,Hat,Spiffo's Server Hat,Hat_FastFood_Spiffo,100,10
+Buy,Hat,Summer Hat,Hat_SummerHat,100,10
+Buy,Hat,Sweatband,Hat_Sweatband,100,10
+Buy,Hat,Tin Foil Hat,Hat_TinFoilHat,100,10
+Buy,Hat,Visor Black,Hat_VisorBlack,100,10
+Buy,Hat,Visor Red,Hat_VisorRed,100,10
+Buy,Hat,Visor White,Hat_Visor_WhiteTINT,100,10
+Buy,Hat,Wedding Veil,Hat_WeddingVeil,100,10
+Buy,Hat,Winter Hat,Hat_WinterHat,100,10
+Buy,Hat,Woolly Hat,Hat_WoolyHat,100,10
+Buy,Helmet,Air Force Helmet,Hat_SPHhelmet,500,10
+Buy,Helmet,Baseball Helmet KY,Hat_BaseballHelmet_KY,150,10
+Buy,Helmet,Baseball Helmet Rangers,Hat_BaseballHelmet_Rangers,150,10
+Buy,Helmet,Baseball Helmet Z,Hat_BaseballHelmet_Z,150,10
+Buy,Helmet,Bicycle Helmet,Hat_BicycleHelmet,100,10
+Buy,Helmet,Boxing Head Gear,Hat_BoxingRed,100,10
+Buy,Helmet,Boxing Head Gear,Hat_BoxingBlue,100,10
+Buy,Helmet,Crash Helmet,Hat_CrashHelmet,250,10
+Buy,Helmet,Firefighter Helmet,Hat_Fireman,350,10
+Buy,Helmet,Football Helmet,Hat_FootballHelmet,175,10
+Buy,Helmet,Hard Hat,Hat_HardHat,175,10
+Buy,Helmet,Hockey Helmet,Hat_HockeyHelmet,175,10
+Buy,Helmet,Jockey Helmet 1,Hat_JockeyHelmet01,175,10
+Buy,Helmet,Jockey Helmet 2,Hat_JockeyHelmet02,175,10
+Buy,Helmet,Jockey Helmet 3,Hat_JockeyHelmet03,175,10
+Buy,Helmet,Jockey Helmet 4,Hat_JockeyHelmet04,175,10
+Buy,Helmet,Jockey Helmet 5,Hat_JockeyHelmet05,175,10
+Buy,Helmet,Jockey Helmet 6,Hat_JockeyHelmet06,175,10
+Buy,Helmet,Military Helmet,Hat_Army,350,10
+Buy,Helmet,Mining Helmet,Hat_HardHat_Miner,175,10
+Buy,Helmet,Motorcycle Helmet,Hat_CrashHelmetFULL,250,10
+Buy,Helmet,Nuclear Biochemical Mask,Hat_NBCmask,500,10
+Buy,Helmet,Police Motorcycle Helmet,Hat_CrashHelmet_Police,250,10
+Buy,Helmet,Riding Helmet,Hat_RidingHelmet,175,10
+Buy,Helmet,Riot Helmet,Hat_RiotHelmet,250,10
+Buy,Helmet,Spiffo Suit Head,Hat_Spiffo,1000,10
+Buy,Helmet,USA Crash Helmet,Hat_CrashHelmet_Stars,250,10
+Buy,Jacket,Army Coat,Jacket_CoatArmy,250,10
+Buy,Jacket,Chef Jacket,Jacket_Chef,100,10
+Buy,Jacket,Firefighter Jacket,Jacket_Fireman,450,10
+Buy,Jacket,Ghillie Suit Torso,Ghillie_Top,750,10
+Buy,Jacket,Jacket,Jacket_WhiteTINT,100,10
+Buy,Jacket,Leather Jacket,JacketLong_Random,100,10
+Buy,Jacket,Leather Jacket,Jacket_Black,100,10
+Buy,Jacket,Medical Coat,JacketLong_Doctor,100,10
+Buy,Jacket,Military Desert Camo Jacket,Jacket_ArmyCamoDesert,250,10
+Buy,Jacket,Military Green Camo Jacket,Jacket_ArmyCamoGreen,250,10
+Buy,Jacket,Padded Jacket,Jacket_PaddedDOWN,100,10
+Buy,Jacket,Police Deputy Jacket,Jacket_Police,100,10
+Buy,Jacket,Ranger Jacket,Jacket_Ranger,100,10
+Buy,Jacket,Santa Suit Jacket,JacketLong_Santa,100,10
+Buy,Jacket,Santa Suit Jacket Green,JacketLong_SantaGreen,100,10
+Buy,Jacket,Suit Jacket,Suit_Jacket,250,10
+Buy,Jacket,Varsity Jacket,Jacket_Varsity,100,10
+Buy,Jacket,Wedding Jacket,WeddingJacket,100,10
+Buy,Mask,Bandana (Face),Hat_BandanaMask,100,10
+Buy,Mask,Bandana (Face),Hat_BandanaMaskTINT,100,10
+Buy,Mask,Dust Mask,Hat_DustMask,100,10
+Buy,Mask,Gas Mask,Hat_GasMask,100,10
+Buy,Mask,Hockey Goalie Mask,Hat_HockeyMask,100,10
+Buy,Mask,Medical Mask Blue,Hat_SurgicalMask_Blue,100,10
+Buy,Mask,Medical Mask Green,Hat_SurgicalMask_Green,100,10
+Buy,Mask,Open Balaclava,Hat_BalaclavaFace,100,10
+Buy,Mask,Welder Mask,WeldingMask,100,10
+Buy,Neck,Bow Tie,Tie_BowTieFull,100,10
+Buy,Neck,Clip-on Bow Tie,Tie_BowTieWorn,100,10
+Buy,Neck,Clip-on Spiffo Tie,Tie_Worn_Spiffo,100,10
+Buy,Neck,Clip-on Tie,Tie_Worn,100,10
+Buy,Neck,Scarf,Scarf_White,100,10
+Buy,Neck,Scarf,Scarf_StripeBlackWhite,100,10
+Buy,Neck,Scarf,Scarf_StripeBlueWhite,100,10
+Buy,Neck,Scarf,Scarf_StripeRedWhite,100,10
+Buy,Neck,Spiffo Tie,Tie_Full_Spiffo,100,10
+Buy,Neck,Tie,Tie_Full,100,10
+Buy,Pants,250,Ghillie_Trousers,100,10
+Buy,Pants,Army Pants,Trousers_ArmyService,250,10
+Buy,Pants,Baggy Jeans,Trousers_JeanBaggy,100,10
+Buy,Pants,Black Trousers,Trousers_Black,100,10
+Buy,Pants,Chef Pants,Trousers_Chef,100,10
+Buy,Pants,Denim Jeans,TrousersMesh_DenimLight,100,10
+Buy,Pants,Firefighter Pants,Trousers_Fireman,250,10
+Buy,Pants,Jeans,Trousers_Denim,100,10
+Buy,Pants,Medical Pants,Trousers_Scrubs,100,10
+Buy,Pants,Military Camo Pants,Trousers_CamoGreen,250,10
+Buy,Pants,Military Desert Camo Pants,Trousers_CamoDesert,250,10
+Buy,Pants,Military Urban Camo Pants,Trousers_CamoUrban,250,10
+Buy,Pants,Navy Blue Trousers,Trousers_NavyBlue,100,10
+Buy,Pants,Overalls,Dungarees,100,10
+Buy,Pants,Padded Pants,Trousers_Padded,100,10
+Buy,Pants,Pants,Trousers,100,10
+Buy,Pants,Pants,Trousers_DefaultTEXTURE,100,10
+Buy,Pants,Pants variant,Trousers_DefaultTEXTURE_HUE,100,10
+Buy,Pants,Pants variant 2,Trousers_DefaultTEXTURE_TINT,100,10
+Buy,Pants,Pants white,Trousers_WhiteTEXTURE,100,10
+Buy,Pants,Pants white dark,Trousers_WhiteTINT,100,10
+Buy,Pants,Police Deputy Pants,Trousers_PoliceGrey,100,10
+Buy,Pants,Police Trooper Pants,Trousers_Police,100,10
+Buy,Pants,Prison Guard Pants,Trousers_PrisonGuard,100,10
+Buy,Pants,Ranger Pants,Trousers_Ranger,100,10
+Buy,Pants,Santa Suit Pants,Trousers_Santa,100,10
+Buy,Pants,Santa Suit Pants Green,Trousers_SantaGReen,100,10
+Buy,Pants,Suit Pants,Trousers_Suit,100,10
+Buy,Pants,Suit Pants,Trousers_SuitTEXTURE,100,10
+Buy,Pants,Suit Pants,Trousers_SuitWhite,100,10
+Buy,Shirt,Bandeau,BoobTube,100,10
+Buy,Shirt,Baseball Shirt KY,Shirt_Baseball_KY,100,10
+Buy,Shirt,Baseball Shirt Rangers,Shirt_Baseball_Rangers,100,10
+Buy,Shirt,Baseball Shirt Z,Shirt_Baseball_Z,100,10
+Buy,Shirt,Bowling Shirt Blue,Shirt_Bowling_Blue,100,10
+Buy,Shirt,Bowling Shirt Brown,Shirt_Bowling_Brown,100,10
+Buy,Shirt,Bowling Shirt Green,Shirt_Bowling_Green,100,10
+Buy,Shirt,Bowling Shirt Pink,Shirt_Bowling_Pink,100,10
+Buy,Shirt,Bowling Shirt White,Shirt_Bowling_White,100,10
+Buy,Shirt,Crop Top,Shirt_CropTopNoArmTINT,100,10
+Buy,Shirt,Crop Top Arms,Shirt_CropTopTINT,100,10
+Buy,Shirt,Denim Shirt,Shirt_Denim,100,10
+Buy,Shirt,Fireman T-shirt Blue,Tshirt_Profession_FiremanBlue,100,10
+Buy,Shirt,Fireman T-shirt Red,Tshirt_Profession_FiremanRed,100,10
+Buy,Shirt,Fireman T-shirt Red Variant,Tshirt_Profession_FiremanRed02,100,10
+Buy,Shirt,Fireman T-shirt White,Tshirt_Profession_FiremanWhite,100,10
+Buy,Shirt,Formal Shirt,Shirt_FormalWhite,100,10
+Buy,Shirt,Hawaiian Shirt,Shirt_HawaiianTINT,100,10
+Buy,Shirt,Hawaiian Shirt Red,Shirt_HawaiianRed,100,10
+Buy,Shirt,Jockey Silks 1,Shirt_Jockey01,100,10
+Buy,Shirt,Jockey Silks 2,Shirt_Jockey02,100,10
+Buy,Shirt,Jockey Silks 3,Shirt_Jockey03,100,10
+Buy,Shirt,Jockey Silks 4,Shirt_Jockey04,100,10
+Buy,Shirt,Jockey Silks 5,Shirt_Jockey05,100,10
+Buy,Shirt,Jockey Silks 6,Shirt_Jockey06,100,10
+Buy,Shirt,Long Sleeve T-Shirt,Tshirt_WhiteLongSleeve,100,10
+Buy,Shirt,Long Sleeve T-Shirt Dark,Tshirt_WhiteLongSleeveTINT,100,10
+Buy,Shirt,Lumberjack Shirt,Shirt_Lumberjack,100,10
+Buy,Shirt,Medical Scrubs,Shirt_Scrubs,100,10
+Buy,Shirt,Medical T-Shirt,Tshirt_Scrubs,100,10
+Buy,Shirt,Military Camo Shirt,Shirt_CamoGreen,100,10
+Buy,Shirt,Military Desert Camo Shirt,Shirt_CamoDesert,100,10
+Buy,Shirt,Military Desert Camo T-Shirt,Tshirt_CamoDesert,100,10
+Buy,Shirt,Military Green Camo T-Shirt,Tshirt_CamoGreen,100,10
+Buy,Shirt,Military T-Shirt,Tshirt_ArmyGreen,250,10
+Buy,Shirt,Military Urban Camo Shirt,Shirt_CamoUrban,100,10
+Buy,Shirt,Military Urban Camo T-Shirt,Tshirt_CamoUrban,100,10
+Buy,Shirt,Police Deputy Shirt,Shirt_PoliceGrey,100,10
+Buy,Shirt,Police Deputy T-Shirt,Tshirt_PoliceGrey,100,10
+Buy,Shirt,Police Shirt,Shirt_OfficerWhite,100,10
+Buy,Shirt,Police T-Shirt Blue,Tshirt_Profession_PoliceBlue,100,10
+Buy,Shirt,Police T-Shirt White,Tshirt_Profession_PoliceWhite,100,10
+Buy,Shirt,Police Trooper Shirt,Shirt_PoliceBlue,100,10
+Buy,Shirt,Police Trooper T-Shirt,Tshirt_PoliceBlue,100,10
+Buy,Shirt,Priest Shirt,Shirt_Priest,100,10
+Buy,Shirt,Prison Guard Shirt,Shirt_PrisonGuard,100,10
+Buy,Shirt,Ranger Shirt,Shirt_Ranger,100,10
+Buy,Shirt,Ranger T-Shirt,Tshirt_Ranger,100,10
+Buy,Shirt,Ranger T-Shirt Brown,Tshirt_Profession_RangerBrown,100,10
+Buy,Shirt,Ranger T-Shirt Green,Tshirt_Profession_RangerGreen,100,10
+Buy,Shirt,Short Sleeve Shirt,Shirt_FormalWhite_ShortSleeve,100,10
+Buy,Shirt,Small Bandeau,BoobTubeSmall,100,10
+Buy,Shirt,Spiffo T-Shirt,Tshirt_SpiffoDECAL,100,10
+Buy,Shirt,Sport T-Shirt,Tshirt_Sport,100,10
+Buy,Shirt,Striped T-Shirt,Tshirt_PoloStripedTINT,100,10
+Buy,Shirt,T-Shirt,Tshirt_DefaultTEXTURE,100,10
+Buy,Shirt,T-Shirt Business Spiffo,Tshirt_BusinessSpiffo,100,10
+Buy,Shirt,T-Shirt Dark,Tshirt_DefaultTEXTURE_TINT,100,10
+Buy,Shirt,T-Shirt Dark Polo,Tshirt_PoloTINT,100,10
+Buy,Shirt,T-Shirt Decal,Tshirt_DefaultDECAL,100,10
+Buy,Shirt,T-Shirt Decal Dark,Tshirt_DefaultDECAL_TINT,100,10
+Buy,Shirt,T-Shirt Fossoil,Tshirt_Fossoil,100,10
+Buy,Shirt,T-Shirt Gas2Go,Tshirt_Gas2Go,100,10
+Buy,Shirt,T-Shirt IndieStone,Tshirt_IndieStoneDECAL,100,10
+Buy,Shirt,T-Shirt McCoys,Tshirt_McCoys,100,10
+Buy,Shirt,T-Shirt PileOCrepe,Tshirt_PileOCrepe,100,10
+Buy,Shirt,T-Shirt PizzaWhirled,Tshirt_PizzaWhirled,100,10
+Buy,Shirt,T-Shirt Rock,Tshirt_Rock,100,10
+Buy,Shirt,T-Shirt Sport,Tshirt_SportDECAL,100,10
+Buy,Shirt,T-Shirt ThunderGas,Tshirt_ThunderGas,100,10
+Buy,Shirt,T-Shirt Valley Station,Tshirt_ValleyStation,100,10
+Buy,Shirt,T-Shirt White Polo,Tshirt_WhiteTINT,100,10
+Buy,Shirt,Tank Top,Vest_DefaultTEXTURE,100,10
+Buy,Shirt,Tank Top Dark,Vest_DefaultTEXTURE_TINT,100,10
+Buy,Shirt,Veteran T-Shirt Green,Tshirt_Profession_VeterenGreen,100,10
+Buy,Shirt,Veteran T-Shirt Red,Tshirt_Profession_VeterenRed,100,10
+Buy,Shirt,Workman Shirt,Shirt_Workman,100,10
+Buy,Shoes,Boots,Shoes_BlackBoots,100,10
+Buy,Shoes,Flip Flops,Shoes_FlipFlop,100,10
+Buy,Shoes,Military Boots,Shoes_ArmyBoots,250,10
+Buy,Shoes,Military Desert Boots,Shoes_ArmyBootsDesert,250,10
+Buy,Shoes,Rain Boots,Shoes_Wellies,100,10
+Buy,Shoes,Riding Boots,Shoes_RidingBoots,100,10
+Buy,Shoes,Shoes,Shoes_Black,100,10
+Buy,Shoes,Shoes,Shoes_Brown,100,10
+Buy,Shoes,Shoes,Shoes_Random,100,10
+Buy,Shoes,Slippers,Shoes_Slippers,100,10
+Buy,Shoes,Sneakers,Shoes_RedTrainers,100,10
+Buy,Shoes,Sneakers,Shoes_BlueTrainers,100,10
+Buy,Shoes,Sneakers,Shoes_TrainerTINT,100,10
+Buy,Skirt,Knee-length Skirt,Skirt_Knees,100,10
+Buy,Skirt,Long Skirt,Skirt_Long,100,10
+Buy,Skirt,Short Skirt,Skirt_Short,100,10
+Buy,Skirt,Skirt,Skirt_Normal,100,10
+Buy,Socks,Long Socks,Socks_Long,100,10
+Buy,Socks,Socks,Socks_Ankle,100,10
+Buy,Sweater,Diamond-pattern Sweater,Jumper_DiamondPatternTINT,100,10
+Buy,Sweater,Hoodie,HoodieDOWN_WhiteTINT,100,10
+Buy,Sweater,Jacket,Jacket_NavyBlue,100,10
+Buy,Sweater,Polo Neck Sweater,Jumper_PoloNeck,100,10
+Buy,Sweater,Poncho Green,PonchoGreenDOWN,100,10
+Buy,Sweater,Poncho Yellow,PonchoYellowDOWN,100,10
+Buy,Sweater,Round Neck Sweater,Jumper_RoundNeck,100,10
+Buy,Sweater,V-Neck Sweater,Jumper_VNeck,100,10
+Buy,Torso Extra,Apron Black,Apron_Black,100,10
+Buy,Torso Extra,Apron Ice Cream,Apron_IceCream,100,10
+Buy,Torso Extra,Apron PileOCrepe,Apron_PileOCrepe,100,10
+Buy,Torso Extra,Apron Pizza Whirled,Apron_PizzaWhirled,100,10
+Buy,Torso Extra,Apron Spiffos,Apron_Spiffos,100,10
+Buy,Torso Extra,Apron Textured,Apron_WhiteTEXTURE,100,10
+Buy,Torso Extra,Apron White,Apron_White,100,10
+Buy,Torso Extra,Camo Hunting Vest,Vest_Hunting_Camo,100,10
+Buy,Torso Extra,Civilian Bulletproof Vest,Vest_BulletCivilian,350,10
+Buy,Torso Extra,Diamond-pattern Sweater Vest,Jumper_TankTopDiamondTINT,100,10
+Buy,Torso Extra,Foreman Vest,Vest_Foreman,100,10
+Buy,Torso Extra,GigaMart Waistcoat,Vest_Waistcoat_GigaMart,100,10
+Buy,Torso Extra,Gray Hunting Vest,Vest_Hunting_Grey,100,10
+Buy,Torso Extra,Green Camo Hunting Vest,Vest_Hunting_CamoGreen,100,10
+Buy,Torso Extra,High Visibility Vest,Vest_HighViz,100,10
+Buy,Torso Extra,Military Bulletproof Vest,Vest_BulletArmy,500,10
+Buy,Torso Extra,Orange Hunting Vest,Vest_Hunting_Orange,100,10
+Buy,Torso Extra,Police Bulletproof Vest,Vest_BulletPolice,500,10
+Buy,Torso Extra,V-Neck Sweater Vest,Jumper_TankTopTINT,100,10
+Buy,Torso Extra,Waistcoat,Vest_Waistcoat,100,10
+Buy,Torso Extra,Waistcoat Dark,Vest_WaistcoatTINT,100,10
+Buy,Underwear,Bikini,Bikini_TINT,100,10
+Buy,Underwear,Bikini Patterned,Bikini_Pattern01,100,10
+Buy,Underwear,Boxers Black,Boxers_Silk_Black,100,10
+Buy,Underwear,Boxers Hearts,Boxers_Hearts,100,10
+Buy,Underwear,Boxers Red,Boxers_Silk_Red,100,10
+Buy,Underwear,Boxers Red Stripes,Boxers_RedStripes,100,10
+Buy,Underwear,Boxers White,Boxers_White,100,10
+Buy,Underwear,Briefs,Briefs_White,100,10
+Buy,Underwear,Briefs Animal Print,Briefs_AnimalPrints,100,10
+Buy,Underwear,Bunny Suit Black,BunnySuitBlack,100,10
+Buy,Underwear,Bunny Suit Pink,BunnySuitPink,100,10
+Buy,Underwear,Corset,Corset,100,10
+Buy,Underwear,Corset Black,Corset_Black,100,10
+Buy,Underwear,Corset Medical,Corset_Medical,100,10
+Buy,Underwear,Corset Red,Corset_Red,100,10
+Buy,Underwear,Denim Shorts,Shorts_ShortDenim,100,10
+Buy,Underwear,Garter,Garter,100,10
+Buy,Underwear,Long Denim Shorts,Shorts_LongDenim,100,10
+Buy,Underwear,Long Johns,LongJohns,100,10
+Buy,Underwear,Long Johns Bottoms,LongJohns_Bottoms,100,10
+Buy,Underwear,Long Sport Shorts,Shorts_LongSport,100,10
+Buy,Underwear,Long Sport Shorts,Shorts_LongSport_Red,100,10
+Buy,Underwear,Military Camo Shorts,Shorts_CamoGreenLong,100,10
+Buy,Underwear,Shorts,Shorts_ShortFormal,100,10
+Buy,Underwear,Speedo,Briefs_SmallTrunks_WhiteTINT,100,10
+Buy,Underwear,Speedo,Briefs_SmallTrunks_Black,100,10
+Buy,Underwear,Speedo,Briefs_SmallTrunks_Blue,100,10
+Buy,Underwear,Speedo,Briefs_SmallTrunks_Red,100,10
+Buy,Underwear,Sport Shorts,Shorts_ShortSport,100,10
+Buy,Underwear,Stockings,StockingsBlack,100,10
+Buy,Underwear,Stockings,StockingsWhite,100,10
+Buy,Underwear,Stockings,StockingsBlackSemiTrans,100,10
+Buy,Underwear,Stockings,StockingsBlackTrans,100,10
+Buy,Underwear,Strapless Bra White,Bra_Strapless_White,100,10
+Buy,Underwear,Strapless Bra Animal Print,Bra_Strapless_AnimalPrint,100,10
+Buy,Underwear,Strapless Bra Black,Bra_Strapless_Black,100,10
+Buy,Underwear,Strapless Bra Black Lacey,Bra_Strapless_FrillyBlack,100,10
+Buy,Underwear,Strapless Bra Pink Lacey,Bra_Strapless_FrillyPink,100,10
+Buy,Underwear,Strapless Bra Red Lacey,Bra_Strapless_FrillyRed,100,10
+Buy,Underwear,Strapless Bra Red Spots,Bra_Strapless_RedSpots,100,10
+Buy,Underwear,Straps Bra Animal Print,Bra_Straps_AnimalPrint,100,10
+Buy,Underwear,Straps Bra Black,Bra_Straps_Black,100,10
+Buy,Underwear,Straps Bra Black Lacey,Bra_Straps_FrillyBlack,100,10
+Buy,Underwear,Straps Bra Pink Lacey,Bra_Straps_FrillyPink,100,10
+Buy,Underwear,Straps Bra Red Lacey,Bra_Straps_FrillyRed,100,10
+Buy,Underwear,Straps Bra White,Bra_Straps_White,100,10
+Buy,Underwear,Swim Trunks Blue,SwimTrunks_Blue,100,10
+Buy,Underwear,Swim Trunks Green,SwimTrunks_Green,100,10
+Buy,Underwear,Swim Trunks Red,SwimTrunks_Red,100,10
+Buy,Underwear,Swim Trunks Yellow,SwimTrunks_Yellow,100,10
+Buy,Underwear,Swimsuit Dark,Swimsuit_TINT,100,10
+Buy,Underwear,Tights Black,TightsBlack,100,10
+Buy,Underwear,Tights Black Fishnet,TightsFishnets,100,10
+Buy,Underwear,Tights Black Semi-Transparent,TightsBlackSemiTrans,100,10
+Buy,Underwear,Tights Black Transparent,TightsBlackTrans,100,10
+Buy,Underwear,Underpants Animal Print,Underpants_AnimalPrint,100,10
+Buy,Underwear,Underpants Black,Underpants_Black,100,10
+Buy,Underwear,Underpants Black Lace,FrillyUnderpants_Black,100,10
+Buy,Underwear,Underpants Pink Lace,FrillyUnderpants_Pink,100,10
+Buy,Underwear,Underpants Red Lace,FrillyUnderpants_Red,100,10
+Buy,Underwear,Underpants Red Spots,Underpants_RedSpots,100,10
+Buy,Underwear,Underpants White,Underpants_White,100,10
+Buy,Underwear Mens,Underwear,Underwear2,100,10
+Buy,Underwear Womens,Underwear,Underwear1,100,10
