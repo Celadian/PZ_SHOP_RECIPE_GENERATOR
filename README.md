@@ -22,12 +22,15 @@ Converts csv files from input into recipe text files in output.
   - TransactionType "Buy/Sell", Identifier "clothes", DisplayName "T-Shirt Red", "T_Shirt_Red_KY", Cost, Time(To craft)
 ---
 **Choosing a File Name**
-  - The name of the file e.x: (Test.csv), will become the name of the category
-  - So the example file above becomes SShop_Test.txt with formatted recipes.
+  - The name of the file i.e: (Test.csv), will become the name of the category
+  - i.e Category: SShop Test will be it's own tab in the crafting menu
+  - The example file above becomes SShop_Test.txt with formatted recipes and can be placed directly in the input folder
   - You can put as many files as you like in the input folder
   - Running the application again will overrwite the existing files in output or create new ones if none exist. 
 ---
   **Run the program**
+  - Change the url inside this application in PZ_SHOP_RECIPE_GENERATOR/Pz_Recipe_Generator/Application/build/classes/java/main/mod/RecipeGenerator.class
+    to match the absolute url path to your project folder that contains the "Input output" folders. 
   - Simply run the program and check the output folder to find your recipes. 
 ---
 ### *Feel free to modify this application or use it however you want.* 
