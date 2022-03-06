@@ -1,0 +1,9 @@
+/Application/.gradle/
+/Application/.idea/
+/Application/build/
+/Application/build.gradle
+/Application/gradlew
+/Application/gradlew
+/Application/gradlew.bat
+/Application/settings.gradle
+/.idea/
