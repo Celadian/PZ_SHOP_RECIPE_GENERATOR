@@ -66,7 +66,7 @@ public class RecipeGenerator {
         non_formatted_recipe_list.forEach(recipe -> {
             switch (recipe.txnType) {
                 case "Buy":
-                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " " + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + ": " + recipe.dispName + " {");
                     sb.append("\n\t\tMoney=" + recipe.money + ",");
                     sb.append("\n\t\tResult:" + recipe.itemName + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
@@ -75,7 +75,7 @@ public class RecipeGenerator {
                     sb.append("\n\t}");
                     break;
                 case "Sell":
-                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " " + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + ": " + recipe.dispName + " {");
                     sb.append("\n\t\t" + recipe.itemName + ",");
                     sb.append("\n\t\tResult: Money=" + recipe.money + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
