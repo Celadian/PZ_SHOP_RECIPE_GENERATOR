@@ -1,6 +1,0 @@
-mod/Recipe.java
- mod.Recipe
-mod/Application.java
- mod.Application
-mod/RecipeGenerator.java
- mod.RecipeGenerator
