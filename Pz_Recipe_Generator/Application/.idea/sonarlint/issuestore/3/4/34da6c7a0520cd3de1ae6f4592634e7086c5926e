@@ -1,21 +1,0 @@
-
-U	java:S106"9Replace this use of System.out or System.err by a logger.(óıÇû8×Ìşßõ/
-N
-java:S1602",Remove useless curly braces around statement(«ˆÕ¹ùÿÿÿÿ8 ÜğŞõ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ8 ÜğŞõ/
-r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¡œöùÿÿÿÿ8Ûïîßõ/
-Z	java:S1062"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ8Ûïîßõ/
-r	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óñøıÿÿÿÿ8Ûïîßõ/
-O
-java:S1135"2Complete the task associated to this TODO comment.(ıãìÅ8§ìœßõ/
-i
-java:S2095/"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(‹…ôÔ8Ûïîßõ/
-{
-java:S2293,"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¡œöùÿÿÿÿ8Ûïîßõ/
->
-java:S1116$"Remove this empty statement.(Åñ­õşÿÿÿÿ8Ûïîßõ/
-n
-java:S2095c"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(Ãß—öıÿÿÿÿ8Ûïîßõ/
-m	java:S117?"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ì´õ8Ûïîßõ/
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ğâ‹¤şÿÿÿÿ8ÏÔìßõ/
-U	java:S1064"9Replace this use of System.out or System.err by a logger.(‚÷ºí8Ûïîßõ/
