@@ -1,0 +1,81 @@
+Buy,Household Misc,Book,Book,100,10
+Buy,Household Misc,Comic Book,ComicBook,100,10
+Buy,Household Misc,HottieZ,HottieZ,100,10
+Buy,Household Misc,Magazine,Magazine,100,10
+Buy,Household Misc,Newspaper,Newspaper,100,10
+Buy,Magazine,Angler USA Magazine Vol.1,FishingMag1,100,10
+Buy,Magazine,Angler USA Magazine Vol.2,FishingMag2,100,10
+Buy,Magazine,Electronics Magazine Vol.1,ElectronicsMag1,100,10
+Buy,Magazine,Electronics Magazine Vol.2,ElectronicsMag2,100,10
+Buy,Magazine,Electronics Magazine Vol.3,ElectronicsMag3,100,10
+Buy,Magazine,Electronics Magazine Vol.4,ElectronicsMag5,100,10
+Buy,Magazine,Engineer Magazine Vol.1,EngineerMagazine1,100,10
+Buy,Magazine,Engineer Magazine Vol.2,EngineerMagazine2,100,10
+Buy,Magazine,Good Cooking Magazine Vol.1,CookingMag1,100,10
+Buy,Magazine,Good Cooking Magazine Vol.2,CookingMag2,100,10
+Buy,Magazine,Guerilla Survival Radio Vol.1,RadioMag1,100,10
+Buy,Magazine,Guerilla Survival Radio Vol.2,RadioMag2,100,10
+Buy,Magazine,Guerilla Survival Radio Vol.3,RadioMag3,100,10
+Buy,Magazine,How to use Generators,ElectronicsMag4,100,10
+Buy,Magazine,Laines Auto Manual - Commercial Models,MechanicMag2,100,10
+Buy,Magazine,Laines Auto Manual - Performance Models,MechanicMag3,100,10
+Buy,Magazine,Laines Auto Manual - Standard Models,MechanicMag1,100,10
+Buy,Magazine,The Farming Magazine,FarmingMag1,100,10
+Buy,Magazine,The Herbalist,HerbalistMag,100,10
+Buy,Magazine,The Hunter Magazine Vol. 1,HuntingMag1,100,10
+Buy,Magazine,The Hunter Magazine Vol. 2,HuntingMag2,100,10
+Buy,Magazine,The Hunter Magazine Vol. 3,HuntingMag3,100,10
+Buy,Magazine,The Metalwork Magazine Vol.1,MetalworkMag1,100,10
+Buy,Magazine,The Metalwork Magazine Vol.2,MetalworkMag2,100,10
+Buy,Magazine,The Metalwork Magazine Vol.3,MetalworkMag3,100,10
+Buy,Magazine,The Metalwork Magazine Vol.4,MetalworkMag4,100,10
+Buy,Skill,Advanced Carpentry,BookCarpentry3,500,10
+Buy,Skill,Advanced Cooking,BookCooking3,500,10
+Buy,Skill,Advanced Electricity,BookElectrician5,500,10
+Buy,Skill,Advanced Farming,BookFarming3,500,10
+Buy,Skill,Advanced First Aid,BookFirstAid3,500,10
+Buy,Skill,Advanced Fishing,BookFishing3,500,10
+Buy,Skill,Advanced Foraging,BookForaging3,500,10
+Buy,Skill,Advanced Mechanics,BookMechanic3,500,10
+Buy,Skill,Advanced Metalworking,BookMetalWelding3,500,10
+Buy,Skill,Advanced Trapping,BookTrapping3,500,10
+Buy,Skill,Carpentry for Beginners,BookCarpentry1,100,10
+Buy,Skill,Carpentry for Intermediates,BookCarpentry2,250,10
+Buy,Skill,Cooking for Beginners,BookCooking1,100,10
+Buy,Skill,Cooking for Intermediates,BookCooking2,250,10
+Buy,Skill,Electricity for Beginners,BookElectrician1,100,10
+Buy,Skill,Electricity for Intermediates,BookElectrician2,250,10
+Buy,Skill,Expert Carpentry,BookCarpentry4,750,10
+Buy,Skill,Expert Cooking,BookCooking4,750,10
+Buy,Skill,Expert Electricity,BookElectrician4,750,10
+Buy,Skill,Expert Farming,BookFarming4,750,10
+Buy,Skill,Expert First Aid,BookFirstAid4,750,10
+Buy,Skill,Expert Fishing,BookFishing4,750,10
+Buy,Skill,Expert Foraging,BookForaging4,750,10
+Buy,Skill,Expert Mechanics,BookMechanic4,750,10
+Buy,Skill,Expert Metalworking,BookMetalWelding4,750,10
+Buy,Skill,Expert Trapping,BookTrapping4,750,10
+Buy,Skill,Farming for Beginners,BookFarming1,100,10
+Buy,Skill,Farming for Intermediates,BookFarming2,250,10
+Buy,Skill,First Aid for Beginners,BookFirstAid1,100,10
+Buy,Skill,First Aid for Intermediates,BookFirstAid2,250,10
+Buy,Skill,Fishing for Beginners,BookFishing1,100,10
+Buy,Skill,Fishing for Intermediates,BookFishing2,250,10
+Buy,Skill,Foraging for Beginners,BookForaging1,100,10
+Buy,Skill,Foraging for Intermediates,BookForaging2,250,10
+Buy,Skill,Master Carpentry,BookCarpentry5,1000,10
+Buy,Skill,Master Cooking,BookCooking5,1000,10
+Buy,Skill,Master Electricity,BookElectrician5,1000,10
+Buy,Skill,Master Farming,BookFarming5,1000,10
+Buy,Skill,Master First Aid,BookFirstAid5,1000,10
+Buy,Skill,Master Fishing,BookFishing5,1000,10
+Buy,Skill,Master Foraging,BookForaging5,1000,10
+Buy,Skill,Master Mechanics,BookMechanic5,1000,10
+Buy,Skill,Master Metalworking,BookMetalWelding5,1000,10
+Buy,Skill,Master Trapping,BookTrapping5,1000,10
+Buy,Skill,Mechanics for Beginners,BookMechanic1,100,10
+Buy,Skill,Mechanics for Intermediates,BookMechanic2,250,10
+Buy,Skill,Metalworking for Beginners,BookMetalWelding1,100,10
+Buy,Skill,Metalworking for Intermediates,BookMetalWelding2,250,10
+Buy,Skill,Trapping for Beginners,BookTrapping1,100,10
+Buy,Skill,Trapping for Intermediates,BookTrapping2,250,10

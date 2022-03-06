@@ -1,0 +1,82 @@
+Buy,Standard,Big Seat,BigCarSeat1,250,10
+Buy,Heavy-Duty,Big Seat,BigCarSeat2,250,10
+Buy,Sport,Big Seat,BigCarSeat3,250,10
+Buy,Standard,Big Gas Tank,BigGasTank1,500,10
+Buy,Heavy-Duty,Big Gas Tank,BigGasTank2,500,10
+Buy,Sport,Big Gas Tank,BigGasTank3,500,10
+Buy,Standard,Car Battery,CarBattery1,500,10
+Buy,Heavy-Duty,Car Battery,CarBattery2,750,10
+Buy,Sport,Car Battery,CarBattery3,500,10
+Buy,Standard,Hood,EngineDoor1,500,10
+Buy,Heavy-Duty,Hood,EngineDoor2,250,10
+Buy,Sport,Hood,EngineDoor3,500,10
+Buy,Misc,Spare Engine Parts,EngineParts,100,10
+Buy,Standard,Front Door,FrontCarDoor1,100,10
+Buy,Heavy-Duty,Front Door,FrontCarDoor2,125,10
+Buy,Sport,Front Door,FrontCarDoor3,100,10
+Buy,Standard,Front Window,FrontWindow1,100,10
+Buy,Heavy-Duty,Front Window,FrontWindow2,100,10
+Buy,Sport,Front Window,FrontWindow3,125,10
+Buy,Standard,Performance Brake,ModernBrake1,500,10
+Buy,Heavy-Duty,Performance Brake,ModernBrake2,100,10
+Buy,Sport,Performance Brake,ModernBrake3,500,10
+Buy,Standard,Performance Muffler,ModernCarMuffler1,500,10
+Buy,Heavy-Duty,Performance Muffler,ModernCarMuffler2,250,10
+Buy,Sport,Performance Muffler,ModernCarMuffler3,500,10
+Buy,Standard,Performance Suspension,ModernSuspension1,250,10
+Buy,Heavy-Duty,Performance Suspension,ModernSuspension2,500,10
+Buy,Sport,Performance Suspension,ModernSuspension3,250,10
+Buy,Standard,Performance Tire,ModernTire1,500,10
+Buy,Heavy-Duty,Performance Tire,ModernTire2,350,10
+Buy,Sport,Performance Tire,ModernTire3,500,10
+Buy,Standard,Regular Brake,NormalBrake1,250,10
+Buy,Heavy-Duty,Regular Brake,NormalBrake2,75,10
+Buy,Sport,Regular Brake,NormalBrake3,250,10
+Buy,Standard,Average Muffler,NormalCarMuffler1,250,10
+Buy,Heavy-Duty,Average Muffler,NormalCarMuffler2,100,10
+Buy,Sport,Average Muffler,NormalCarMuffler3,250,10
+Buy,Standard,Standard Seat,NormalCarSeat1,100,10
+Buy,Heavy-Duty,Standard Seat,NormalCarSeat2,100,10
+Buy,Sport,Standard Seat,NormalCarSeat3,100,10
+Buy,Standard,Standard Gas Tank,NormalGasTank1,250,10
+Buy,Heavy-Duty,Standard Gas Tank,NormalGasTank2,250,10
+Buy,Sport,Standard Gas Tank,NormalGasTank3,250,10
+Buy,Standard,Regular Suspension,NormalSuspension1,100,10
+Buy,Heavy-Duty,Regular Suspension,NormalSuspension2,250,10
+Buy,Sport,Regular Suspension,NormalSuspension3,100,10
+Buy,Standard,Regular Tire,NormalTire1,250,10
+Buy,Heavy-Duty,Regular Tire,NormalTire2,250,10
+Buy,Sport,Regular Tire,NormalTire3,250,10
+Buy,Standard,Old Brake,OldBrake1,100,10
+Buy,Heavy-Duty,Old Brake,OldBrake2,50,10
+Buy,Sport,Old Brake,OldBrake3,100,10
+Buy,Standard,Old Muffler,OldCarMuffler1,100,10
+Buy,Heavy-Duty,Old Muffler,OldCarMuffler2,50,10
+Buy,Sport,Old Muffler,OldCarMuffler3,100,10
+Buy,Standard,Valu-Tire,OldTire1,100,10
+Buy,Heavy-Duty,Valu-Tire,OldTire2,100,10
+Buy,Sport,Valu-Tire,OldTire3,100,10
+Buy,Standard,Rear Door,RearCarDoor1,100,10
+Buy,Heavy-Duty,Rear Door,RearCarDoor2,125,10
+Buy,Sport,Rear Door,RearCarDoor3,100,10
+Buy,Standard,Double Rear Door,RearCarDoorDouble1,250,10
+Buy,Heavy-Duty,Double Rear Door,RearCarDoorDouble2,200,10
+Buy,Sport,Double Rear Door,RearCarDoorDouble3,250,10
+Buy,Standard,Rear Window,RearWindow1,100,10
+Buy,Heavy-Duty,Rear Window,RearWindow2,100,10
+Buy,Sport,Rear Window,RearWindow3,125,10
+Buy,Standard,Rear Windshield,RearWindshield1,250,10
+Buy,Heavy-Duty,Rear Windshield,RearWindshield2,500,10
+Buy,Sport,Rear Windshield,RearWindshield3,250,10
+Buy,Standard,Small Gas Tank,SmallGasTank1,100,10
+Buy,Heavy-Duty,Small Gas Tank,SmallGasTank2,100,10
+Buy,Sport,Small Gas Tank,SmallGasTank3,100,10
+Buy,Standard,Sports Seat,SportCarSeat1,500,10
+Buy,Heavy-Duty,Sports Seat,SportCarSeat2,250,10
+Buy,Sport,Sports Seat,SportCarSeat3,250,10
+Buy,Standard,Trunk Lid,TrunkDoor1,250,10
+Buy,Heavy-Duty,Trunk Lid,TrunkDoor2,150,10
+Buy,Sport,Trunk Lid,TrunkDoor3,250,10
+Buy,Standard,Windshield,Windshield1,500,10
+Buy,Heavy-Duty,Windshield,Windshield2,500,10
+Buy,Sport,Windshield,Windshield3,500,10

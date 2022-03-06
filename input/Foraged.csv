@@ -1,0 +1,46 @@
+Sell,Animal,Dead Bird,DeadBird,25,10
+Sell,Animal,Dead Mouse,DeadMouse,25,10
+Sell,Animal,Dead Rabbit,DeadRabbit,50,10
+Sell,Animal,Dead Rat,DeadRat,25,10
+Sell,Animal,Dead Squirrel,DeadSquirrel,25,10
+Sell,Animal,Rabbit Meat,Rabbitmeat,15,10
+Sell,Animal,Small Animal Meat,Smallanimalmeat,10,10
+Sell,Animal,Small Bird Meat,Smallbirdmeat,10,10
+Sell,Animal,Bass,Bass,25,10
+Sell,Animal,Catfish,Catfish,25,10
+Sell,Animal,Crappie,Crappie,25,10
+Sell,Animal,Fish Fillet,FishFillet,15,10
+Buy,Animal,Little Bait Fish,BaitFish,10,10
+Sell,Animal,Perch,Perch,30,10
+Sell,Animal,Pike,Pike,30,10
+Sell,Animal,Salmon,Salmon,45,10
+Sell,Animal,Sunfish,Panfish,30,10
+Sell,Animal,Trout,Trout,30,10
+Sell,Plant,Black Sage,BlackSage,10,10
+Sell,Animal,Cockroach,Cockroach,1,10
+Sell,Resource,Common Mallow,CommonMallow,10,10
+Sell,Plant,Cricket,Cricket,1,10
+Sell,Plant,Ginseng,Ginseng,10,10
+Sell,Plant,Grape Leaves,GrapeLeaves,10,10
+Sell,Plant,Grasshopper,Grasshopper,1,10
+Sell,Plant,Lemon Grass,LemonGrass,10,10
+Sell,Plant,Rosehips,Rosehips,10,10
+Sell,Plant,Violets,Violets,10,10
+Sell,Animal,Wild Eggs,WildEggs,10,10
+Buy,Animal,Worm,Worm,10,10
+Sell,Plant,Apple,Apple,10,10
+Sell,Plant,Banana,Banana,10,10
+Sell,Plant,Berry,BerryBlack,1,10
+Sell,Plant,Berry,BerryBlue,1,10
+Sell,Plant,Berry,BerryGeneric1,1,10
+Sell,Plant,Berry,BerryGeneric2,1,10
+Sell,Plant,Berry,BerryGeneric3,1,10
+Sell,Plant,Berry,BerryGeneric4,1,10
+Sell,Plant,Berry,BerryGeneric5,1,10
+Sell,Plant,Berry,BerryPoisonIvy,1,10
+Sell,Plant,Comfrey,Comfrey,10,10
+Sell,Plant,Plantain,Plantain,10,10
+Sell,Plant,Wild Garlic,WildGarlic,10,10
+Sell,Plant,Comfrey Poultice,ComfreyCataplasm,25,10
+Sell,Plant,Plantain Poultice,PlantainCataplasm,25,10
+Sell,Plant,Wild Garlic Poultice,WildGarlicCataplasm,25,10

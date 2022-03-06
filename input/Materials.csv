@@ -1,0 +1,73 @@
+Buy,Electrical,Amplifier,Amplifier,50,10
+Buy,Electrical,Battery,Battery,150,10
+Buy,Electrical,Blue Light Bulb,LightBulbBlue,50,10
+Buy,Electrical,Crafted Timer,TimerCrafted,50,10
+Buy,Electrical,Crafted Trigger,TriggerCrafted,50,10
+Buy,Electrical,Cyan Light Bulb,LightBulbCyan,50,10
+Buy,Electrical,Electric Wire,ElectricWire,50,10
+Buy,Electrical,Electronics Scrap,ElectronicsScrap,50,10
+Buy,Electrical,Green Light Bulb,LightBulbGreen,50,10
+Buy,Electrical,Light Bulb,LightBulb,50,10
+Buy,Electrical,Magenta Light Bulb,LightBulbMagenta,50,10
+Buy,Electrical,Motion Sensor,MotionSensor,50,10
+Buy,Electrical,Orange Light Bulb,LightBulbOrange,50,10
+Buy,Electrical,Pink Light Bulb,LightBulbPink,50,10
+Buy,Electrical,Purple Light Bulb,LightBulbPurple,50,10
+Buy,Electrical,RadioMag3,RadioTransmitter,50,10
+Buy,Electrical,Red Light Bulb,LightBulbRed,50,10
+Buy,Electrical,Survival Radio Receiver,RadioReceiver,50,10
+Buy,Electrical,V1 Remote Controller,RemoteCraftedV1,50,10
+Buy,Electrical,V2 Remote Controller,RemoteCraftedV2,50,10
+Buy,Electrical,V3 Remote Controller,RemoteCraftedV3,50,10
+Buy,Electrical,Yellow Light Bulb,LightBulbYellow,50,10
+Buy,Fuel,Charcoal,Charcoal,150,10
+Buy,Fuel,Gas Can,PetrolCan,500,10
+Buy,Metal,Barbed Wire,BarbedWire,50,10
+Buy,Metal,Box of Screws,Screws,50,10
+Buy,Metal,Door Hinge,Hinge,50,10
+Buy,Metal,Doorknob,Doorknob,50,10
+Buy,Metal,Metal Bar,MetalBar,50,10
+Buy,Metal,Metal Pipe,MetalPipe,50,10
+Buy,Metal,Metal Pipe,Pipe,50,10
+Buy,Metal,Metal Sheet,SheetMetal,150,10
+Buy,Metal,Nails,NailsBox,50,10
+Sell,Metal,Scrap Metal,ScrapMetal,10,10
+Buy,Metal,Small Metal Sheet,SmallSheetMetal,50,10
+Buy,Metal,Tent Peg,TentPeg,50,10
+Sell,Metal,Unusable Metal,UnusableMetal,10,10
+Buy,Metal Electrical,Aluminum,Aluminum,50,10
+Buy,Metal ,Wire,Wire,50,10
+Buy,Misc,Black Paint,PaintBlack,50,10
+Buy,Misc,Blue Paint,PaintBlue,50,10
+Buy,Misc,Box of Sparklers,Sparklers,50,10
+Buy,Misc,Brown Paint,PaintBrown,50,10
+Buy,Misc,Concrete Powder,ConcretePowder,50,10
+Buy,Misc,Cyan Paint,PaintCyan,50,10
+Buy,Misc,PickAxe Handle,PickAxeHandle,50,10
+Buy,Misc,Gravel Bag,Gravelbag,250,10
+Buy,Misc,Gray Paint,PaintGrey,50,10
+Buy,Misc,Green Paint,PaintGreen,50,10
+Buy,Misc,Gunpowder,GunPowder,50,10
+Buy,Misc,Light Blue Paint,PaintLightBlue,50,10
+Buy,Misc,Light Brown Paint,PaintLightBrown,50,10
+Buy,Misc,Orange Paint,PaintOrange,50,10
+Buy,Misc,Pink Paint,PaintPink,50,10
+Buy,Misc,Plaster Powder,PlasterPowder,50,10
+Buy,Misc,Purple Paint,PaintPurple,50,10
+Buy,Misc,Red Paint,PaintRed,50,10
+Buy,Misc,Sand Bag,Sandbag,250,10
+Buy,Misc,Stone,Stone,50,10
+Buy,Misc,Turquoise Paint,PaintTurquoise,50,10
+Buy,Misc,White Paint,PaintWhite,50,10
+Buy,Misc,Yellow Paint,PaintYellow,50,10
+Buy,Tailoring,Thread,Thread,50,10
+Buy,Tailoring,Twine,Twine,50,10
+Buy,Textile,Denim Strips,DenimStrips,50,10
+Buy,Textile,Leather Strips,LeatherStrips,50,10
+Buy,Textile,Ripped Sheets,RippedSheets,50,10
+Buy,Textile,Sheet,Sheet,25,10
+Buy,Textile,Tarp,Tarp,50,10
+Buy,Wood,Log,Log,45,10
+Buy,Wood,Notched Wooden Plank,PercedWood,50,10
+Buy,Wood,Plank,Plank,10,10
+Sell,Wood,Scrap Wood,UnusableWood,10,10
