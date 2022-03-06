@@ -13,16 +13,20 @@ Conve rts csv files from input into recipe text files in output.
 ### Instructions from Sheets to recipes
 **In Google sheets(Or excel):**
   - Go to File > Download > Comma Separated Value (.csv) 
+  
 **In any text editor**
   - Simply make a comma separated list with the data in the correct order
+  
 **CSV Order**
   - Comma separated values are
   - TransactionType "Buy/Sell", Identifier "clothes", DisplayName "T-Shirt Red", "T_Shirt_Red_KY", Cost, Time(To craft)
+  
 **Choosing a File Name**
   - The name of the file e.x: (Test.csv), will become the name of the category
   - So the example file above becomes SShop_Test.txt with formatted recipes.
   - You can put as many files as you like in the input folder
   - Running the application again will overrwite the existing files in output or create new ones if none exist. 
+  
   **Run the program**
   - Simply run the program and check the output folder to find your recipes. 
 
