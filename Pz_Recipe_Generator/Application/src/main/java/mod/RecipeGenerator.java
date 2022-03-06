@@ -10,8 +10,7 @@ public class RecipeGenerator {
 
     //TODO: Replace with dynamic path
     //INSTRUCTIONS: replace these with the path to your project location
-    String urlInput = "D:\\Projects\\PZ_SHOP_RECIPE_GENERATOR\\Pz_Recipe_Generator\\input";
-    String urlOutput = "D:\\Projects\\PZ_SHOP_RECIPE_GENERATOR\\Pz_Recipe_Generator\\output";
+    String applicationPath = "D:\\Projects\\PZ_SHOP_RECIPE_GENERATOR\\Pz_Recipe_Generator";
 
 
     public RecipeGenerator() {
@@ -30,7 +29,7 @@ public class RecipeGenerator {
     }
 
     private List<String> getFilesInInputFolder() {
-        return Arrays.asList(new File(urlInput).list());
+        return Arrays.asList(new File(applicationPath + "\\input").list());
     }
 
     ;
@@ -44,7 +43,7 @@ public class RecipeGenerator {
         List<Recipe> non_formatted_recipe_list = new ArrayList<Recipe>();
         BufferedReader bufferedReader;
         try {
-            bufferedReader = new BufferedReader(new FileReader(urlInput + "\\" + file));
+            bufferedReader = new BufferedReader(new FileReader(applicationPath + "\\input\\" + file));
             String line = bufferedReader.readLine();
             while (line != null) {
                 System.out.println(line);
@@ -96,7 +95,7 @@ public class RecipeGenerator {
     private void saveFormattedFile(String formattedRecipeList, String fileName) {
         String outputFileName = fileName.substring(0 ,fileName.length() - 4);
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(urlOutput + "\\" + "SShop_" + outputFileName + ".txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(applicationPath + "\\output" + "\\SShop_" + outputFileName + ".txt"));
             writer.write(formattedRecipeList);
             writer.close();
         } catch (IOException e) {
