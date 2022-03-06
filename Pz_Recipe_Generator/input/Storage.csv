@@ -1,30 +1,30 @@
-Buy,Storage,Big Hiking Bag,Bag_BigHikingBag,350,10
-Buy,Storage,Briefcase,Briefcase,100,10
-Buy,Storage,Cooler,Cooler,100,10
-Buy,Storage,DuffelBag,Bag_DuffelBag,250,10
-Buy,Storage,DuffelBag Dark,Bag_DuffelBagTINT,250,10
-Buy,Storage,Fanny Pack,Bag_FannyPackFront,450,10
-Buy,Storage,First Aid Kit,FirstAidKit,100,10
-Buy,Storage,Flight Case,Flightcase,100,10
-Buy,Storage,Garbage Bag,Garbagebag,100,10
-Buy,Storage,Golf Bag,Bag_GolfBag,100,10
-Buy,Storage,Guitar Case,Guitarcase,100,10
-Buy,Storage,Gun Case 1,PistolCase1,175,10
-Buy,Storage,Gun Case 2,PistolCase2,175,10
-Buy,Storage,Gun Case 3,PistolCase3,175,10
-Buy,Storage,HandBag,Handbag,50,10
-Buy,Storage,Large Backpack,Bag_ALICEpack,900,10
-Buy,Storage,Lunchbox,Lunchbox,50,10
-Buy,Storage,Lunchbox,Lunchbox2,50,10
-Buy,Storage,Military Backpack,Bag_ALICEpack_Army,1000,10
-Buy,Storage,Normal Hiking Bag,Bag_NormalHikingBag,250,10
-Buy,Storage,Plastic Bag,Plasticbag,25,10
-Buy,Storage,Purse,Purse,50,10
-Buy,Storage,Sack,EmptySandbag,250,10
-Buy,Storage,Satchel,Bag_Satchel,100,10
-Buy,Storage,School Bag,Bag_Schoolbag,100,10
-Buy,Storage,Seed Bag,SeedBag,50,10
-Buy,Storage,Sewing Kit,SewingKit,50,10
-Buy,Storage,Suitcase,Suitcase,50,10
-Buy,Storage,Toolbox,Toolbox,100,10
-Buy,Storage,Tote Bag,Tote,50,10
+Buy,Wearable,Big Hiking Bag,Bag_BigHikingBag,350,10
+Buy,Carryable ,Briefcase,Briefcase,100,10
+Buy,Carryable ,Cooler,Cooler,100,10
+Buy,Wearable,DuffelBag,Bag_DuffelBag,250,10
+Buy,Wearable,DuffelBag Dark,Bag_DuffelBagTINT,250,10
+Buy,Wearable,Fanny Pack,Bag_FannyPackFront,450,10
+Buy,Carryable ,First Aid Kit,FirstAidKit,100,10
+Buy,Carryable ,Flight Case,Flightcase,100,10
+Buy,Carryable ,Garbage Bag,Garbagebag,100,10
+Buy,Carryable ,Golf Bag,Bag_GolfBag,100,10
+Buy,Carryable ,Guitar Case,Guitarcase,100,10
+Buy,Carryable ,Gun Case 1,PistolCase1,175,10
+Buy,Carryable ,Gun Case 2,PistolCase2,175,10
+Buy,Carryable ,Gun Case 3,PistolCase3,175,10
+Buy,Carryable ,HandBag,Handbag,50,10
+Buy,Wearable,Large Backpack,Bag_ALICEpack,900,10
+Buy,Carryable ,Lunchbox,Lunchbox,50,10
+Buy,Carryable ,Lunchbox,Lunchbox2,50,10
+Buy,Wearable,Military Backpack,Bag_ALICEpack_Army,1000,10
+Buy,Wearable,Normal Hiking Bag,Bag_NormalHikingBag,250,10
+Buy,Carryable ,Plastic Bag,Plasticbag,25,10
+Buy,Carryable ,Purse,Purse,50,10
+Buy,Carryable ,Sack,EmptySandbag,250,10
+Buy,Wearable,Satchel,Bag_Satchel,100,10
+Buy,Wearable,School Bag,Bag_Schoolbag,100,10
+Buy,Carryable ,Seed Bag,SeedBag,50,10
+Buy,Carryable ,Sewing Kit,SewingKit,50,10
+Buy,Carryable ,Suitcase,Suitcase,50,10
+Buy,Carryable ,Toolbox,Toolbox,100,10
+Buy,Carryable ,Tote Bag,Tote,50,10

@@ -1,113 +1,110 @@
-Buy,Weapon,Hunting Knife,HuntingKnife,250,10
-Buy,Weapon Firearm,M14 Rifle,AssaultRifle2,1500,10
-Buy,Weapon Ammunition,Box of .308 Bullets,308Box,250,10
-Buy,Weapon Clip,M14 Magazine,308Clip,350,10
-Buy,Weapon Firearm,M16 Assault Rifle,AssaultRifle,2500,10
-Buy,Weapon Ammunition,Box of .556 Bullets,556Box,250,10
-Buy,Weapon Clip,M16 Magazine,556Clip,350,10
-Buy,Weapon Firearm,MSR700 Rifle,VarmintRifle,750,10
-Buy,Weapon Ammunition,Box of .223 Bullets,223Box,250,10
-Buy,Weapon Clip,MSR700 Magazine,223Clip,350,10
-Buy,Weapon Firearm,MSR788 Rifle,HuntingRifle,2500,10
-Buy,Weapon Ammunition,Box of .308 Bullets,308Box,250,10
-Buy,Weapon Clip,MSR788 Magazine,308Clip,350,10
-Buy,Weapon Firearm,TEST: Sniper Rifle,SniperRifle,10000,10
-Buy,Weapon Firearm,TEST: Sniper Rifle (Camo),SniperRifleCamo,10000,10
-Buy,Weapon Short Blunt,Nightstick,Nightstick,250,10
-Buy,Weapon Ammo,Shotgun Shells,ShotgunShells,100,10
-Buy,Weapon Attachments,Ammo Straps,AmmoStraps,250,10
-Buy,Weapon Attachments,Choke Tube Full,ChokeTubeFull,250,10
-Buy,Weapon Attachments,Choke Tube Improved,ChokeTubeImproved,250,10
-Buy,Weapon Attachments,Fiberglass Stock,FiberglassStock,300,10
-Buy,Weapon Attachments,Iron Sight,IronSight,250,10
-Buy,Weapon Attachments,Laser,Laser,300,10
-Buy,Weapon Attachments,Recoil Pad,RecoilPad,250,10
-Buy,Weapon Attachments,Red Dot,RedDot,300,10
-Buy,Weapon Attachments,Sling,Sling,150,10
-Buy,Weapon Attachments,x2 Scope,x2Scope,150,10
-Buy,Weapon Attachments,x4 Scope,x4Scope,300,10
-Buy,Weapon Attachments,x8 Scope,x8Scope,600,10
-Buy,Weapon Axe Tool,Axe,Axe,500,10
-Buy,Weapon Axe Tool,Hand Axe,HandAxe,250,10
-Buy,Weapon Firearm,Double Barrel Shotgun,DoubleBarrelShotgun,500,10
-Buy,Weapon Firearm,JS-2000 Shotgun,Shotgun,1000,10
-Buy,Weapon Firearm Pistol,Desert Eagle(D-E),Pistol3,750,10
-Buy,Weapon Ammunition,Box of .44 Magnum Bullets,BoxOf44Magnum,250,10
-Buy,Weapon Clip,.44 Magazine,44Clip,350,10
-Buy,Weapon Firearm Pistol,M1911 Pistol,Pistol2,500,10
-Buy,Weapon Ammunition,Box of .45 Auto Bullets,BoxOf45Auto,125,10
-Buy,Weapon Clip,.45 Auto Magazine,45Clip,250,10
-Buy,Weapon Firearm Pistol,M36 Revolver,Revolver_Short,300,10
-Buy,Weapon Ammunition,Box of .38 Special Bullets,BoxOf38Special,150,10
-Buy,Weapon Firearm Pistol,M625 Revolver,Revolver,500,10
-Buy,Weapon Firearm Pistol,M9 Pistol,Pistol,300,10
-Buy,Weapon Ammunition,Box of 9mm Bullets,Bullets9mmBox,100,10
-Buy,Weapon Clip,9mm Magazine,9mmClip,150,10
-Buy,Weapon Firearm Pistol,Magnum,Revolver_Long,750,10
-Buy,Weapon Long Blunt,Baseball Bat,BaseballBat,100,10
-Buy,Weapon Long Blunt,Golf Club,Golfclub,50,10
-Buy,Weapon Long Blunt,Spiked Baseball Bat,BaseballBatNails,150,10
-Buy,Weapon Long Blunt,Spiked Plank,PlankNail,75,10
-Buy,Weapon Short Blunt,Ball-peen Hammer,BallPeenHammer,75,10
-Buy,Weapon Short Blunt,Club Hammer,ClubHammer,75,10
-Buy,Weapon Spear,Crafted Spear,WoodenLance,50,10
-Buy,Weapon Throw,Aerosol Bomb,Aerosolbomb,200,10
-Buy,Weapon Throw,Aerosol Bomb with Timer,AerosolbombTriggered,350,10
-Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV1,350,10
-Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV2,350,10
-Buy,Weapon Throw,Aerosol Bomb with Sensor,AerosolbombSensorV3,350,10
-Buy,Weapon Throw,Remote Aerosol Bomb,AerosolbombRemote,50,10
-Buy,Weapon Throw,Fire Bomb,FlameTrap,300,10
-Buy,Weapon Throw,Flame Trap with Timer,FlameTrapTriggered,450,10
-Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV1,450,10
-Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV2,450,10
-Buy,Weapon Throw,Flame Trap with Sensor,FlameTrapSensorV3,450,10
-Buy,Weapon Throw,Remote Flame Trap,FlameTrapRemote,50,10
-Buy,Weapon Throw,Molotov Cocktail,Molotov,100,10
-Buy,Weapon Throw,Noise Maker,NoiseTrap,100,10
-Buy,Weapon Throw,Noise Generator with Timer,NoiseTrapTriggered,250,10
-Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV1,250,10
-Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV2,250,10
-Buy,Weapon Throw,Noise Generator with Sensor,NoiseTrapSensorV3,250,10
-Buy,Weapon Throw,Remote Noise Generator,NoiseTrapRemote,50,10
-Buy,Weapon Throw,Pipe Bomb,PipeBomb,100,10
-Buy,Weapon Throw,Pipe Bomb with Timer,PipeBombTriggered,250,10
-Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV1,250,10
-Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV2,250,10
-Buy,Weapon Throw,Pipe Bomb with Sensor,PipeBombSensorV3,250,10
-Buy,Weapon Throw,Remote Pipe Bomb,PipeBombRemote,50,10
-Buy,Weapon Throw,Smoke Bomb,SmokeBomb,100,10
-Buy,Weapon Throw,Smoke Bomb with Timer,SmokeBombRemote,50,10
-Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV1,250,10
-Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV2,250,10
-Buy,Weapon Throw,Smoke Bomb with Sensor,SmokeBombSensorV3,250,10
-Buy,Weapon Throw,Remote Smoke Bomb,SmokeBombTriggered,250,10
-Buy,Weapon Axe,PickAxe,PickAxe,500,10
-Buy,Weapon Improvised,GuitarAcoustic,GuitarAcoustic,,
-Buy,Weapon Improvised,Canoe Paddle Double,CanoePadelX2,250,10
-Buy,Weapon Improvised,Canoe Paddle ,CanoePadel,75,10
-Buy,Weapon Improvised,Chainsaw?,Chainsaw,1000,10
-Buy,Weapon Improvised,Electric Bass Black,GuitarElectricBassBlack,100,10
-Buy,Weapon Improvised,Electric Bass Blue,GuitarElectricBassBlue,100,10
-Buy,Weapon Improvised,Electric Bass Red,GuitarElectricBassRed,100,10
-Buy,Weapon Improvised,Electric Guitar Black,GuitarElectricBassBlack,100,10
-Buy,Weapon Improvised,Electric Guitar Blue,GuitarElectricBassBlue,100,10
-Buy,Weapon Improvised,Electric Guitar Red,GuitarElectricBassRed,100,10
-Buy,Weapon Improvised,Hockey Stick,HockeyStick,100,10
-Buy,Weapon Improvised,Ice Hockey Stick,IceHockeyStick,100,10
-Buy,Weapon Improvised,Keytar,Keytar,100,10
-Buy,Weapon Improvised,Lacrosse Stick,LacrosseStick,100,10
-Buy,Weapon Improvised,Leaf Rake,LeafRake,100,10
-Buy,Weapon Improvised,Saxophone,Saxophone,100,10
-Buy,Weapon Improvised,Pool Cue,Pool Cue,100,10
-Buy,Weapon Improvised,Tennis Racket,TennisRacket,100,10
-Buy,Weapon Improvised,Trumpet,Trumpet,100,10
-Buy,Weapon Improvised,Banjo,Banjo,100,10
-Buy,Weapon Improvised,Chair Leg,ChairLeg,100,10
-Buy,Weapon Improvised,Flute,Flute,100,10
-Buy,Weapon Improvised,Lead Pipe,LeadPipe,100,10
-Buy,Weapon Improvised,Drumstick,Drumstick,100,10
-Buy,Weapon Improvised,Violin,Violin,100,10
-Buy,Weapon Long Blade,Katana,Katana,5000,10
-Buy,Weapon Long Blade,Machete,Machete,2500,10
-Buy,Weapon Improvised,Ice Pick,Ice Pick,100,10
+Buy,Short Blade,Hunting Knife,HuntingKnife,250,10
+Buy,Ammo,Shotgun Shells,ShotgunShells,100,10
+Buy,Ammunition,Box of .44 Magnum Bullets,Bullets44Box,250,10
+Buy,Ammunition,Box of .556 Bullets,556Box,250,10
+Buy,Ammunition,Box of .308 Bullets,308Box,250,10
+Buy,Ammunition,Box of .308 Bullets,308Box,250,10
+Buy,Ammunition,Box of .223 Bullets,223Box,250,10
+Buy,Ammunition,Box of .38 Special Bullets,Bullets38Box,150,10
+Buy,Ammunition,Box of .45 Auto Bullets,Bullets45Box,125,10
+Buy,Ammunition,Box of 9mm Bullets,Bullets9mmBox,100,10
+Buy,Attachments,x8 Scope,x8Scope,600,10
+Buy,Attachments,x4 Scope,x4Scope,300,10
+Buy,Attachments,Red Dot,RedDot,300,10
+Buy,Attachments,Laser,Laser,300,10
+Buy,Attachments,Fiberglass Stock,FiberglassStock,300,10
+Buy,Attachments,Recoil Pad,RecoilPad,250,10
+Buy,Attachments,Iron Sight,IronSight,250,10
+Buy,Attachments,Choke Tube Improved,ChokeTubeImproved,250,10
+Buy,Attachments,Choke Tube Full,ChokeTubeFull,250,10
+Buy,Attachments,Ammo Straps,AmmoStraps,250,10
+Buy,Attachments,x2 Scope,x2Scope,150,10
+Buy,Attachments,Sling,Sling,150,10
+Buy,Axe,PickAxe,PickAxe,500,10
+Buy,Axe Tool,Axe,Axe,500,10
+Buy,Axe Tool,Hand Axe,HandAxe,250,10
+Buy,Clip,M16 Magazine,556Clip,350,10
+Buy,Clip,.44 Magazine,44Clip,350,10
+Buy,Clip,M14 Magazine,M14Clip,350,10
+Buy,Clip,MSR788 Magazine,308Clip,350,10
+Buy,Clip,MSR700 Magazine,223Clip,350,10
+Buy,Clip,.45 Auto Magazine,45Clip,250,10
+Buy,Clip,9mm Magazine,9mmClip,150,10
+Buy,Firearm,MSR788 Rifle,HuntingRifle,2500,10
+Buy,Firearm,M16 Assault Rifle,AssaultRifle,2500,10
+Buy,Firearm,M14 Rifle,AssaultRifle2,1500,10
+Buy,Firearm,JS-2000 Shotgun,Shotgun,1000,10
+Buy,Firearm,MSR700 Rifle,VarmintRifle,750,10
+Buy,Firearm,Double Barrel Shotgun,DoubleBarrelShotgun,500,10
+Buy,Firearm Pistol,Magnum,Revolver_Long,750,10
+Buy,Firearm Pistol,Desert Eagle(D-E),Pistol3,750,10
+Buy,Firearm Pistol,M625 Revolver,Revolver,500,10
+Buy,Firearm Pistol,M1911 Pistol,Pistol2,500,10
+Buy,Firearm Pistol,M36 Revolver,Revolver_Short,300,10
+Buy,Firearm Pistol,M9 Pistol,Pistol,300,10
+Buy,Improvised,Canoe Paddle Double,CanoePadelX2,250,10
+Buy,Improvised,Violin,Violin,100,10
+Buy,Improvised,Trumpet,Trumpet,100,10
+Buy,Improvised,Tennis Racket,TennisRacket,100,10
+Buy,Improvised,Saxophone,Saxophone,100,10
+Buy,Improvised,Pool Cue,PoolCue,100,10
+Buy,Improvised,Leaf Rake,LeafRake,100,10
+Buy,Improvised,Lead Pipe,LeadPipe,100,10
+Buy,Improvised,Lacrosse Stick,LaCrosseStick,100,10
+Buy,Improvised,Keytar,Keytar,100,10
+Buy,Improvised,Ice Pick,IcePick,100,10
+Buy,Improvised,Ice Hockey Stick,IceHockeyStick,100,10
+Buy,Improvised,Hockey Stick,HockeyStick,100,10
+Buy,Improvised,Electric Bass Red,GuitarElectricBassRed,100,10
+Buy,Improvised,Electric Guitar Red,GuitarElectricBassRed,100,10
+Buy,Improvised,Electric Bass Blue,GuitarElectricBassBlue,100,10
+Buy,Improvised,Electric Guitar Blue,GuitarElectricBassBlue,100,10
+Buy,Improvised,Electric Bass Black,GuitarElectricBassBlack,100,10
+Buy,Improvised,Electric Guitar Black,GuitarElectricBassBlack,100,10
+Buy,Improvised,GuitarAcoustic,GuitarAcoustic,100,10
+Buy,Improvised,Flute,Flute,100,10
+Buy,Improvised,Drumstick,Drumstick,100,10
+Buy,Improvised,Chair Leg,ChairLeg,100,10
+Buy,Improvised,Banjo,Banjo,100,10
+Buy,Improvised,Canoe Paddle ,CanoePadel,75,10
+Buy,Long Blade,Katana,Katana,5000,10
+Buy,Long Blade,Machete,Machete,2500,10
+Buy,Long Blunt,Spiked Baseball Bat,BaseballBatNails,150,10
+Buy,Long Blunt,Baseball Bat,BaseballBat,100,10
+Buy,Long Blunt,Spiked Plank,PlankNail,75,10
+Buy,Long Blunt,Golf Club,Golfclub,50,10
+Buy,Short Blunt,Nightstick,Nightstick,250,10
+Buy,Short Blunt,Club Hammer,ClubHammer,75,10
+Buy,Short Blunt,Ball-peen Hammer,BallPeenHammer,75,10
+Buy,Spear,Crafted Spear,WoodenLance,50,10
+Buy,Throw,Flame Trap with Timer,FlameTrapTriggered,450,10
+Buy,Throw,Flame Trap with Sensor,FlameTrapSensorV3,450,10
+Buy,Throw,Flame Trap with Sensor,FlameTrapSensorV2,450,10
+Buy,Throw,Flame Trap with Sensor,FlameTrapSensorV1,450,10
+Buy,Throw,Aerosol Bomb with Timer,AerosolbombTriggered,350,10
+Buy,Throw,Aerosol Bomb with Sensor,AerosolbombSensorV3,350,10
+Buy,Throw,Aerosol Bomb with Sensor,AerosolbombSensorV2,350,10
+Buy,Throw,Aerosol Bomb with Sensor,AerosolbombSensorV1,350,10
+Buy,Throw,Fire Bomb,FlameTrap,300,10
+Buy,Throw,Remote Smoke Bomb,SmokeBombTriggered,250,10
+Buy,Throw,Smoke Bomb with Sensor,SmokeBombSensorV3,250,10
+Buy,Throw,Smoke Bomb with Sensor,SmokeBombSensorV2,250,10
+Buy,Throw,Smoke Bomb with Sensor,SmokeBombSensorV1,250,10
+Buy,Throw,Pipe Bomb with Timer,PipeBombTriggered,250,10
+Buy,Throw,Pipe Bomb with Sensor,PipeBombSensorV3,250,10
+Buy,Throw,Pipe Bomb with Sensor,PipeBombSensorV2,250,10
+Buy,Throw,Pipe Bomb with Sensor,PipeBombSensorV1,250,10
+Buy,Throw,Noise Generator with Timer,NoiseTrapTriggered,250,10
+Buy,Throw,Noise Generator with Sensor,NoiseTrapSensorV3,250,10
+Buy,Throw,Noise Generator with Sensor,NoiseTrapSensorV2,250,10
+Buy,Throw,Noise Generator with Sensor,NoiseTrapSensorV1,250,10
+Buy,Throw,Aerosol Bomb,Aerosolbomb,200,10
+Buy,Throw,Smoke Bomb,SmokeBomb,100,10
+Buy,Throw,Pipe Bomb,PipeBomb,100,10
+Buy,Throw,Noise Maker,NoiseTrap,100,10
+Buy,Throw,Molotov Cocktail,Molotov,100,10
+Buy,Throw,Smoke Bomb with Timer,SmokeBombRemote,50,10
+Buy,Throw,Remote Pipe Bomb,PipeBombRemote,50,10
+Buy,Throw,Remote Noise Generator,NoiseTrapRemote,50,10
+Buy,Throw,Remote Flame Trap,FlameTrapRemote,50,10
+Buy,Throw,Remote Aerosol Bomb,AerosolbombRemote,50,10

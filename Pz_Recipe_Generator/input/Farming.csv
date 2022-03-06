@@ -1,18 +1,18 @@
-Buy,Farming,Garden Fork,GardenFork,100,10
-Buy,Farming,Garden Hoe,GardenHoe,100,10
-Buy,Farming,Hand Fork,HandFork,100,10
-Buy,Farming,Shovel,Shovel,250,10
-Buy,Farming,Shovel Variant,Shovel2,250,10
-Buy,Farming,Snow Shovel,SnowShovel,250,10
-Buy,Farming,Trowel,HandShovel,100,10
-Buy,Farming,Compost Bag,CompostBag,150,10
-Buy,Farming,Dirt Bag,Dirtbag,150,10
-Buy,Farming,Gardening Spray,GardeningSprayEmpty,250,10
-Buy,Farming,NPK Fertilizer,Fertilizer,500,10
-Buy,Farming,Broccoli Seeds,BroccoliBagSeed,50,10
-Buy,Farming,Cabbage Seed,CabbageBagSeed,50,10
-Buy,Farming,Carrot Seeds,CarrotBagSeed,50,10
-Buy,Farming,Potato Seeds,PotatoBagSeed,50,10
-Buy,Farming,Radish Seeds,RadishBagSeed,50,10
-Buy,Farming,Strawberry Seeds,StrewberrieBagSeed,50,10
-Buy,Farming,Tomato Seeds,TomatoBagSeed,50,10
+Buy,Tool,Garden Fork,GardenFork,100,10
+Buy,Tool,Garden Hoe,GardenHoe,100,10
+Buy,Tool,Hand Fork,HandFork,100,10
+Buy,Tool,Shovel,Shovel,250,10
+Buy,Tool,Shovel Variant,Shovel2,250,10
+Buy,Tool,Snow Shovel,SnowShovel,250,10
+Buy,Tool,Trowel,HandShovel,100,10
+Buy,Equpment,Compost Bag,CompostBag,150,10
+Buy,Equpment,Dirt Bag,Dirtbag,150,10
+Buy,Equpment,Gardening Spray,GardeningSprayEmpty,250,10
+Buy,Equpment,NPK Fertilizer,Fertilizer,500,10
+Buy,Seeds,Broccoli Seeds,BroccoliBagSeed,50,10
+Buy,Seeds,Cabbage Seed,CabbageBagSeed,50,10
+Buy,Seeds,Carrot Seeds,CarrotBagSeed,50,10
+Buy,Seeds,Potato Seeds,PotatoBagSeed,50,10
+Buy,Seeds,Radish Seeds,RedRadishBagSeed,50,10
+Buy,Seeds,Strawberry Seeds,StrewberrieBagSeed,50,10
+Buy,Seeds,Tomato Seeds,TomatoBagSeed,50,10

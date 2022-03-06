@@ -37,7 +37,7 @@ public class RecipeGenerator {
 
     private String generateRecipe(String file) {
         List<Recipe> non_formatted_recipe_list = this.getFileAsList(file);
-        return this.getFormattedString(non_formatted_recipe_list);
+        return this.getFormattedString(non_formatted_recipe_list, file);
     }
 
     private List<Recipe> getFileAsList(String file) {
@@ -60,7 +60,7 @@ public class RecipeGenerator {
         return non_formatted_recipe_list;
     }
 
-    private String getFormattedString(List<Recipe> non_formatted_recipe_list) {
+    private String getFormattedString(List<Recipe> non_formatted_recipe_list, String file) {
         StringBuilder sb = new StringBuilder();
         sb.append("module Base {");
         non_formatted_recipe_list.forEach(recipe -> {
@@ -71,7 +71,7 @@ public class RecipeGenerator {
                     sb.append("\n\t\tResult:" + recipe.itemName + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
                     sb.append("\n\t\tkeep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,");
-                    sb.append("\n\t\tCategory: SShop " + recipe.txnType + ",");
+                    sb.append("\n\t\tCategory: SShop " + file.substring(0, file.length() - 4) + ",");
                     sb.append("\n\t}");
                     break;
                 case "Sell":
@@ -80,7 +80,7 @@ public class RecipeGenerator {
                     sb.append("\n\t\tResult: Money=" + recipe.money + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
                     sb.append("\n\t\tkeep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,");
-                    sb.append("\n\t\tCategory: SShop " + recipe.txnType + ",");
+                    sb.append("\n\t\tCategory: SShop " + file.substring(0, file.length() - 4) + ",");
                     sb.append("\n\t}");
                     break;
                 default:
@@ -96,7 +96,7 @@ public class RecipeGenerator {
     private void saveFormattedFile(String formattedRecipeList, String fileName) {
         String outputFileName = fileName.substring(0 ,fileName.length() - 4);
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(urlOutput + "\\" + outputFileName + ".txt"));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(urlOutput + "\\" + "SShop_" + outputFileName + ".txt"));
             writer.write(formattedRecipeList);
             writer.close();
         } catch (IOException e) {
