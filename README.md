@@ -1,5 +1,5 @@
 
-# PZ_SHOP_RECIPE_GENERATOR
+# SShopRecipeGenerator
 Converts csv files from input into recipe text files in output.
 ---
 
