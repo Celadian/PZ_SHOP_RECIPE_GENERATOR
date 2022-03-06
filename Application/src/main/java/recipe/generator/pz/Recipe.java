@@ -1,4 +1,4 @@
-package mod;
+package recipe.generator.pz;
 
 public class Recipe{
     String txnType;

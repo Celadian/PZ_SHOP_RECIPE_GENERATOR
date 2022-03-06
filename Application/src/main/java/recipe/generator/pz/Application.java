@@ -1,4 +1,4 @@
-package mod;
+package recipe.generator.pz;
 
 public class Application {
     public static void main(String[] args) {

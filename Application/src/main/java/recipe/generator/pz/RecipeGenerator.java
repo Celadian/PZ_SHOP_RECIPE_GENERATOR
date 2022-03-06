@@ -1,4 +1,4 @@
-package mod;
+package recipe.generator.pz;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -30,13 +30,10 @@ public class RecipeGenerator {
 
     private List<String> getFilesInInputFolder() {
         return Arrays.asList(new File(applicationPath + "\\input").list());
-    }
-
-    ;
+    };
 
     private String generateRecipe(String file) {
-        List<Recipe> non_formatted_recipe_list = this.getFileAsList(file);
-        return this.getFormattedString(non_formatted_recipe_list, file);
+        return this.getFormattedString(this.getFileAsList(file), file);
     }
 
     private List<Recipe> getFileAsList(String file) {
@@ -74,7 +71,7 @@ public class RecipeGenerator {
                     sb.append("\n\t}");
                     break;
                 case "Sell":
-                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " | " + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + "" + recipe.identifier + " | " + recipe.dispName + " {");
                     sb.append("\n\t\t" + recipe.itemName + ",");
                     sb.append("\n\t\tResult: Money=" + recipe.money + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
@@ -95,7 +92,8 @@ public class RecipeGenerator {
     private void saveFormattedFile(String formattedRecipeList, String fileName) {
         String outputFileName = fileName.substring(0 ,fileName.length() - 4);
         try {
-            BufferedWriter writer = new BufferedWriter(new FileWriter(applicationPath + "\\output" + "\\SShop_" + outputFileName + ".txt"));
+            BufferedWriter writer = new BufferedWriter(
+                    new FileWriter(applicationPath + "\\output" + "\\SShop_" + outputFileName + ".txt"))
             writer.write(formattedRecipeList);
             writer.close();
         } catch (IOException e) {
