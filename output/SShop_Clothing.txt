@@ -3,3031 +3,3464 @@ module Base {
 		Money=25,
 		Result:Belt,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Belt | Belt Alternative {
 		Money=25,
 		Result:Belt2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Belt | Bullets Ammo Strap {
 		Money=100,
 		Result:AmmoStrap_Bullets,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Belt | Double Holster {
 		Money=100,
 		Result:HolsterDouble,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Belt | Holster {
 		Money=150,
 		Result:HolsterSimple,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Belt | Shells Ammo Strap {
 		Money=150,
 		Result:AmmoStrap_Shells,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dog Tags {
+	recipe SellJewlery | Dog Tags {
 		Necklace_DogTag,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Necklace {
+	recipe SellJewlery | Gold Necklace {
 		Necklace_Gold,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Necklace with Ruby Stone {
+	recipe SellJewlery | Gold Necklace with Ruby Stone {
 		Necklace_GoldRuby,
 		Result: Money=40,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Necklace with Diamond {
+	recipe SellJewlery | Gold Necklace with Diamond {
 		Necklace_GoldDiamond,
 		Result: Money=55,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Necklace {
+	recipe SellJewlery | Silver Necklace {
 		Necklace_Silver,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Necklace with Sapphire Stone {
+	recipe SellJewlery | Silver Necklace with Sapphire Stone {
 		Necklace_SilverSapphire,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Necklace with Crucifix {
+	recipe SellJewlery | Silver Necklace with Crucifix {
 		Necklace_SilverCrucifix,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Necklace with Diamond {
+	recipe SellJewlery | Silver Necklace with Diamond {
 		Necklace_SilverDiamond,
 		Result: Money=45,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Necklace with Crucifix {
+	recipe SellJewlery | Necklace with Crucifix {
 		Necklace_Crucifix,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Necklace with Ying and Yang Symbol {
+	recipe SellJewlery | Necklace with Ying and Yang Symbol {
 		Necklace_YingYang,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Pearl Necklace {
+	recipe SellJewlery | Pearl Necklace {
 		Necklace_Pearl,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Gold Necklace {
+	recipe SellJewlery | Long Gold Necklace {
 		NecklaceLong_Gold,
 		Result: Money=45,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Gold Necklace with Diamond {
+	recipe SellJewlery | Long Gold Necklace with Diamond {
 		NecklaceLong_GoldDiamond,
 		Result: Money=70,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Silver Necklace {
+	recipe SellJewlery | Long Silver Necklace {
 		NecklaceLong_Silver,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Silver Necklace with Emerald {
+	recipe SellJewlery | Long Silver Necklace with Emerald {
 		NecklaceLong_SilverEmerald,
 		Result: Money=40,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Silver Necklace with Sapphire Stone {
+	recipe SellJewlery | Long Silver Necklace with Sapphire Stone {
 		NecklaceLong_SilverSapphire,
 		Result: Money=40,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Silver Necklace with Diamond {
+	recipe SellJewlery | Long Silver Necklace with Diamond {
 		NecklaceLong_SilverDiamond,
 		Result: Money=55,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Long Necklace with Amber Stone {
+	recipe SellJewlery | Long Necklace with Amber Stone {
 		NecklaceLong_Amber,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Black Choker {
+	recipe SellJewlery | Black Choker {
 		Necklace_Choker,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Choker with Sapphire Stone {
+	recipe SellJewlery | Choker with Sapphire Stone {
 		Necklace_Choker_Sapphire,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Choker with Amber Stone {
+	recipe SellJewlery | Choker with Amber Stone {
 		Necklace_Choker_Amber,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Choker with Diamond {
+	recipe SellJewlery | Choker with Diamond {
 		Necklace_Choker_Diamond,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Nose Ring {
+	recipe SellJewlery | Gold Nose Ring {
 		NoseRing_Gold,
 		Result: Money=3,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Nose Ring {
+	recipe SellJewlery | Silver Nose Ring {
 		NoseRing_Silver,
 		Result: Money=2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Nose Stud {
+	recipe SellJewlery | Gold Nose Stud {
 		NoseStud_Gold,
 		Result: Money=3,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Nose Stud {
+	recipe SellJewlery | Silver Nose Stud {
 		NoseStud_Silver,
 		Result: Money=2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Large Gold Looped Earrings {
+	recipe SellJewlery | Large Gold Looped Earrings {
 		Earring_LoopLrg_Gold,
 		Result: Money=9,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Large Silver Looped Earrings {
+	recipe SellJewlery | Large Silver Looped Earrings {
 		Earring_LoopLrg_Silver,
 		Result: Money=6,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Medium Silver Looped Earrings {
+	recipe SellJewlery | Medium Silver Looped Earrings {
 		Earring_LoopMed_Silver,
 		Result: Money=4,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Medium Gold Looped Earrings {
+	recipe SellJewlery | Medium Gold Looped Earrings {
 		Earring_LoopMed_Gold,
 		Result: Money=6,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Small Silver Looped Earrings {
+	recipe SellJewlery | Small Silver Looped Earrings {
 		Earring_LoopSmall_Silver_Both/Earring_LoopSmall_Silver_Top,
 		Result: Money=2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Small Gold Looped Earrings {
+	recipe SellJewlery | Small Gold Looped Earrings {
 		Earring_LoopSmall_Gold_Both/Earring_LoopSmall_Gold_Top,
 		Result: Money=3,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Stud Earrings {
+	recipe SellJewlery | Gold Stud Earrings {
 		Earring_Stud_Gold,
 		Result: Money=3,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Stud Earrings {
+	recipe SellJewlery | Silver Stud Earrings {
 		Earring_Stud_Silver,
 		Result: Money=2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Sapphire Stone Earrings {
+	recipe SellJewlery | Sapphire Stone Earrings {
 		Earring_Stone_Sapphire,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Emerald Earrings {
+	recipe SellJewlery | Emerald Earrings {
 		Earring_Stone_Emerald,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Ruby Earrings {
+	recipe SellJewlery | Ruby Earrings {
 		Earring_Stone_Ruby,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Pearl Earrings {
+	recipe SellJewlery | Pearl Earrings {
 		Earring_Pearl,
 		Result: Money=15,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dangly Sapphire Earrings {
+	recipe SellJewlery | Dangly Sapphire Earrings {
 		Earring_Dangly_Sapphire,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dangly Emerald Earrings {
+	recipe SellJewlery | Dangly Emerald Earrings {
 		Earring_Dangly_Emerald,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dangly Ruby Earrings {
+	recipe SellJewlery | Dangly Ruby Earrings {
 		Earring_Dangly_Ruby,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dangly Diamond Earrings {
+	recipe SellJewlery | Dangly Diamond Earrings {
 		Earring_Dangly_Diamond,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Dangly Pearl Earrings {
+	recipe SellJewlery | Dangly Pearl Earrings {
 		Earring_Dangly_Pearl,
 		Result: Money=15,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Ring {
+	recipe SellJewlery | Gold Ring {
 		Ring_Right_MiddleFinger_Gold/Ring_Left_MiddleFinger_Gold/Ring_Right_RingFinger_Gold/Ring_Left_RingFinger_Gold,
 		Result: Money=6,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Ring {
+	recipe SellJewlery | Silver Ring {
 		Ring_Right_MiddleFinger_Silver/Ring_Left_MiddleFinger_Silver/Ring_Right_RingFinger_Silver/Ring_Left_RingFinger_Silver,
 		Result: Money=4,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Diamond on a Silver Ring {
+	recipe SellJewlery | Diamond on a Silver Ring {
 		Ring_Right_MiddleFinger_SilverDiamond/Ring_Left_MiddleFinger_SilverDiamond/Ring_Right_RingFinger_SilverDiamond/Ring_Left_RingFinger_SilverDiamond,
 		Result: Money=29,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Ruby on a Gold Ring {
+	recipe SellJewlery | Ruby on a Gold Ring {
 		Ring_Right_MiddleFinger_GoldRuby/Ring_Left_MiddleFinger_GoldRuby/Ring_Right_RingFinger_GoldRuby/Ring_Left_RingFinger_GoldRuby,
 		Result: Money=16,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Diamond on a Gold Ring {
+	recipe SellJewlery | Diamond on a Gold Ring {
 		Ring_Right_MiddleFinger_GoldDiamond/Ring_Left_MiddleFinger_GoldDiamond/Ring_Right_RingFinger_GoldDiamond/Ring_Left_RingFinger_GoldDiamond,
 		Result: Money=31,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Classic Wrist Watch with Black Strap {
+	recipe SellJewlery | Classic Wrist Watch with Black Strap {
 		WristWatch_Right_ClassicBlack/WristWatch_Left_ClassicBlack,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Classic Wrist Watch with Brown Strap {
+	recipe SellJewlery | Classic Wrist Watch with Brown Strap {
 		WristWatch_Right_ClassicBrown/WristWatch_Left_ClassicBrown,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Standard Military Issue Wrist Watch {
+	recipe SellJewlery | Standard Military Issue Wrist Watch {
 		WristWatch_Right_ClassicMilitary/WristWatch_Left_ClassicMilitary,
 		Result: Money=20,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Wrist Watch {
+	recipe SellJewlery | Gold Wrist Watch {
 		WristWatch_Right_ClassicGold/WristWatch_Left_ClassicGold,
 		Result: Money=100,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Black Digital Watch {
+	recipe SellJewlery | Black Digital Watch {
 		WristWatch_Right_DigitalBlack/WristWatch_Left_DigitalBlack,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Red Digital Watch {
+	recipe SellJewlery | Red Digital Watch {
 		WristWatch_Right_DigitalRed/WristWatch_Left_DigitalRed,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Metallic Dress Style Digital Watch {
+	recipe SellJewlery | Metallic Dress Style Digital Watch {
 		WristWatch_Right_DigitalDress/WristWatch_Left_DigitalDress,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Bangle {
+	recipe SellJewlery | Gold Bangle {
 		Bracelet_BangleRightGold/Bracelet_BangleLeftGold,
 		Result: Money=90,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Gold Chain Bracelet {
+	recipe SellJewlery | Gold Chain Bracelet {
 		Bracelet_ChainRightGold/Bracelet_ChainLeftGold,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Bangle {
+	recipe SellJewlery | Silver Bangle {
 		Bracelet_BangleRightSilver/Bracelet_BangleLeftSilver,
 		Result: Money=60,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Silver Chain Bracelet {
+	recipe SellJewlery | Silver Chain Bracelet {
 		Bracelet_ChainRightSilver/Bracelet_ChainLeftSilver,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Friendship Bracelet {
+	recipe SellJewlery | Friendship Bracelet {
 		Bracelet_RightFriendshipTINT/Bracelet_LeftFriendshipTINT,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Earrings {
+	recipe SellJewlery | Earrings {
 		Earrings,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Wedding Ring {
+	recipe SellJewlery | Wedding Ring {
 		WeddingRing_Man,
 		Result: Money=6,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
-	recipe Sell Jewlery | Wedding Ring {
+	recipe SellJewlery | Wedding Ring {
 		WeddingRing_Woman,
 		Result: Money=6,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Dress | Dress {
 		Money=100,
 		Result:Dress_Normal,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Dress | Hospital Gown {
 		Money=100,
 		Result:HospitalGown,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Dress | Knee-length Dress {
 		Money=100,
 		Result:Dress_Knees,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Dress | Long Dress {
 		Money=100,
 		Result:Dress_Long,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Dress | Short Dress {
 		Money=100,
 		Result:Dress_Short,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Aviator Glasses {
 		Money=100,
 		Result:Glasses_Aviators,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Eyepatch {
 		Money=100,
 		Result:Glasses_Eyepatch_Left,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Eyepatch {
 		Money=100,
 		Result:Glasses_Eyepatch_Right,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Glasses {
 		Money=100,
 		Result:Glasses_Normal,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Reading Glasses {
 		Money=40,
 		Result:Glasses_Reading,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Reflective Ski Sunglasses {
 		Money=100,
 		Result:Glasses,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Safety Goggles {
 		Money=40,
 		Result:Glasses_SafetyGoggles,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Shooting Glasses {
 		Money=100,
 		Result:Glasses_Shooting,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Ski Goggles {
 		Money=150,
 		Result:Glasses_SkiGoggles,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Sunglasses {
 		Money=10,
 		Result:Glasses_Sun,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Eyes | Swimming Goggles {
 		Money=10,
 		Result:Glasses_SwimmingGoggles,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Airforce Coveralls {
 		Money=250,
 		Result:Boilersuit_Flying,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Bath Robe {
 		Money=100,
 		Result:LongCoat_Bathrobe,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Coveralls {
 		Money=100,
 		Result:Boilersuit,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Coveralls Blue Red {
 		Money=100,
 		Result:Boilersuit_BlueRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Hazmat Suit {
 		Money=500,
 		Result:HazmatSuit,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Prisoner Jumpsuit {
 		Money=100,
 		Result:Boilersuit_Prisoner,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Prisoner Jumpsuit {
 		Money=100,
 		Result:Boilersuit_PrisonerKhaki,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Spiffo Suit {
 		Money=100,
 		Result:SpiffoSuit,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Full Suit | Wedding Dress {
 		Money=100,
 		Result:WeddingDress,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Boxing Gloves Blue {
 		Money=100,
 		Result:Gloves_BoxingBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Boxing Gloves Red {
 		Money=100,
 		Result:Gloves_BoxingRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Fingerless Gloves {
 		Money=100,
 		Result:Gloves_FingerlessGloves,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Gloves {
 		Money=100,
 		Result:Gloves_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Leather Gloves {
 		Money=100,
 		Result:Gloves_LeatherGloves,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Leather Gloves Black {
 		Money=100,
 		Result:Gloves_LeatherGlovesBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Long Gloves {
 		Money=100,
 		Result:Gloves_LongWomenGloves,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Gloves | Surgical Gloves {
 		Money=100,
 		Result:Gloves_Surgical,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bandana {
 		Money=100,
 		Result:Hat_Bandana,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bandana Variant {
 		Money=100,
 		Result:Hat_BandanaTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap {
 		Money=100,
 		Result:Hat_BaseballCap,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap Army {
 		Money=100,
 		Result:Hat_BaseballCapArmy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap Blue {
 		Money=100,
 		Result:Hat_BaseballCapBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap Green {
 		Money=100,
 		Result:Hat_BaseballCapGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap KY {
 		Money=100,
 		Result:Hat_BaseballCapKY,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Baseball Cap Red {
 		Money=100,
 		Result:Hat_BaseballCapRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Beanie Hat {
 		Money=100,
 		Result:Hat_Beany,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Beret {
 		Money=100,
 		Result:Hat_Beret,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Beret {
 		Money=100,
 		Result:Hat_BeretArmy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bonnie Hat {
 		Money=100,
 		Result:Hat_BonnieHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bonnie Hat {
 		Money=100,
 		Result:Hat_BonnieHat_CamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bucket Hat {
 		Money=100,
 		Result:Hat_BucketHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bunny Ears Black {
 		Money=100,
 		Result:Hat_BunnyEarsBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Bunny Ears Black {
 		Money=100,
 		Result:Hat_BunnyEarsWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Chef Hat {
 		Money=100,
 		Result:Hat_ChefHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Cowboy Hat {
 		Money=100,
 		Result:Hat_Cowboy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Ear Muffs {
 		Money=100,
 		Result:Hat_EarMuffs,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Ear Protectors {
 		Money=100,
 		Result:Hat_EarMuff_Protectors,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Fast Food Server Hat {
 		Money=100,
 		Result:Hat_FastFood,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Fedora {
 		Money=100,
 		Result:Hat_Fedora,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Fedora {
 		Money=100,
 		Result:Hat_Fedora_Delmonte,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Golf Cap {
 		Money=100,
 		Result:Hat_GolfHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Golf Cap Dark {
 		Money=100,
 		Result:Hat_GolfHatTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Ice Cream Server Hat {
 		Money=100,
 		Result:Hat_FastFood_IceCream,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Medical Cap Blue {
 		Money=100,
 		Result:Hat_SurgicalCap_Blue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Medical Cap Green {
 		Money=100,
 		Result:Hat_SurgicalCap_Green,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Party Hat {
 		Money=100,
 		Result:Hat_PartyHat_Stars,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Party Hat Dark {
 		Money=100,
 		Result:Hat_PartyHat_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Peaked Army Cap {
 		Money=100,
 		Result:Hat_PeakedCapArmy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Police Deputy Hat {
 		Money=100,
 		Result:Hat_Police_Grey,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Police Trooper Hat {
 		Money=100,
 		Result:Hat_Police,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Raccoon Hat {
 		Money=100,
 		Result:Hat_Raccoon,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Ranger Hat {
 		Money=100,
 		Result:Hat_Ranger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Santa Hat {
 		Money=100,
 		Result:Hat_SantaHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Santa Hat Green {
 		Money=100,
 		Result:Hat_SantaHatGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Shower Cap {
 		Money=100,
 		Result:Hat_ShowerCap,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Spiffo's Server Hat {
 		Money=100,
 		Result:Hat_FastFood_Spiffo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Summer Hat {
 		Money=100,
 		Result:Hat_SummerHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Sweatband {
 		Money=100,
 		Result:Hat_Sweatband,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Tin Foil Hat {
 		Money=100,
 		Result:Hat_TinFoilHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Visor Black {
 		Money=100,
 		Result:Hat_VisorBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Visor Red {
 		Money=100,
 		Result:Hat_VisorRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Visor White {
 		Money=100,
 		Result:Hat_Visor_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Wedding Veil {
 		Money=100,
 		Result:Hat_WeddingVeil,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Winter Hat {
 		Money=100,
 		Result:Hat_WinterHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Hat | Woolly Hat {
 		Money=100,
 		Result:Hat_WoolyHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Air Force Helmet {
 		Money=500,
 		Result:Hat_SPHhelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Baseball Helmet KY {
 		Money=150,
 		Result:Hat_BaseballHelmet_KY,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Baseball Helmet Rangers {
 		Money=150,
 		Result:Hat_BaseballHelmet_Rangers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Baseball Helmet Z {
 		Money=150,
 		Result:Hat_BaseballHelmet_Z,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Bicycle Helmet {
 		Money=100,
 		Result:Hat_BicycleHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Boxing Head Gear {
 		Money=100,
 		Result:Hat_BoxingRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Boxing Head Gear {
 		Money=100,
 		Result:Hat_BoxingBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Crash Helmet {
 		Money=250,
 		Result:Hat_CrashHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Firefighter Helmet {
 		Money=350,
 		Result:Hat_Fireman,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Football Helmet {
 		Money=175,
 		Result:Hat_FootballHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Hard Hat {
 		Money=175,
 		Result:Hat_HardHat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Hockey Helmet {
 		Money=175,
 		Result:Hat_HockeyHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 1 {
 		Money=175,
 		Result:Hat_JockeyHelmet01,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 2 {
 		Money=175,
 		Result:Hat_JockeyHelmet02,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 3 {
 		Money=175,
 		Result:Hat_JockeyHelmet03,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 4 {
 		Money=175,
 		Result:Hat_JockeyHelmet04,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 5 {
 		Money=175,
 		Result:Hat_JockeyHelmet05,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Jockey Helmet 6 {
 		Money=175,
 		Result:Hat_JockeyHelmet06,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Military Helmet {
 		Money=350,
 		Result:Hat_Army,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Mining Helmet {
 		Money=175,
 		Result:Hat_HardHat_Miner,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Motorcycle Helmet {
 		Money=250,
 		Result:Hat_CrashHelmetFULL,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Nuclear Biochemical Mask {
 		Money=500,
 		Result:Hat_NBCmask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Police Motorcycle Helmet {
 		Money=250,
 		Result:Hat_CrashHelmet_Police,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Riding Helmet {
 		Money=175,
 		Result:Hat_RidingHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Riot Helmet {
 		Money=250,
 		Result:Hat_RiotHelmet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | Spiffo Suit Head {
 		Money=1000,
 		Result:Hat_Spiffo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Helmet | USA Crash Helmet {
 		Money=250,
 		Result:Hat_CrashHelmet_Stars,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Army Coat {
 		Money=250,
 		Result:Jacket_CoatArmy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Chef Jacket {
 		Money=100,
 		Result:Jacket_Chef,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Firefighter Jacket {
 		Money=450,
 		Result:Jacket_Fireman,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Ghillie Suit Torso {
 		Money=750,
 		Result:Ghillie_Top,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Jacket {
 		Money=100,
 		Result:Jacket_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Leather Jacket {
 		Money=100,
 		Result:JacketLong_Random,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Leather Jacket {
 		Money=100,
 		Result:Jacket_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Medical Coat {
 		Money=100,
 		Result:JacketLong_Doctor,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Military Desert Camo Jacket {
 		Money=250,
 		Result:Jacket_ArmyCamoDesert,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Military Green Camo Jacket {
 		Money=250,
 		Result:Jacket_ArmyCamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Padded Jacket {
 		Money=100,
 		Result:Jacket_PaddedDOWN,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Police Deputy Jacket {
 		Money=100,
 		Result:Jacket_Police,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Ranger Jacket {
 		Money=100,
 		Result:Jacket_Ranger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Santa Suit Jacket {
 		Money=100,
 		Result:JacketLong_Santa,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Santa Suit Jacket Green {
 		Money=100,
 		Result:JacketLong_SantaGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Suit Jacket {
 		Money=250,
 		Result:Suit_Jacket,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Varsity Jacket {
 		Money=100,
 		Result:Jacket_Varsity,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Jacket | Wedding Jacket {
 		Money=100,
 		Result:WeddingJacket,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Bandana (Face) {
 		Money=100,
 		Result:Hat_BandanaMask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Bandana (Face) {
 		Money=100,
 		Result:Hat_BandanaMaskTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Dust Mask {
 		Money=100,
 		Result:Hat_DustMask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Gas Mask {
 		Money=100,
 		Result:Hat_GasMask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Hockey Goalie Mask {
 		Money=100,
 		Result:Hat_HockeyMask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Medical Mask Blue {
 		Money=100,
 		Result:Hat_SurgicalMask_Blue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Medical Mask Green {
 		Money=100,
 		Result:Hat_SurgicalMask_Green,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Open Balaclava {
 		Money=100,
 		Result:Hat_BalaclavaFace,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Mask | Welder Mask {
 		Money=100,
 		Result:WeldingMask,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Bow Tie {
 		Money=100,
 		Result:Tie_BowTieFull,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Clip-on Bow Tie {
 		Money=100,
 		Result:Tie_BowTieWorn,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Clip-on Spiffo Tie {
 		Money=100,
 		Result:Tie_Worn_Spiffo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Clip-on Tie {
 		Money=100,
 		Result:Tie_Worn,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Scarf {
 		Money=100,
 		Result:Scarf_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Scarf {
 		Money=100,
 		Result:Scarf_StripeBlackWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Scarf {
 		Money=100,
 		Result:Scarf_StripeBlueWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Scarf {
 		Money=100,
 		Result:Scarf_StripeRedWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Spiffo Tie {
 		Money=100,
 		Result:Tie_Full_Spiffo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Neck | Tie {
 		Money=100,
 		Result:Tie_Full,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | 250 {
 		Money=100,
 		Result:Ghillie_Trousers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Army Pants {
 		Money=250,
 		Result:Trousers_ArmyService,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Baggy Jeans {
 		Money=100,
 		Result:Trousers_JeanBaggy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Black Trousers {
 		Money=100,
 		Result:Trousers_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Chef Pants {
 		Money=100,
 		Result:Trousers_Chef,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Denim Jeans {
 		Money=100,
 		Result:TrousersMesh_DenimLight,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Firefighter Pants {
 		Money=250,
 		Result:Trousers_Fireman,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Jeans {
 		Money=100,
 		Result:Trousers_Denim,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Medical Pants {
 		Money=100,
 		Result:Trousers_Scrubs,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Military Camo Pants {
 		Money=250,
 		Result:Trousers_CamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Military Desert Camo Pants {
 		Money=250,
 		Result:Trousers_CamoDesert,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Military Urban Camo Pants {
 		Money=250,
 		Result:Trousers_CamoUrban,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Navy Blue Trousers {
 		Money=100,
 		Result:Trousers_NavyBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Overalls {
 		Money=100,
 		Result:Dungarees,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Padded Pants {
 		Money=100,
 		Result:Trousers_Padded,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants {
 		Money=100,
 		Result:Trousers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants {
 		Money=100,
 		Result:Trousers_DefaultTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants variant {
 		Money=100,
 		Result:Trousers_DefaultTEXTURE_HUE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants variant 2 {
 		Money=100,
 		Result:Trousers_DefaultTEXTURE_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants white {
 		Money=100,
 		Result:Trousers_WhiteTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Pants white dark {
 		Money=100,
 		Result:Trousers_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Police Deputy Pants {
 		Money=100,
 		Result:Trousers_PoliceGrey,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Police Trooper Pants {
 		Money=100,
 		Result:Trousers_Police,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Prison Guard Pants {
 		Money=100,
 		Result:Trousers_PrisonGuard,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Ranger Pants {
 		Money=100,
 		Result:Trousers_Ranger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Santa Suit Pants {
 		Money=100,
 		Result:Trousers_Santa,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Santa Suit Pants Green {
 		Money=100,
 		Result:Trousers_SantaGReen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Suit Pants {
 		Money=100,
 		Result:Trousers_Suit,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Suit Pants {
 		Money=100,
 		Result:Trousers_SuitTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Pants | Suit Pants {
 		Money=100,
 		Result:Trousers_SuitWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bandeau {
 		Money=100,
 		Result:BoobTube,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Baseball Shirt KY {
 		Money=100,
 		Result:Shirt_Baseball_KY,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Baseball Shirt Rangers {
 		Money=100,
 		Result:Shirt_Baseball_Rangers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Baseball Shirt Z {
 		Money=100,
 		Result:Shirt_Baseball_Z,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bowling Shirt Blue {
 		Money=100,
 		Result:Shirt_Bowling_Blue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bowling Shirt Brown {
 		Money=100,
 		Result:Shirt_Bowling_Brown,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bowling Shirt Green {
 		Money=100,
 		Result:Shirt_Bowling_Green,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bowling Shirt Pink {
 		Money=100,
 		Result:Shirt_Bowling_Pink,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Bowling Shirt White {
 		Money=100,
 		Result:Shirt_Bowling_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Crop Top {
 		Money=100,
 		Result:Shirt_CropTopNoArmTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Crop Top Arms {
 		Money=100,
 		Result:Shirt_CropTopTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Denim Shirt {
 		Money=100,
 		Result:Shirt_Denim,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Fireman T-shirt Blue {
 		Money=100,
 		Result:Tshirt_Profession_FiremanBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Fireman T-shirt Red {
 		Money=100,
 		Result:Tshirt_Profession_FiremanRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Fireman T-shirt Red Variant {
 		Money=100,
 		Result:Tshirt_Profession_FiremanRed02,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Fireman T-shirt White {
 		Money=100,
 		Result:Tshirt_Profession_FiremanWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Formal Shirt {
 		Money=100,
 		Result:Shirt_FormalWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Hawaiian Shirt {
 		Money=100,
 		Result:Shirt_HawaiianTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Hawaiian Shirt Red {
 		Money=100,
 		Result:Shirt_HawaiianRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 1 {
 		Money=100,
 		Result:Shirt_Jockey01,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 2 {
 		Money=100,
 		Result:Shirt_Jockey02,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 3 {
 		Money=100,
 		Result:Shirt_Jockey03,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 4 {
 		Money=100,
 		Result:Shirt_Jockey04,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 5 {
 		Money=100,
 		Result:Shirt_Jockey05,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Jockey Silks 6 {
 		Money=100,
 		Result:Shirt_Jockey06,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Long Sleeve T-Shirt {
 		Money=100,
 		Result:Tshirt_WhiteLongSleeve,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Long Sleeve T-Shirt Dark {
 		Money=100,
 		Result:Tshirt_WhiteLongSleeveTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Lumberjack Shirt {
 		Money=100,
 		Result:Shirt_Lumberjack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Medical Scrubs {
 		Money=100,
 		Result:Shirt_Scrubs,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Medical T-Shirt {
 		Money=100,
 		Result:Tshirt_Scrubs,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Camo Shirt {
 		Money=100,
 		Result:Shirt_CamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Desert Camo Shirt {
 		Money=100,
 		Result:Shirt_CamoDesert,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Desert Camo T-Shirt {
 		Money=100,
 		Result:Tshirt_CamoDesert,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Green Camo T-Shirt {
 		Money=100,
 		Result:Tshirt_CamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military T-Shirt {
 		Money=250,
 		Result:Tshirt_ArmyGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Urban Camo Shirt {
 		Money=100,
 		Result:Shirt_CamoUrban,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Military Urban Camo T-Shirt {
 		Money=100,
 		Result:Tshirt_CamoUrban,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police Deputy Shirt {
 		Money=100,
 		Result:Shirt_PoliceGrey,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police Deputy T-Shirt {
 		Money=100,
 		Result:Tshirt_PoliceGrey,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police Shirt {
 		Money=100,
 		Result:Shirt_OfficerWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police T-Shirt Blue {
 		Money=100,
 		Result:Tshirt_Profession_PoliceBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police T-Shirt White {
 		Money=100,
 		Result:Tshirt_Profession_PoliceWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police Trooper Shirt {
 		Money=100,
 		Result:Shirt_PoliceBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Police Trooper T-Shirt {
 		Money=100,
 		Result:Tshirt_PoliceBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Priest Shirt {
 		Money=100,
 		Result:Shirt_Priest,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Prison Guard Shirt {
 		Money=100,
 		Result:Shirt_PrisonGuard,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Ranger Shirt {
 		Money=100,
 		Result:Shirt_Ranger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Ranger T-Shirt {
 		Money=100,
 		Result:Tshirt_Ranger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Ranger T-Shirt Brown {
 		Money=100,
 		Result:Tshirt_Profession_RangerBrown,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Ranger T-Shirt Green {
 		Money=100,
 		Result:Tshirt_Profession_RangerGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Short Sleeve Shirt {
 		Money=100,
 		Result:Shirt_FormalWhite_ShortSleeve,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Small Bandeau {
 		Money=100,
 		Result:BoobTubeSmall,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Spiffo T-Shirt {
 		Money=100,
 		Result:Tshirt_SpiffoDECAL,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Sport T-Shirt {
 		Money=100,
 		Result:Tshirt_Sport,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Striped T-Shirt {
 		Money=100,
 		Result:Tshirt_PoloStripedTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt {
 		Money=100,
 		Result:Tshirt_DefaultTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Business Spiffo {
 		Money=100,
 		Result:Tshirt_BusinessSpiffo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Dark {
 		Money=100,
 		Result:Tshirt_DefaultTEXTURE_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Dark Polo {
 		Money=100,
 		Result:Tshirt_PoloTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Decal {
 		Money=100,
 		Result:Tshirt_DefaultDECAL,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Decal Dark {
 		Money=100,
 		Result:Tshirt_DefaultDECAL_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Fossoil {
 		Money=100,
 		Result:Tshirt_Fossoil,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Gas2Go {
 		Money=100,
 		Result:Tshirt_Gas2Go,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt IndieStone {
 		Money=100,
 		Result:Tshirt_IndieStoneDECAL,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt McCoys {
 		Money=100,
 		Result:Tshirt_McCoys,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt PileOCrepe {
 		Money=100,
 		Result:Tshirt_PileOCrepe,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt PizzaWhirled {
 		Money=100,
 		Result:Tshirt_PizzaWhirled,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Rock {
 		Money=100,
 		Result:Tshirt_Rock,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Sport {
 		Money=100,
 		Result:Tshirt_SportDECAL,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt ThunderGas {
 		Money=100,
 		Result:Tshirt_ThunderGas,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt Valley Station {
 		Money=100,
 		Result:Tshirt_ValleyStation,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | T-Shirt White Polo {
 		Money=100,
 		Result:Tshirt_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Tank Top {
 		Money=100,
 		Result:Vest_DefaultTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Tank Top Dark {
 		Money=100,
 		Result:Vest_DefaultTEXTURE_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Veteran T-Shirt Green {
 		Money=100,
 		Result:Tshirt_Profession_VeterenGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Veteran T-Shirt Red {
 		Money=100,
 		Result:Tshirt_Profession_VeterenRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shirt | Workman Shirt {
 		Money=100,
 		Result:Shirt_Workman,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Boots {
 		Money=100,
 		Result:Shoes_BlackBoots,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Flip Flops {
 		Money=100,
 		Result:Shoes_FlipFlop,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Military Boots {
 		Money=250,
 		Result:Shoes_ArmyBoots,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Military Desert Boots {
 		Money=250,
 		Result:Shoes_ArmyBootsDesert,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Rain Boots {
 		Money=100,
 		Result:Shoes_Wellies,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Riding Boots {
 		Money=100,
 		Result:Shoes_RidingBoots,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Shoes {
 		Money=100,
 		Result:Shoes_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Shoes {
 		Money=100,
 		Result:Shoes_Brown,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Shoes {
 		Money=100,
 		Result:Shoes_Random,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Slippers {
 		Money=100,
 		Result:Shoes_Slippers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Sneakers {
 		Money=100,
 		Result:Shoes_RedTrainers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Sneakers {
 		Money=100,
 		Result:Shoes_BlueTrainers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Shoes | Sneakers {
 		Money=100,
 		Result:Shoes_TrainerTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Skirt | Knee-length Skirt {
 		Money=100,
 		Result:Skirt_Knees,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Skirt | Long Skirt {
 		Money=100,
 		Result:Skirt_Long,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Skirt | Short Skirt {
 		Money=100,
 		Result:Skirt_Short,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Skirt | Skirt {
 		Money=100,
 		Result:Skirt_Normal,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Socks | Long Socks {
 		Money=100,
 		Result:Socks_Long,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Socks | Socks {
 		Money=100,
 		Result:Socks_Ankle,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Diamond-pattern Sweater {
 		Money=100,
 		Result:Jumper_DiamondPatternTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Hoodie {
 		Money=100,
 		Result:HoodieDOWN_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Jacket {
 		Money=100,
 		Result:Jacket_NavyBlue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Polo Neck Sweater {
 		Money=100,
 		Result:Jumper_PoloNeck,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Poncho Green {
 		Money=100,
 		Result:PonchoGreenDOWN,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Poncho Yellow {
 		Money=100,
 		Result:PonchoYellowDOWN,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | Round Neck Sweater {
 		Money=100,
 		Result:Jumper_RoundNeck,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Sweater | V-Neck Sweater {
 		Money=100,
 		Result:Jumper_VNeck,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron Black {
 		Money=100,
 		Result:Apron_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron Ice Cream {
 		Money=100,
 		Result:Apron_IceCream,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron PileOCrepe {
 		Money=100,
 		Result:Apron_PileOCrepe,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron Pizza Whirled {
 		Money=100,
 		Result:Apron_PizzaWhirled,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron Spiffos {
 		Money=100,
 		Result:Apron_Spiffos,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron Textured {
 		Money=100,
 		Result:Apron_WhiteTEXTURE,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Apron White {
 		Money=100,
 		Result:Apron_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Camo Hunting Vest {
 		Money=100,
 		Result:Vest_Hunting_Camo,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Civilian Bulletproof Vest {
 		Money=350,
 		Result:Vest_BulletCivilian,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Diamond-pattern Sweater Vest {
 		Money=100,
 		Result:Jumper_TankTopDiamondTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Foreman Vest {
 		Money=100,
 		Result:Vest_Foreman,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | GigaMart Waistcoat {
 		Money=100,
 		Result:Vest_Waistcoat_GigaMart,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Gray Hunting Vest {
 		Money=100,
 		Result:Vest_Hunting_Grey,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Green Camo Hunting Vest {
 		Money=100,
 		Result:Vest_Hunting_CamoGreen,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | High Visibility Vest {
 		Money=100,
 		Result:Vest_HighViz,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Military Bulletproof Vest {
 		Money=500,
 		Result:Vest_BulletArmy,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Orange Hunting Vest {
 		Money=100,
 		Result:Vest_Hunting_Orange,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Police Bulletproof Vest {
 		Money=500,
 		Result:Vest_BulletPolice,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | V-Neck Sweater Vest {
 		Money=100,
 		Result:Jumper_TankTopTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Waistcoat {
 		Money=100,
 		Result:Vest_Waistcoat,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Torso Extra | Waistcoat Dark {
 		Money=100,
 		Result:Vest_WaistcoatTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Bikini {
 		Money=100,
 		Result:Bikini_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Bikini Patterned {
 		Money=100,
 		Result:Bikini_Pattern01,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Boxers Black {
 		Money=100,
 		Result:Boxers_Silk_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Boxers Hearts {
 		Money=100,
 		Result:Boxers_Hearts,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Boxers Red {
 		Money=100,
 		Result:Boxers_Silk_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Boxers Red Stripes {
 		Money=100,
 		Result:Boxers_RedStripes,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Boxers White {
 		Money=100,
 		Result:Boxers_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Briefs {
 		Money=100,
 		Result:Briefs_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Briefs Animal Print {
 		Money=100,
 		Result:Briefs_AnimalPrints,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Bunny Suit Black {
 		Money=100,
 		Result:BunnySuitBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Bunny Suit Pink {
 		Money=100,
 		Result:BunnySuitPink,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Corset {
 		Money=100,
 		Result:Corset,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Corset Black {
 		Money=100,
 		Result:Corset_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Corset Medical {
 		Money=100,
 		Result:Corset_Medical,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Corset Red {
 		Money=100,
 		Result:Corset_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Denim Shorts {
 		Money=100,
 		Result:Shorts_ShortDenim,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Garter {
 		Money=100,
 		Result:Garter,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Long Denim Shorts {
 		Money=100,
 		Result:Shorts_LongDenim,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Long Johns {
 		Money=100,
 		Result:LongJohns,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Long Johns Bottoms {
 		Money=100,
 		Result:LongJohns_Bottoms,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Long Sport Shorts {
 		Money=100,
 		Result:Shorts_LongSport,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Long Sport Shorts {
 		Money=100,
 		Result:Shorts_LongSport_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Military Camo Shorts {
 		Money=100,
 		Result:Shorts_CamoGreenLong,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Shorts {
 		Money=100,
 		Result:Shorts_ShortFormal,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Speedo {
 		Money=100,
 		Result:Briefs_SmallTrunks_WhiteTINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Speedo {
 		Money=100,
 		Result:Briefs_SmallTrunks_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Speedo {
 		Money=100,
 		Result:Briefs_SmallTrunks_Blue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Speedo {
 		Money=100,
 		Result:Briefs_SmallTrunks_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Sport Shorts {
 		Money=100,
 		Result:Shorts_ShortSport,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Stockings {
 		Money=100,
 		Result:StockingsBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Stockings {
 		Money=100,
 		Result:StockingsWhite,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Stockings {
 		Money=100,
 		Result:StockingsBlackSemiTrans,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Stockings {
 		Money=100,
 		Result:StockingsBlackTrans,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra White {
 		Money=100,
 		Result:Bra_Strapless_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Animal Print {
 		Money=100,
 		Result:Bra_Strapless_AnimalPrint,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Black {
 		Money=100,
 		Result:Bra_Strapless_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Black Lacey {
 		Money=100,
 		Result:Bra_Strapless_FrillyBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Pink Lacey {
 		Money=100,
 		Result:Bra_Strapless_FrillyPink,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Red Lacey {
 		Money=100,
 		Result:Bra_Strapless_FrillyRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Strapless Bra Red Spots {
 		Money=100,
 		Result:Bra_Strapless_RedSpots,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra Animal Print {
 		Money=100,
 		Result:Bra_Straps_AnimalPrint,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra Black {
 		Money=100,
 		Result:Bra_Straps_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra Black Lacey {
 		Money=100,
 		Result:Bra_Straps_FrillyBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra Pink Lacey {
 		Money=100,
 		Result:Bra_Straps_FrillyPink,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra Red Lacey {
 		Money=100,
 		Result:Bra_Straps_FrillyRed,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Straps Bra White {
 		Money=100,
 		Result:Bra_Straps_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Swim Trunks Blue {
 		Money=100,
 		Result:SwimTrunks_Blue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Swim Trunks Green {
 		Money=100,
 		Result:SwimTrunks_Green,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Swim Trunks Red {
 		Money=100,
 		Result:SwimTrunks_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Swim Trunks Yellow {
 		Money=100,
 		Result:SwimTrunks_Yellow,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Swimsuit Dark {
 		Money=100,
 		Result:Swimsuit_TINT,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Tights Black {
 		Money=100,
 		Result:TightsBlack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Tights Black Fishnet {
 		Money=100,
 		Result:TightsFishnets,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Tights Black Semi-Transparent {
 		Money=100,
 		Result:TightsBlackSemiTrans,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Tights Black Transparent {
 		Money=100,
 		Result:TightsBlackTrans,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Animal Print {
 		Money=100,
 		Result:Underpants_AnimalPrint,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Black {
 		Money=100,
 		Result:Underpants_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Black Lace {
 		Money=100,
 		Result:FrillyUnderpants_Black,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Pink Lace {
 		Money=100,
 		Result:FrillyUnderpants_Pink,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Red Lace {
 		Money=100,
 		Result:FrillyUnderpants_Red,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants Red Spots {
 		Money=100,
 		Result:Underpants_RedSpots,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear | Underpants White {
 		Money=100,
 		Result:Underpants_White,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear Mens | Underwear {
 		Money=100,
 		Result:Underwear2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 	recipe Buy Underwear Womens | Underwear {
 		Money=100,
 		Result:Underwear1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Clothing,
 	}
 }

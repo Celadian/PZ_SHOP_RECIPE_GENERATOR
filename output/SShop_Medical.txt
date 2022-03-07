@@ -3,126 +3,144 @@ module Base {
 		Money=100,
 		Result:Tissue,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Suture Needle {
 		Money=250,
 		Result:SutureNeedle,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Suture Needle Holder {
 		Money=250,
 		Result:SutureNeedleHolder,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Tweezers {
 		Money=100,
 		Result:Tweezers,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Adhesive Bandages {
 		Money=100,
 		Result:Bandaid,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Bandage {
 		Money=100,
 		Result:Bandage,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Splint {
 		Money=250,
 		Result:Splint,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Alcohol Wipes {
 		Money=100,
 		Result:AlcoholWipes,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Bottle of Disinfectant {
 		Money=100,
 		Result:Disinfectant,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Cotton Balls {
 		Money=100,
 		Result:CottonBalls,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Antibiotics {
 		Money=500,
 		Result:Antibiotics,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Antidepressants {
 		Money=250,
 		Result:PillsAntiDep,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Beta Blockers {
 		Money=250,
 		Result:PillsBeta,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Painkillers {
 		Money=250,
 		Result:Pills,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Sleeping Tablets {
 		Money=250,
 		Result:PillsSleepingTablets,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Vitamins {
 		Money=250,
 		Result:PillsVitamins,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Cigarettes {
 		Money=250,
 		Result:Cigarettes,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 	recipe Buy Medical | Scalpel {
 		Money=250,
 		Result:Scalpel,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
 }

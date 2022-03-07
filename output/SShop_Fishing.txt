@@ -3,28 +3,32 @@ module Base {
 		Money=500,
 		Result:FishingRod,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
 	recipe Buy Fishing | Fishing Line {
 		Money=150,
 		Result:FishingLine,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
 	recipe Buy Fishing | Fishing Tackle {
 		Money=150,
 		Result:FishingTackle,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
 	recipe Buy Fishing | Fishing Tackle Variant {
 		Money=150,
 		Result:FishingTackle2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
 }

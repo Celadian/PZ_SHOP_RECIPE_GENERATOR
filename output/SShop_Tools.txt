@@ -3,119 +3,136 @@ module Base {
 		Money=100,
 		Result:Crowbar,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Saw {
 		Money=250,
 		Result:GardenSaw,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Hammer {
 		Money=250,
 		Result:Hammer,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Paint Brush {
 		Money=100,
 		Result:Paintbrush,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Sledgehammer {
 		Money=500,
 		Result:Sledgehammer,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Sledgehammer Variant {
 		Money=500,
 		Result:Sledgehammer2,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Wood Axe {
 		Money=500,
 		Result:WoodAxe,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry | Wooden Mallet {
 		Money=100,
 		Result:WoodenMallet,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Carpentry Electrical | Screwdriver {
 		Money=250,
 		Result:Screwdriver,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Car Battery Charger {
 		Money=500,
 		Result:CarBatteryCharger,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Jack {
 		Money=100,
 		Result:Jack,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Lug Wrench {
 		Money=100,
 		Result:LugWrench,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Pipe Wrench {
 		Money=100,
 		Result:PipeWrench,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Tire Pump {
 		Money=250,
 		Result:TirePump,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Mechanics | Wrench {
 		Money=100,
 		Result:Wrench,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Metalwork | Propane Torch {
 		Money=250,
 		Result:BlowTorch,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 	recipe Buy Metalwork | Welding Rods {
 		Money=150,
 		Result:WeldingRods,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Tools,
 	}
 }

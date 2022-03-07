@@ -1,324 +1,370 @@
 module Base {
-	recipe Sell Animal | Dead Bird {
+	recipe SellAnimal | Dead Bird {
 		DeadBird,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Dead Mouse {
+	recipe SellAnimal | Dead Mouse {
 		DeadMouse,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Dead Rabbit {
+	recipe SellAnimal | Dead Rabbit {
 		DeadRabbit,
 		Result: Money=50,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Dead Rat {
+	recipe SellAnimal | Dead Rat {
 		DeadRat,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Dead Squirrel {
+	recipe SellAnimal | Dead Squirrel {
 		DeadSquirrel,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Rabbit Meat {
+	recipe SellAnimal | Rabbit Meat {
 		Rabbitmeat,
 		Result: Money=15,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Small Animal Meat {
+	recipe SellAnimal | Small Animal Meat {
 		Smallanimalmeat,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Small Bird Meat {
+	recipe SellAnimal | Small Bird Meat {
 		Smallbirdmeat,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Bass {
+	recipe SellAnimal | Bass {
 		Bass,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Catfish {
+	recipe SellAnimal | Catfish {
 		Catfish,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Crappie {
+	recipe SellAnimal | Crappie {
 		Crappie,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Fish Fillet {
+	recipe SellAnimal | Fish Fillet {
 		FishFillet,
 		Result: Money=15,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
 	recipe Buy Animal | Little Bait Fish {
 		Money=10,
 		Result:BaitFish,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Perch {
+	recipe SellAnimal | Perch {
 		Perch,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Pike {
+	recipe SellAnimal | Pike {
 		Pike,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Salmon {
+	recipe SellAnimal | Salmon {
 		Salmon,
 		Result: Money=45,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Sunfish {
+	recipe SellAnimal | Sunfish {
 		Panfish,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Trout {
+	recipe SellAnimal | Trout {
 		Trout,
 		Result: Money=30,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Black Sage {
+	recipe SellPlant | Black Sage {
 		BlackSage,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Cockroach {
+	recipe SellAnimal | Cockroach {
 		Cockroach,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Resource | Common Mallow {
+	recipe SellResource | Common Mallow {
 		CommonMallow,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Cricket {
+	recipe SellPlant | Cricket {
 		Cricket,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Ginseng {
+	recipe SellPlant | Ginseng {
 		Ginseng,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Grape Leaves {
+	recipe SellPlant | Grape Leaves {
 		GrapeLeaves,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Grasshopper {
+	recipe SellPlant | Grasshopper {
 		Grasshopper,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Lemon Grass {
+	recipe SellPlant | Lemon Grass {
 		LemonGrass,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Rosehips {
+	recipe SellPlant | Rosehips {
 		Rosehips,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Violets {
+	recipe SellPlant | Violets {
 		Violets,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Animal | Wild Eggs {
+	recipe SellAnimal | Wild Eggs {
 		WildEggs,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
 	recipe Buy Animal | Worm {
 		Money=10,
 		Result:Worm,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Apple {
+	recipe SellPlant | Apple {
 		Apple,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Banana {
+	recipe SellPlant | Banana {
 		Banana,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryBlack,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryBlue,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryGeneric1,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryGeneric2,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryGeneric3,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryGeneric4,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryGeneric5,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Berry {
+	recipe SellPlant | Berry {
 		BerryPoisonIvy,
 		Result: Money=1,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Comfrey {
+	recipe SellPlant | Comfrey {
 		Comfrey,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Plantain {
+	recipe SellPlant | Plantain {
 		Plantain,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Wild Garlic {
+	recipe SellPlant | Wild Garlic {
 		WildGarlic,
 		Result: Money=10,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Comfrey Poultice {
+	recipe SellPlant | Comfrey Poultice {
 		ComfreyCataplasm,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Plantain Poultice {
+	recipe SellPlant | Plantain Poultice {
 		PlantainCataplasm,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Sell Plant | Wild Garlic Poultice {
+	recipe SellPlant | Wild Garlic Poultice {
 		WildGarlicCataplasm,
 		Result: Money=25,
 		Time:10,
-		keep WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift,
+		keep Trader,
+		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
 }

@@ -32,7 +32,7 @@ Converts csv files from input into recipe text files in output.
   - Running the application again will overrwite the existing files in output or create new ones if none exist. 
 ---
   **Run the program**
-  - Change the url inside this application in PZ_SHOP_RECIPE_GENERATOR/Pz_Recipe_Generator/Application/build/classes/java/main/mod/RecipeGenerator.class
+  - Change the url inside this application in PZ_SHOP_RECIPE_GENERATOR/Pz_Recipe_Generator/sshop_pz.Application/build/classes/java/main/mod/RecipeGenerator.class
     to match the absolute url path to your project folder that contains the "Input output" folders. 
   - Simply run the program and check the output folder to find your recipes. 
 ---
