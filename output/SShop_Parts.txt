@@ -1,654 +1,724 @@
 module Base {
-	recipe Buy Standard | Big Seat {
-		Money=250,
+	recipe Buy Standard | Big Seat: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:BigCarSeat1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Big Seat {
-		Money=250,
+	recipe Buy Heavy-Duty | Big Seat: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:BigCarSeat2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Big Seat {
-		Money=250,
+	recipe Buy Sport | Big Seat: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:BigCarSeat3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Big Gas Tank {
-		Money=500,
+	recipe Buy Standard | Big Gas Tank: $500 {
+		100Money=5,
 		Result:BigGasTank1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Big Gas Tank {
-		Money=500,
+	recipe Buy Heavy-Duty | Big Gas Tank: $500 {
+		100Money=5,
 		Result:BigGasTank2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Big Gas Tank {
-		Money=500,
+	recipe Buy Sport | Big Gas Tank: $500 {
+		100Money=5,
 		Result:BigGasTank3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Car Battery {
-		Money=500,
+	recipe Buy Standard | Car Battery: $500 {
+		100Money=5,
 		Result:CarBattery1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Car Battery {
-		Money=750,
+	recipe Buy Heavy-Duty | Car Battery: $750 {
+		100Money=7,
+		20Money=2,
+		10Money=1,
 		Result:CarBattery2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Car Battery {
-		Money=500,
+	recipe Buy Sport | Car Battery: $500 {
+		100Money=5,
 		Result:CarBattery3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Hood {
-		Money=500,
+	recipe Buy Standard | Hood: $500 {
+		100Money=5,
 		Result:EngineDoor1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Hood {
-		Money=250,
+	recipe Buy Heavy-Duty | Hood: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:EngineDoor2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Hood {
-		Money=500,
+	recipe Buy Sport | Hood: $500 {
+		100Money=5,
 		Result:EngineDoor3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Misc | Spare Engine Parts {
-		Money=100,
+	recipe Buy Misc | Spare Engine Parts: $100 {
+		100Money=1,
 		Result:EngineParts,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Front Door {
-		Money=100,
+	recipe Buy Standard | Front Door: $100 {
+		100Money=1,
 		Result:FrontCarDoor1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Front Door {
-		Money=125,
+	recipe Buy Heavy-Duty | Front Door: $125 {
+		100Money=1,
+		20Money=1,
+		5Money=1,
 		Result:FrontCarDoor2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Front Door {
-		Money=100,
+	recipe Buy Sport | Front Door: $100 {
+		100Money=1,
 		Result:FrontCarDoor3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Front Window {
-		Money=100,
+	recipe Buy Standard | Front Window: $100 {
+		100Money=1,
 		Result:FrontWindow1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Front Window {
-		Money=100,
+	recipe Buy Heavy-Duty | Front Window: $100 {
+		100Money=1,
 		Result:FrontWindow2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Front Window {
-		Money=125,
+	recipe Buy Sport | Front Window: $125 {
+		100Money=1,
+		20Money=1,
+		5Money=1,
 		Result:FrontWindow3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Performance Brake {
-		Money=500,
+	recipe Buy Standard | Performance Brake: $500 {
+		100Money=5,
 		Result:ModernBrake1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Performance Brake {
-		Money=100,
+	recipe Buy Heavy-Duty | Performance Brake: $100 {
+		100Money=1,
 		Result:ModernBrake2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Performance Brake {
-		Money=500,
+	recipe Buy Sport | Performance Brake: $500 {
+		100Money=5,
 		Result:ModernBrake3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Performance Muffler {
-		Money=500,
+	recipe Buy Standard | Performance Muffler: $500 {
+		100Money=5,
 		Result:ModernCarMuffler1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Performance Muffler {
-		Money=250,
+	recipe Buy Heavy-Duty | Performance Muffler: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:ModernCarMuffler2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Performance Muffler {
-		Money=500,
+	recipe Buy Sport | Performance Muffler: $500 {
+		100Money=5,
 		Result:ModernCarMuffler3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Performance Suspension {
-		Money=250,
+	recipe Buy Standard | Performance Suspension: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:ModernSuspension1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Performance Suspension {
-		Money=500,
+	recipe Buy Heavy-Duty | Performance Suspension: $500 {
+		100Money=5,
 		Result:ModernSuspension2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Performance Suspension {
-		Money=250,
+	recipe Buy Sport | Performance Suspension: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:ModernSuspension3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Performance Tire {
-		Money=500,
+	recipe Buy Standard | Performance Tire: $500 {
+		100Money=5,
 		Result:ModernTire1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Performance Tire {
-		Money=350,
+	recipe Buy Heavy-Duty | Performance Tire: $350 {
+		100Money=3,
+		20Money=2,
+		10Money=1,
 		Result:ModernTire2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Performance Tire {
-		Money=500,
+	recipe Buy Sport | Performance Tire: $500 {
+		100Money=5,
 		Result:ModernTire3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Regular Brake {
-		Money=250,
+	recipe Buy Standard | Regular Brake: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalBrake1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Regular Brake {
-		Money=75,
+	recipe Buy Heavy-Duty | Regular Brake: $75 {
+		20Money=3,
+		10Money=1,
+		5Money=1,
 		Result:NormalBrake2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Regular Brake {
-		Money=250,
+	recipe Buy Sport | Regular Brake: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalBrake3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Average Muffler {
-		Money=250,
+	recipe Buy Standard | Average Muffler: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalCarMuffler1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Average Muffler {
-		Money=100,
+	recipe Buy Heavy-Duty | Average Muffler: $100 {
+		100Money=1,
 		Result:NormalCarMuffler2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Average Muffler {
-		Money=250,
+	recipe Buy Sport | Average Muffler: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalCarMuffler3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Standard Seat {
-		Money=100,
+	recipe Buy Standard | Standard Seat: $100 {
+		100Money=1,
 		Result:NormalCarSeat1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Standard Seat {
-		Money=100,
+	recipe Buy Heavy-Duty | Standard Seat: $100 {
+		100Money=1,
 		Result:NormalCarSeat2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Standard Seat {
-		Money=100,
+	recipe Buy Sport | Standard Seat: $100 {
+		100Money=1,
 		Result:NormalCarSeat3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Standard Gas Tank {
-		Money=250,
+	recipe Buy Standard | Standard Gas Tank: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalGasTank1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Standard Gas Tank {
-		Money=250,
+	recipe Buy Heavy-Duty | Standard Gas Tank: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalGasTank2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Standard Gas Tank {
-		Money=250,
+	recipe Buy Sport | Standard Gas Tank: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalGasTank3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Regular Suspension {
-		Money=100,
+	recipe Buy Standard | Regular Suspension: $100 {
+		100Money=1,
 		Result:NormalSuspension1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Regular Suspension {
-		Money=250,
+	recipe Buy Heavy-Duty | Regular Suspension: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalSuspension2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Regular Suspension {
-		Money=100,
+	recipe Buy Sport | Regular Suspension: $100 {
+		100Money=1,
 		Result:NormalSuspension3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Regular Tire {
-		Money=250,
+	recipe Buy Standard | Regular Tire: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalTire1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Regular Tire {
-		Money=250,
+	recipe Buy Heavy-Duty | Regular Tire: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalTire2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Regular Tire {
-		Money=250,
+	recipe Buy Sport | Regular Tire: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:NormalTire3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Old Brake {
-		Money=100,
+	recipe Buy Standard | Old Brake: $100 {
+		100Money=1,
 		Result:OldBrake1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Old Brake {
-		Money=50,
+	recipe Buy Heavy-Duty | Old Brake: $50 {
+		20Money=2,
+		10Money=1,
 		Result:OldBrake2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Old Brake {
-		Money=100,
+	recipe Buy Sport | Old Brake: $100 {
+		100Money=1,
 		Result:OldBrake3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Old Muffler {
-		Money=100,
+	recipe Buy Standard | Old Muffler: $100 {
+		100Money=1,
 		Result:OldCarMuffler1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Old Muffler {
-		Money=50,
+	recipe Buy Heavy-Duty | Old Muffler: $50 {
+		20Money=2,
+		10Money=1,
 		Result:OldCarMuffler2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Old Muffler {
-		Money=100,
+	recipe Buy Sport | Old Muffler: $100 {
+		100Money=1,
 		Result:OldCarMuffler3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Valu-Tire {
-		Money=100,
+	recipe Buy Standard | Valu-Tire: $100 {
+		100Money=1,
 		Result:OldTire1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Valu-Tire {
-		Money=100,
+	recipe Buy Heavy-Duty | Valu-Tire: $100 {
+		100Money=1,
 		Result:OldTire2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Valu-Tire {
-		Money=100,
+	recipe Buy Sport | Valu-Tire: $100 {
+		100Money=1,
 		Result:OldTire3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Rear Door {
-		Money=100,
+	recipe Buy Standard | Rear Door: $100 {
+		100Money=1,
 		Result:RearCarDoor1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Rear Door {
-		Money=125,
+	recipe Buy Heavy-Duty | Rear Door: $125 {
+		100Money=1,
+		20Money=1,
+		5Money=1,
 		Result:RearCarDoor2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Rear Door {
-		Money=100,
+	recipe Buy Sport | Rear Door: $100 {
+		100Money=1,
 		Result:RearCarDoor3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Double Rear Door {
-		Money=250,
+	recipe Buy Standard | Double Rear Door: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:RearCarDoorDouble1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Double Rear Door {
-		Money=200,
+	recipe Buy Heavy-Duty | Double Rear Door: $200 {
+		100Money=2,
 		Result:RearCarDoorDouble2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Double Rear Door {
-		Money=250,
+	recipe Buy Sport | Double Rear Door: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:RearCarDoorDouble3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Rear Window {
-		Money=100,
+	recipe Buy Standard | Rear Window: $100 {
+		100Money=1,
 		Result:RearWindow1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Rear Window {
-		Money=100,
+	recipe Buy Heavy-Duty | Rear Window: $100 {
+		100Money=1,
 		Result:RearWindow2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Rear Window {
-		Money=125,
+	recipe Buy Sport | Rear Window: $125 {
+		100Money=1,
+		20Money=1,
+		5Money=1,
 		Result:RearWindow3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Rear Windshield {
-		Money=250,
+	recipe Buy Standard | Rear Windshield: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:RearWindshield1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Rear Windshield {
-		Money=500,
+	recipe Buy Heavy-Duty | Rear Windshield: $500 {
+		100Money=5,
 		Result:RearWindshield2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Rear Windshield {
-		Money=250,
+	recipe Buy Sport | Rear Windshield: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:RearWindshield3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Small Gas Tank {
-		Money=100,
+	recipe Buy Standard | Small Gas Tank: $100 {
+		100Money=1,
 		Result:SmallGasTank1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Small Gas Tank {
-		Money=100,
+	recipe Buy Heavy-Duty | Small Gas Tank: $100 {
+		100Money=1,
 		Result:SmallGasTank2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Small Gas Tank {
-		Money=100,
+	recipe Buy Sport | Small Gas Tank: $100 {
+		100Money=1,
 		Result:SmallGasTank3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Sports Seat {
-		Money=500,
+	recipe Buy Standard | Sports Seat: $500 {
+		100Money=5,
 		Result:SportCarSeat1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Sports Seat {
-		Money=250,
+	recipe Buy Heavy-Duty | Sports Seat: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:SportCarSeat2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Sports Seat {
-		Money=250,
+	recipe Buy Sport | Sports Seat: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:SportCarSeat3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Trunk Lid {
-		Money=250,
+	recipe Buy Standard | Trunk Lid: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:TrunkDoor1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Trunk Lid {
-		Money=150,
+	recipe Buy Heavy-Duty | Trunk Lid: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:TrunkDoor2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Trunk Lid {
-		Money=250,
+	recipe Buy Sport | Trunk Lid: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:TrunkDoor3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Standard | Windshield {
-		Money=500,
+	recipe Buy Standard | Windshield: $500 {
+		100Money=5,
 		Result:Windshield1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Heavy-Duty | Windshield {
-		Money=500,
+	recipe Buy Heavy-Duty | Windshield: $500 {
+		100Money=5,
 		Result:Windshield2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Parts,
 	}
-	recipe Buy Sport | Windshield {
-		Money=500,
+	recipe Buy Sport | Windshield: $500 {
+		100Money=5,
 		Result:Windshield3,
 		Time:10,
 		keep Trader,

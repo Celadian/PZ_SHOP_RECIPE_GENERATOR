@@ -1,238 +1,268 @@
 module Base {
-	recipe Buy Wearable | Big Hiking Bag {
-		Money=350,
+	recipe Buy Wearable | Big Hiking Bag: $350 {
+		100Money=3,
+		20Money=2,
+		10Money=1,
 		Result:Bag_BigHikingBag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Briefcase {
-		Money=100,
+	recipe Buy Carryable  | Briefcase: $100 {
+		100Money=1,
 		Result:Briefcase,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Cooler {
-		Money=100,
+	recipe Buy Carryable  | Cooler: $100 {
+		100Money=1,
 		Result:Cooler,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | DuffelBag {
-		Money=250,
+	recipe Buy Wearable | DuffelBag: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Bag_DuffelBag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | DuffelBag Dark {
-		Money=250,
+	recipe Buy Wearable | DuffelBag Dark: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Bag_DuffelBagTINT,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | Fanny Pack {
-		Money=450,
+	recipe Buy Wearable | Fanny Pack: $450 {
+		100Money=4,
+		20Money=2,
+		10Money=1,
 		Result:Bag_FannyPackFront,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | First Aid Kit {
-		Money=100,
+	recipe Buy Carryable  | First Aid Kit: $100 {
+		100Money=1,
 		Result:FirstAidKit,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Flight Case {
-		Money=100,
+	recipe Buy Carryable  | Flight Case: $100 {
+		100Money=1,
 		Result:Flightcase,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Garbage Bag {
-		Money=100,
+	recipe Buy Carryable  | Garbage Bag: $100 {
+		100Money=1,
 		Result:Garbagebag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Golf Bag {
-		Money=100,
+	recipe Buy Carryable  | Golf Bag: $100 {
+		100Money=1,
 		Result:Bag_GolfBag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Guitar Case {
-		Money=100,
+	recipe Buy Carryable  | Guitar Case: $100 {
+		100Money=1,
 		Result:Guitarcase,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Gun Case 1 {
-		Money=175,
+	recipe Buy Carryable  | Gun Case 1: $175 {
+		100Money=1,
+		20Money=3,
+		10Money=1,
+		5Money=1,
 		Result:PistolCase1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Gun Case 2 {
-		Money=175,
+	recipe Buy Carryable  | Gun Case 2: $175 {
+		100Money=1,
+		20Money=3,
+		10Money=1,
+		5Money=1,
 		Result:PistolCase2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Gun Case 3 {
-		Money=175,
+	recipe Buy Carryable  | Gun Case 3: $175 {
+		100Money=1,
+		20Money=3,
+		10Money=1,
+		5Money=1,
 		Result:PistolCase3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | HandBag {
-		Money=50,
+	recipe Buy Carryable  | HandBag: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Handbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | Large Backpack {
-		Money=900,
+	recipe Buy Wearable | Large Backpack: $900 {
+		100Money=9,
 		Result:Bag_ALICEpack,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Lunchbox {
-		Money=50,
+	recipe Buy Carryable  | Lunchbox: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Lunchbox,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Lunchbox {
-		Money=50,
+	recipe Buy Carryable  | Lunchbox: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Lunchbox2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | Military Backpack {
-		Money=1000,
+	recipe Buy Wearable | Military Backpack: $1000 {
+		1000TradeVoucher=1,
 		Result:Bag_ALICEpack_Army,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | Normal Hiking Bag {
-		Money=250,
+	recipe Buy Wearable | Normal Hiking Bag: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Bag_NormalHikingBag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Plastic Bag {
-		Money=25,
+	recipe Buy Carryable  | Plastic Bag: $25 {
+		20Money=1,
+		5Money=1,
 		Result:Plasticbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Purse {
-		Money=50,
+	recipe Buy Carryable  | Purse: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Purse,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Sack {
-		Money=250,
+	recipe Buy Carryable  | Sack: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:EmptySandbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | Satchel {
-		Money=100,
+	recipe Buy Wearable | Satchel: $100 {
+		100Money=1,
 		Result:Bag_Satchel,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Wearable | School Bag {
-		Money=100,
+	recipe Buy Wearable | School Bag: $100 {
+		100Money=1,
 		Result:Bag_Schoolbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Seed Bag {
-		Money=50,
+	recipe Buy Carryable  | Seed Bag: $50 {
+		20Money=2,
+		10Money=1,
 		Result:SeedBag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Sewing Kit {
-		Money=50,
+	recipe Buy Carryable  | Sewing Kit: $50 {
+		20Money=2,
+		10Money=1,
 		Result:SewingKit,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Suitcase {
-		Money=50,
+	recipe Buy Carryable  | Suitcase: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Suitcase,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Toolbox {
-		Money=100,
+	recipe Buy Carryable  | Toolbox: $100 {
+		100Money=1,
 		Result:Toolbox,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Storage,
 	}
-	recipe Buy Carryable  | Tote Bag {
-		Money=50,
+	recipe Buy Carryable  | Tote Bag: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Tote,
 		Time:10,
 		keep Trader,

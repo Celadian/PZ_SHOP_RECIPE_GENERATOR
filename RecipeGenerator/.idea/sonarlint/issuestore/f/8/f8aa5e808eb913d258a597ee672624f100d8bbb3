@@ -1,24 +1,32 @@
 
-V	java:S125"<This block of commented-out lines of code should be removed.(Ó—Š¯şÿÿÿÿ
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó•š¾
-t
-java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¡œöùÿÿÿÿ
-N	java:S1065"9Replace this use of System.out or System.err by a logger.(‚÷ºí
-H
-java:S1135"2Complete the task associated to this TODO comment.(ıãìÅ
-\
-java:S1075"ARefactor your code to get this URI from a customizable parameter.(¸ŒÏµüÿÿÿÿ
-G
-java:S1602",Remove useless curly braces around statement(«ˆÕ¹ùÿÿÿÿ
-7
-java:S1116&"Remove this empty statement.(ôŸìúÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(óıÇû
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ğâ‹¤şÿÿÿÿ
-S	java:S1063"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
-b
-java:S2095d"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(…ÑÑ÷
-S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
 k	java:S117-"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ì¡œöùÿÿÿÿ
-f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ì´õ
+r	java:S117i"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÙƒâùÿÿÿÿ8˜‘Í×ö/
 g
 java:S20950"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(è±Á…üÿÿÿÿ
+H
+java:S1135"2Complete the task associated to this TODO comment.(ıãìÅ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ğâ‹¤şÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(óıÇû
+t
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(ì¡œöùÿÿÿÿ
+o
+java:S3776c"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(±¥±€8‘íï×ö/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+\
+java:S1075"ARefactor your code to get this URI from a customizable parameter.(¸ŒÏµüÿÿÿÿ
+j
+java:S2095‰"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(…ÑÑ÷8İåšÖö/
+7
+java:S1116&"Remove this empty statement.(ôŸìúÿÿÿÿ
+r	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬†ñùÿÿÿÿ8˜‘Í×ö/
+l	java:S117k"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¾¬u8ß‚Ğ×ö/
+V
+java:S2130d"9Use "Integer.parseInt" for this string-to-int conversion.(ˆßÔ¯8«åûÕö/
+f	java:S117@"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ì´õ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ó•š¾
+G
+java:S1602",Remove useless curly braces around statement(«ˆÕ¹ùÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(‚÷ºí
+m	java:S117c"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¥±€8¼àíÕö/
+]	java:S125"<This block of commented-out lines of code should be removed.(Ó—Š¯şÿÿÿÿ8åçˆØö/

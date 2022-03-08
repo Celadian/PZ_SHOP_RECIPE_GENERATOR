@@ -1,269 +1,304 @@
 module Base {
-	recipe Buy Electrical | Amplifier {
-		Money=50,
+	recipe Buy Electrical | Amplifier: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Amplifier,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Battery {
-		Money=150,
+	recipe Buy Electrical | Battery: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:Battery,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Blue Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Blue Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbBlue,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Crafted Timer {
-		Money=50,
+	recipe Buy Electrical | Crafted Timer: $50 {
+		20Money=2,
+		10Money=1,
 		Result:TimerCrafted,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Crafted Trigger {
-		Money=50,
+	recipe Buy Electrical | Crafted Trigger: $50 {
+		20Money=2,
+		10Money=1,
 		Result:TriggerCrafted,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Cyan Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Cyan Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbCyan,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Electric Wire {
-		Money=50,
+	recipe Buy Electrical | Electric Wire: $50 {
+		20Money=2,
+		10Money=1,
 		Result:ElectricWire,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Electronics Scrap {
-		Money=50,
+	recipe Buy Electrical | Electronics Scrap: $50 {
+		20Money=2,
+		10Money=1,
 		Result:ElectronicsScrap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Green Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Green Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbGreen,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulb,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Magenta Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Magenta Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbMagenta,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Motion Sensor {
-		Money=50,
+	recipe Buy Electrical | Motion Sensor: $50 {
+		20Money=2,
+		10Money=1,
 		Result:MotionSensor,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Orange Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Orange Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbOrange,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Pink Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Pink Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbPink,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Purple Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Purple Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbPurple,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | RadioMag3 {
-		Money=50,
+	recipe Buy Electrical | RadioMag3: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RadioTransmitter,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Red Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Red Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbRed,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Survival Radio Receiver {
-		Money=50,
+	recipe Buy Electrical | Survival Radio Receiver: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RadioReceiver,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | V1 Remote Controller {
-		Money=50,
+	recipe Buy Electrical | V1 Remote Controller: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RemoteCraftedV1,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | V2 Remote Controller {
-		Money=50,
+	recipe Buy Electrical | V2 Remote Controller: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RemoteCraftedV2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | V3 Remote Controller {
-		Money=50,
+	recipe Buy Electrical | V3 Remote Controller: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RemoteCraftedV3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Electrical | Yellow Light Bulb {
-		Money=50,
+	recipe Buy Electrical | Yellow Light Bulb: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LightBulbYellow,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Fuel | Charcoal {
-		Money=150,
+	recipe Buy Fuel | Charcoal: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:Charcoal,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Fuel | Gas Can {
-		Money=500,
+	recipe Buy Fuel | Gas Can: $500 {
+		100Money=5,
 		Result:PetrolCan,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Barbed Wire {
-		Money=50,
+	recipe Buy Metal | Barbed Wire: $50 {
+		20Money=2,
+		10Money=1,
 		Result:BarbedWire,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Box of Screws {
-		Money=50,
+	recipe Buy Metal | Box of Screws: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Screws,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Door Hinge {
-		Money=50,
+	recipe Buy Metal | Door Hinge: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Hinge,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Doorknob {
-		Money=50,
+	recipe Buy Metal | Doorknob: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Doorknob,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Metal Bar {
-		Money=50,
+	recipe Buy Metal | Metal Bar: $50 {
+		20Money=2,
+		10Money=1,
 		Result:MetalBar,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Metal Pipe {
-		Money=50,
+	recipe Buy Metal | Metal Pipe: $50 {
+		20Money=2,
+		10Money=1,
 		Result:MetalPipe,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Metal Pipe {
-		Money=50,
+	recipe Buy Metal | Metal Pipe: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Pipe,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Metal Sheet {
-		Money=150,
+	recipe Buy Metal | Metal Sheet: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:SheetMetal,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Nails {
-		Money=50,
+	recipe Buy Metal | Nails: $50 {
+		20Money=2,
+		10Money=1,
 		Result:NailsBox,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe SellMetal | Scrap Metal {
+	recipe Sell Metal | Scrap Metal: $10 {
 		ScrapMetal,
 		Result: Money=10,
 		Time:10,
@@ -271,23 +306,25 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Small Metal Sheet {
-		Money=50,
+	recipe Buy Metal | Small Metal Sheet: $50 {
+		20Money=2,
+		10Money=1,
 		Result:SmallSheetMetal,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal | Tent Peg {
-		Money=50,
+	recipe Buy Metal | Tent Peg: $50 {
+		20Money=2,
+		10Money=1,
 		Result:TentPeg,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe SellMetal | Unusable Metal {
+	recipe Sell Metal | Unusable Metal: $10 {
 		UnusableMetal,
 		Result: Money=10,
 		Time:10,
@@ -295,287 +332,323 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal Electrical | Aluminum {
-		Money=50,
+	recipe Buy Metal Electrical | Aluminum: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Aluminum,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Metal  | Wire {
-		Money=50,
+	recipe Buy Metal  | Wire: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Wire,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Black Paint {
-		Money=50,
+	recipe Buy Misc | Black Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintBlack,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Blue Paint {
-		Money=50,
+	recipe Buy Misc | Blue Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintBlue,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Box of Sparklers {
-		Money=50,
+	recipe Buy Misc | Box of Sparklers: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Sparklers,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Brown Paint {
-		Money=50,
+	recipe Buy Misc | Brown Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintBrown,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Concrete Powder {
-		Money=50,
+	recipe Buy Misc | Concrete Powder: $50 {
+		20Money=2,
+		10Money=1,
 		Result:ConcretePowder,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Cyan Paint {
-		Money=50,
+	recipe Buy Misc | Cyan Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintCyan,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | PickAxe Handle {
-		Money=50,
+	recipe Buy Misc | PickAxe Handle: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PickAxeHandle,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Gravel Bag {
-		Money=250,
+	recipe Buy Misc | Gravel Bag: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Gravelbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Gray Paint {
-		Money=50,
+	recipe Buy Misc | Gray Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintGrey,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Green Paint {
-		Money=50,
+	recipe Buy Misc | Green Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintGreen,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Gunpowder {
-		Money=50,
+	recipe Buy Misc | Gunpowder: $50 {
+		20Money=2,
+		10Money=1,
 		Result:GunPowder,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Light Blue Paint {
-		Money=50,
+	recipe Buy Misc | Light Blue Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintLightBlue,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Light Brown Paint {
-		Money=50,
+	recipe Buy Misc | Light Brown Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintLightBrown,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Orange Paint {
-		Money=50,
+	recipe Buy Misc | Orange Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintOrange,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Pink Paint {
-		Money=50,
+	recipe Buy Misc | Pink Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintPink,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Plaster Powder {
-		Money=50,
+	recipe Buy Misc | Plaster Powder: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PlasterPowder,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Purple Paint {
-		Money=50,
+	recipe Buy Misc | Purple Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintPurple,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Red Paint {
-		Money=50,
+	recipe Buy Misc | Red Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintRed,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Sand Bag {
-		Money=250,
+	recipe Buy Misc | Sand Bag: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Sandbag,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Stone {
-		Money=50,
+	recipe Buy Misc | Stone: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Stone,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Turquoise Paint {
-		Money=50,
+	recipe Buy Misc | Turquoise Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintTurquoise,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | White Paint {
-		Money=50,
+	recipe Buy Misc | White Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintWhite,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Misc | Yellow Paint {
-		Money=50,
+	recipe Buy Misc | Yellow Paint: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PaintYellow,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Tailoring | Thread {
-		Money=50,
+	recipe Buy Tailoring | Thread: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Thread,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Tailoring | Twine {
-		Money=50,
+	recipe Buy Tailoring | Twine: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Twine,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Textile | Denim Strips {
-		Money=50,
+	recipe Buy Textile | Denim Strips: $50 {
+		20Money=2,
+		10Money=1,
 		Result:DenimStrips,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Textile | Leather Strips {
-		Money=50,
+	recipe Buy Textile | Leather Strips: $50 {
+		20Money=2,
+		10Money=1,
 		Result:LeatherStrips,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Textile | Ripped Sheets {
-		Money=50,
+	recipe Buy Textile | Ripped Sheets: $50 {
+		20Money=2,
+		10Money=1,
 		Result:RippedSheets,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Textile | Sheet {
-		Money=25,
+	recipe Buy Textile | Sheet: $25 {
+		20Money=1,
+		5Money=1,
 		Result:Sheet,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Textile | Tarp {
-		Money=50,
+	recipe Buy Textile | Tarp: $50 {
+		20Money=2,
+		10Money=1,
 		Result:Tarp,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Wood | Log {
-		Money=45,
+	recipe Buy Wood | Log: $45 {
+		20Money=2,
+		5Money=1,
 		Result:Log,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Wood | Notched Wooden Plank {
-		Money=50,
+	recipe Buy Wood | Notched Wooden Plank: $50 {
+		20Money=2,
+		10Money=1,
 		Result:PercedWood,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe Buy Wood | Plank {
-		Money=10,
+	recipe Buy Wood | Plank: $10 {
+		10Money=1,
 		Result:Plank,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Materials,
 	}
-	recipe SellWood | Scrap Wood {
+	recipe Sell Wood | Scrap Wood: $10 {
 		UnusableWood,
 		Result: Money=10,
 		Time:10,

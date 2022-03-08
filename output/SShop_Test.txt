@@ -1,286 +1,286 @@
 module Base {
-	recipe Buy Test | The Smithing Magazine Vol.1 {
-		Money=1,
+	recipe Buy Test | The Smithing Magazine Vol.1: $1 {
+		Money=0,
 		Result:SmithingMag1,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | The Smithing Magazine Vol.2 {
-		Money=1,
+	recipe Buy Test | The Smithing Magazine Vol.2: $1 {
+		Money=0,
 		Result:SmithingMag2,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | The Smithing Magazine Vol.3 {
-		Money=1,
+	recipe Buy Test | The Smithing Magazine Vol.3: $1 {
+		Money=0,
 		Result:SmithingMag3,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | The Smithing Magazine Vol.4 {
-		Money=1,
+	recipe Buy Test | The Smithing Magazine Vol.4: $1 {
+		Money=0,
 		Result:SmithingMag4,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Smithing for Beginners {
-		Money=1,
+	recipe Buy Test | Smithing for Beginners: $1 {
+		Money=0,
 		Result:BookBlacksmith1,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Smithing for Intermediates {
-		Money=1,
+	recipe Buy Test | Smithing for Intermediates: $1 {
+		Money=0,
 		Result:SmithingMag2,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Advanced Smithing {
-		Money=1,
+	recipe Buy Test | Advanced Smithing: $1 {
+		Money=0,
 		Result:BookBlacksmith3,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Expert Smithing {
-		Money=1,
+	recipe Buy Test | Expert Smithing: $1 {
+		Money=0,
 		Result:BookBlacksmith4,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Master Smithing {
-		Money=1,
+	recipe Buy Test | Master Smithing: $1 {
+		Money=0,
 		Result:BookBlacksmith5,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Doodle {
-		Money=1,
+	recipe Buy Test | Doodle: $1 {
+		Money=0,
 		Result:Doodle,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Antlers Boppers {
-		Money=1,
+	recipe Buy Test | Antlers Boppers: $1 {
+		Money=0,
 		Result:Hat_Antlers,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Furry Ears {
-		Money=1,
+	recipe Buy Test | Furry Ears: $1 {
+		Money=0,
 		Result:Hat_FurryEars,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | GoldStar Boppers {
-		Money=1,
+	recipe Buy Test | GoldStar Boppers: $1 {
+		Money=0,
 		Result:Hat_GoldStar,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Hat Arrow {
-		Money=1,
+	recipe Buy Test | Hat Arrow: $1 {
+		Money=0,
 		Result:Hat_JokeArrow,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Hat Knife {
-		Money=1,
+	recipe Buy Test | Hat Knife: $1 {
+		Money=0,
 		Result:Hat_JokeKnife,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Jay Chicken Hat {
-		Money=1,
+	recipe Buy Test | Jay Chicken Hat: $1 {
+		Money=0,
 		Result:Hat_Jay,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Baking Tray {
-		Money=1,
+	recipe Buy Test | Baking Tray: $1 {
+		Money=0,
 		Result:BakingTray,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | .223 Bullets Mold {
-		Money=1,
+	recipe Buy Test | .223 Bullets Mold: $1 {
+		Money=0,
 		Result:223BulletsMold,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | .308 Bullets Mold {
-		Money=1,
+	recipe Buy Test | .308 Bullets Mold: $1 {
+		Money=0,
 		Result:308BulletsMold,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | 9mm Bullets Mold {
-		Money=1,
+	recipe Buy Test | 9mm Bullets Mold: $1 {
+		Money=0,
 		Result:9mmBulletsMold,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Bellows {
-		Money=1,
+	recipe Buy Test | Bellows: $1 {
+		Money=0,
 		Result:Bellows,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Handle {
-		Money=1,
+	recipe Buy Test | Handle: $1 {
+		Money=0,
 		Result:Handle,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Metal Barrel {
-		Money=1,
+	recipe Buy Test | Metal Barrel: $1 {
+		Money=0,
 		Result:MetalDrum,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Shotgun Shells Mold {
-		Money=1,
+	recipe Buy Test | Shotgun Shells Mold: $1 {
+		Money=0,
 		Result:ShotgunShellsMold,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Tongs {
-		Money=1,
+	recipe Buy Test | Tongs: $1 {
+		Money=0,
 		Result:Tongs,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Coal {
-		Money=1,
+	recipe Buy Test | Coal: $1 {
+		Money=0,
 		Result:Coal,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Bucket of Concrete {
-		Money=1,
+	recipe Buy Test | Bucket of Concrete: $1 {
+		Money=0,
 		Result:BucketConcreteFull,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Workable Iron {
-		Money=1,
+	recipe Buy Test | Workable Iron: $1 {
+		Money=0,
 		Result:IronIngot,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Cork {
-		Money=1,
+	recipe Buy Test | Cork: $1 {
+		Money=0,
 		Result:Cork,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Picture of Kate {
-		Money=1,
+	recipe Buy Test | Picture of Kate: $1 {
+		Money=0,
 		Result:KatePic,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Pine Cone {
-		Money=1,
+	recipe Buy Test | Pine Cone: $1 {
+		Money=0,
 		Result:Pinecone,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Soccer Ball {
-		Money=1,
+	recipe Buy Test | Soccer Ball: $1 {
+		Money=0,
 		Result:SoccerBall,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Yarn {
-		Money=1,
+	recipe Buy Test | Yarn: $1 {
+		Money=0,
 		Result:Yarn,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Chainsaw {
-		Money=1,
+	recipe Buy Test | Chainsaw: $1 {
+		Money=0,
 		Result:Chainsaw,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | Sniper Rifle {
-		Money=1,
+	recipe Buy Test | Sniper Rifle: $1 {
+		Money=0,
 		Result:SniperRifle,
 		Time:1,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Test,
 	}
-	recipe Buy Test | LouisvilleMap {
-		Money=1,
+	recipe Buy Test | LouisvilleMap: $1 {
+		Money=0,
 		Result:LouisvilleMap,
 		Time:1,
 		keep Trader,

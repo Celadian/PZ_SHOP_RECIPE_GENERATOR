@@ -1,30 +1,36 @@
 module Base {
-	recipe Buy Fishing | Fishing Rod {
-		Money=500,
+	recipe Buy Fishing | Fishing Rod: $500 {
+		100Money=5,
 		Result:FishingRod,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
-	recipe Buy Fishing | Fishing Line {
-		Money=150,
+	recipe Buy Fishing | Fishing Line: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:FishingLine,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
-	recipe Buy Fishing | Fishing Tackle {
-		Money=150,
+	recipe Buy Fishing | Fishing Tackle: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:FishingTackle,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Fishing,
 	}
-	recipe Buy Fishing | Fishing Tackle Variant {
-		Money=150,
+	recipe Buy Fishing | Fishing Tackle Variant: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:FishingTackle2,
 		Time:10,
 		keep Trader,

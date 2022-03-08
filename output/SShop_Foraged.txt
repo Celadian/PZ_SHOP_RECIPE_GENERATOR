@@ -1,5 +1,5 @@
 module Base {
-	recipe SellAnimal | Dead Bird {
+	recipe Sell Animal | Dead Bird: $25 {
 		DeadBird,
 		Result: Money=25,
 		Time:10,
@@ -7,7 +7,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Dead Mouse {
+	recipe Sell Animal | Dead Mouse: $25 {
 		DeadMouse,
 		Result: Money=25,
 		Time:10,
@@ -15,7 +15,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Dead Rabbit {
+	recipe Sell Animal | Dead Rabbit: $50 {
 		DeadRabbit,
 		Result: Money=50,
 		Time:10,
@@ -23,7 +23,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Dead Rat {
+	recipe Sell Animal | Dead Rat: $25 {
 		DeadRat,
 		Result: Money=25,
 		Time:10,
@@ -31,7 +31,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Dead Squirrel {
+	recipe Sell Animal | Dead Squirrel: $25 {
 		DeadSquirrel,
 		Result: Money=25,
 		Time:10,
@@ -39,7 +39,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Rabbit Meat {
+	recipe Sell Animal | Rabbit Meat: $15 {
 		Rabbitmeat,
 		Result: Money=15,
 		Time:10,
@@ -47,7 +47,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Small Animal Meat {
+	recipe Sell Animal | Small Animal Meat: $10 {
 		Smallanimalmeat,
 		Result: Money=10,
 		Time:10,
@@ -55,7 +55,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Small Bird Meat {
+	recipe Sell Animal | Small Bird Meat: $10 {
 		Smallbirdmeat,
 		Result: Money=10,
 		Time:10,
@@ -63,7 +63,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Bass {
+	recipe Sell Animal | Bass: $25 {
 		Bass,
 		Result: Money=25,
 		Time:10,
@@ -71,7 +71,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Catfish {
+	recipe Sell Animal | Catfish: $25 {
 		Catfish,
 		Result: Money=25,
 		Time:10,
@@ -79,7 +79,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Crappie {
+	recipe Sell Animal | Crappie: $25 {
 		Crappie,
 		Result: Money=25,
 		Time:10,
@@ -87,7 +87,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Fish Fillet {
+	recipe Sell Animal | Fish Fillet: $15 {
 		FishFillet,
 		Result: Money=15,
 		Time:10,
@@ -95,15 +95,15 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Buy Animal | Little Bait Fish {
-		Money=10,
+	recipe Buy Animal | Little Bait Fish: $10 {
+		10Money=1,
 		Result:BaitFish,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Perch {
+	recipe Sell Animal | Perch: $30 {
 		Perch,
 		Result: Money=30,
 		Time:10,
@@ -111,7 +111,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Pike {
+	recipe Sell Animal | Pike: $30 {
 		Pike,
 		Result: Money=30,
 		Time:10,
@@ -119,7 +119,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Salmon {
+	recipe Sell Animal | Salmon: $45 {
 		Salmon,
 		Result: Money=45,
 		Time:10,
@@ -127,7 +127,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Sunfish {
+	recipe Sell Animal | Sunfish: $30 {
 		Panfish,
 		Result: Money=30,
 		Time:10,
@@ -135,7 +135,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Trout {
+	recipe Sell Animal | Trout: $30 {
 		Trout,
 		Result: Money=30,
 		Time:10,
@@ -143,7 +143,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Black Sage {
+	recipe Sell Plant | Black Sage: $10 {
 		BlackSage,
 		Result: Money=10,
 		Time:10,
@@ -151,7 +151,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Cockroach {
+	recipe Sell Animal | Cockroach: $1 {
 		Cockroach,
 		Result: Money=1,
 		Time:10,
@@ -159,7 +159,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellResource | Common Mallow {
+	recipe Sell Resource | Common Mallow: $10 {
 		CommonMallow,
 		Result: Money=10,
 		Time:10,
@@ -167,7 +167,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Cricket {
+	recipe Sell Plant | Cricket: $1 {
 		Cricket,
 		Result: Money=1,
 		Time:10,
@@ -175,7 +175,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Ginseng {
+	recipe Sell Plant | Ginseng: $10 {
 		Ginseng,
 		Result: Money=10,
 		Time:10,
@@ -183,7 +183,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Grape Leaves {
+	recipe Sell Plant | Grape Leaves: $10 {
 		GrapeLeaves,
 		Result: Money=10,
 		Time:10,
@@ -191,7 +191,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Grasshopper {
+	recipe Sell Plant | Grasshopper: $1 {
 		Grasshopper,
 		Result: Money=1,
 		Time:10,
@@ -199,7 +199,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Lemon Grass {
+	recipe Sell Plant | Lemon Grass: $10 {
 		LemonGrass,
 		Result: Money=10,
 		Time:10,
@@ -207,7 +207,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Rosehips {
+	recipe Sell Plant | Rosehips: $10 {
 		Rosehips,
 		Result: Money=10,
 		Time:10,
@@ -215,7 +215,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Violets {
+	recipe Sell Plant | Violets: $10 {
 		Violets,
 		Result: Money=10,
 		Time:10,
@@ -223,7 +223,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellAnimal | Wild Eggs {
+	recipe Sell Animal | Wild Eggs: $10 {
 		WildEggs,
 		Result: Money=10,
 		Time:10,
@@ -231,15 +231,15 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe Buy Animal | Worm {
-		Money=10,
+	recipe Buy Animal | Worm: $10 {
+		10Money=1,
 		Result:Worm,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Apple {
+	recipe Sell Plant | Apple: $10 {
 		Apple,
 		Result: Money=10,
 		Time:10,
@@ -247,7 +247,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Banana {
+	recipe Sell Plant | Banana: $10 {
 		Banana,
 		Result: Money=10,
 		Time:10,
@@ -255,7 +255,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryBlack,
 		Result: Money=1,
 		Time:10,
@@ -263,7 +263,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryBlue,
 		Result: Money=1,
 		Time:10,
@@ -271,7 +271,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryGeneric1,
 		Result: Money=1,
 		Time:10,
@@ -279,7 +279,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryGeneric2,
 		Result: Money=1,
 		Time:10,
@@ -287,7 +287,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryGeneric3,
 		Result: Money=1,
 		Time:10,
@@ -295,7 +295,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryGeneric4,
 		Result: Money=1,
 		Time:10,
@@ -303,7 +303,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryGeneric5,
 		Result: Money=1,
 		Time:10,
@@ -311,7 +311,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Berry {
+	recipe Sell Plant | Berry: $1 {
 		BerryPoisonIvy,
 		Result: Money=1,
 		Time:10,
@@ -319,7 +319,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Comfrey {
+	recipe Sell Plant | Comfrey: $10 {
 		Comfrey,
 		Result: Money=10,
 		Time:10,
@@ -327,7 +327,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Plantain {
+	recipe Sell Plant | Plantain: $10 {
 		Plantain,
 		Result: Money=10,
 		Time:10,
@@ -335,7 +335,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Wild Garlic {
+	recipe Sell Plant | Wild Garlic: $10 {
 		WildGarlic,
 		Result: Money=10,
 		Time:10,
@@ -343,7 +343,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Comfrey Poultice {
+	recipe Sell Plant | Comfrey Poultice: $25 {
 		ComfreyCataplasm,
 		Result: Money=25,
 		Time:10,
@@ -351,7 +351,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Plantain Poultice {
+	recipe Sell Plant | Plantain Poultice: $25 {
 		PlantainCataplasm,
 		Result: Money=25,
 		Time:10,
@@ -359,7 +359,7 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Foraged,
 	}
-	recipe SellPlant | Wild Garlic Poultice {
+	recipe Sell Plant | Wild Garlic Poultice: $25 {
 		WildGarlicCataplasm,
 		Result: Money=25,
 		Time:10,

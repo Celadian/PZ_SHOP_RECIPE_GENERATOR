@@ -1,182 +1,197 @@
 module Base {
-	recipe Buy Trap | Mouse Trap {
-		Money=50,
+	recipe Buy Trap | Mouse Trap: $50 {
+		20Money=2,
+		10Money=1,
 		Result:TrapMouse,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Fire | Campfire Material {
-		Money=100,
+	recipe Buy Fire | Campfire Material: $100 {
+		100Money=1,
 		Result:CampfireKit,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Light | Candle {
-		Money=100,
+	recipe Buy Light | Candle: $100 {
+		100Money=1,
 		Result:CandleLit,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Fire | Matches {
-		Money=100,
+	recipe Buy Fire | Matches: $100 {
+		100Money=1,
 		Result:Matches,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Equipment | Rope {
-		Money=100,
+	recipe Buy Equipment | Rope: $100 {
+		100Money=1,
 		Result:Rope,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Snare Trap {
-		Money=100,
+	recipe Buy Trap | Snare Trap: $100 {
+		100Money=1,
 		Result:TrapSnare,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Stick Trap {
-		Money=100,
+	recipe Buy Trap | Stick Trap: $100 {
+		100Money=1,
 		Result:TrapStick,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Light | Flashlight {
-		Money=150,
+	recipe Buy Light | Flashlight: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:Torch,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Light | Hand Torch {
-		Money=150,
+	recipe Buy Light | Hand Torch: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:HandTorch,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Fire | Lighter {
-		Money=150,
+	recipe Buy Fire | Lighter: $150 {
+		100Money=1,
+		20Money=2,
+		10Money=1,
 		Result:Lighter,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Cage Trap {
-		Money=250,
+	recipe Buy Trap | Cage Trap: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:TrapCage,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Fire | Extinguisher {
-		Money=250,
+	recipe Buy Fire | Extinguisher: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Extinguisher,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Fishing Net Trap {
-		Money=250,
+	recipe Buy Trap | Fishing Net Trap: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:FishingNet,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Trap Box {
-		Money=350,
+	recipe Buy Trap | Trap Box: $350 {
+		100Money=3,
+		20Money=2,
+		10Money=1,
 		Result:TrapBox,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Life | Bucket of Water {
-		Money=500,
+	recipe Buy Life | Bucket of Water: $500 {
+		100Money=5,
 		Result:BucketWaterFull,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Navigation | March Ridge Map {
-		Money=500,
+	recipe Buy Navigation | March Ridge Map: $500 {
+		100Money=5,
 		Result:MarchRidgeMap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Navigation | Muldraugh Map {
-		Money=500,
+	recipe Buy Navigation | Muldraugh Map: $500 {
+		100Money=5,
 		Result:MuldraughMap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Navigation | Riverside Map {
-		Money=500,
+	recipe Buy Navigation | Riverside Map: $500 {
+		100Money=5,
 		Result:RiversideMap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Navigation | Rosewood Map {
-		Money=500,
+	recipe Buy Navigation | Rosewood Map: $500 {
+		100Money=5,
 		Result:RosewoodMap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Equipment | Tent Kit {
-		Money=500,
+	recipe Buy Equipment | Tent Kit: $500 {
+		100Money=5,
 		Result:CampingTentKit,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Trap | Trap Crate {
-		Money=500,
+	recipe Buy Trap | Trap Crate: $500 {
+		100Money=5,
 		Result:TrapCrate,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Navigation | West Point Map {
-		Money=500,
+	recipe Buy Navigation | West Point Map: $500 {
+		100Money=5,
 		Result:WestpointMap,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Survival,
 	}
-	recipe Buy Equipment | Generator {
-		Money=2000,
+	recipe Buy Equipment | Generator: $2000 {
+		1000TradeVoucher=2,
 		Result:Generator,
 		Time:10,
 		keep Trader,

@@ -13,7 +13,7 @@ public class RecipeGenerator {
     //INSTRUCTIONS: replace these with the path to your project location and whatever you want to be required for trade
     String applicationPath = "D:\\Projects\\SShopRecipeGenerator";
     //WalkieTalkies
-    //String keep = "WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift";
+//    String keep = "WalkieTalkie1/WalkieTalkie2/WalkieTalkie3/WalkieTalkie4/WalkieTalkie5/HamRadio1/HamRadio2/RadioMakeShift/HamRadioMakeShift/WalkieTalkieMakeShift";
     //For the new trader item
     String keep = "Trader";
 
@@ -67,8 +67,8 @@ public class RecipeGenerator {
         non_formatted_recipe_list.forEach(recipe -> {
             switch (recipe.txnType) {
                 case "Buy":
-                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " | " + recipe.dispName + " {");
-                    sb.append("\n\t\tMoney=" + recipe.money + ",");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " | " + recipe.dispName + ": $" + recipe.money + " {");
+                    sb.append(this.getMoneyDenominations(recipe.money));
                     sb.append("\n\t\tResult:" + recipe.itemName + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
                     sb.append("\n\t\tkeep " + this.keep + ",");
@@ -77,7 +77,7 @@ public class RecipeGenerator {
                     sb.append("\n\t}");
                     break;
                 case "Sell":
-                    sb.append("\n\trecipe " + recipe.txnType + "" + recipe.identifier + " | " + recipe.dispName + " {");
+                    sb.append("\n\trecipe " + recipe.txnType + " " + recipe.identifier + " | " + recipe.dispName + ": $" + recipe.money + " {");
                     sb.append("\n\t\t" + recipe.itemName + ",");
                     sb.append("\n\t\tResult: Money=" + recipe.money + ",");
                     sb.append("\n\t\tTime:" + recipe.time + ",");
@@ -94,6 +94,41 @@ public class RecipeGenerator {
         sb.append("\n}");
 
         return sb.toString();
+    }
+
+    private String getMoneyDenominations(String amount_string) {
+        int amount = Integer.valueOf(amount_string);
+        StringBuilder sb = new StringBuilder();
+
+        int hundred_thousands = amount / 100000;
+        if(hundred_thousands >= 1)amount -= hundred_thousands * 100000;
+        int ten_thousands = amount / 10000;
+        if(ten_thousands >= 1)amount -= ten_thousands * 10000;
+        int five_thousands = amount / 5000;
+        if(five_thousands >= 1)amount -= five_thousands * 5000;
+        int thousands = amount / 1000;
+        if(thousands >= 1)amount -= thousands * 1000;
+        int hundreds = amount / 100;
+        if(hundreds >= 1)amount -= hundreds * 100;
+        int twenties = amount / 20;
+        if(twenties >= 1)amount -= twenties * 20;
+        int tens = amount / 10;
+        if(tens >= 1)amount -= tens * 10;
+        int fives = amount  / 5;
+        if(fives >= 1)amount -= fives * 5;
+
+        if(hundred_thousands >= 1)sb.append("\n\t\tAmericanExpress=" + hundred_thousands + ",");
+        if(ten_thousands >= 1)sb.append("\n\t\t10000TradeVoucher=" + ten_thousands + ",");
+        if(five_thousands >= 1)sb.append("\n\t\t5000TradeVoucher=" + five_thousands + ",");
+        if(thousands >= 1)sb.append("\n\t\t1000TradeVoucher=" + thousands + ",");
+        if(hundreds >= 1)sb.append("\n\t\t100Money=" + hundreds + ",");
+        if(twenties >= 1)sb.append("\n\t\t20Money=" + twenties + ",");
+        if(tens >= 1)sb.append("\n\t\t10Money=" + tens + ",");
+        if(fives >= 1)sb.append("\n\t\t5Money=" + fives + ",");
+        if(amount >= 1)sb.append("\n\t\tMoney=" + hundreds + ",");
+
+        return sb.toString();
+
     }
 
     private void saveFormattedFile(String formattedRecipeList, String fileName) {

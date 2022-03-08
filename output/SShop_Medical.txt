@@ -1,142 +1,162 @@
 module Base {
-	recipe Buy Medical | Tissue {
-		Money=100,
+	recipe Buy Medical | Tissue: $100 {
+		100Money=1,
 		Result:Tissue,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Suture Needle {
-		Money=250,
+	recipe Buy Medical | Suture Needle: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:SutureNeedle,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Suture Needle Holder {
-		Money=250,
+	recipe Buy Medical | Suture Needle Holder: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:SutureNeedleHolder,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Tweezers {
-		Money=100,
+	recipe Buy Medical | Tweezers: $100 {
+		100Money=1,
 		Result:Tweezers,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Adhesive Bandages {
-		Money=100,
+	recipe Buy Medical | Adhesive Bandages: $100 {
+		100Money=1,
 		Result:Bandaid,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Bandage {
-		Money=100,
+	recipe Buy Medical | Bandage: $100 {
+		100Money=1,
 		Result:Bandage,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Splint {
-		Money=250,
+	recipe Buy Medical | Splint: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Splint,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Alcohol Wipes {
-		Money=100,
+	recipe Buy Medical | Alcohol Wipes: $100 {
+		100Money=1,
 		Result:AlcoholWipes,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Bottle of Disinfectant {
-		Money=100,
+	recipe Buy Medical | Bottle of Disinfectant: $100 {
+		100Money=1,
 		Result:Disinfectant,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Cotton Balls {
-		Money=100,
+	recipe Buy Medical | Cotton Balls: $100 {
+		100Money=1,
 		Result:CottonBalls,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Antibiotics {
-		Money=500,
+	recipe Buy Medical | Antibiotics: $500 {
+		100Money=5,
 		Result:Antibiotics,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Antidepressants {
-		Money=250,
+	recipe Buy Medical | Antidepressants: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:PillsAntiDep,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Beta Blockers {
-		Money=250,
+	recipe Buy Medical | Beta Blockers: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:PillsBeta,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Painkillers {
-		Money=250,
+	recipe Buy Medical | Painkillers: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Pills,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Sleeping Tablets {
-		Money=250,
+	recipe Buy Medical | Sleeping Tablets: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:PillsSleepingTablets,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Vitamins {
-		Money=250,
+	recipe Buy Medical | Vitamins: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:PillsVitamins,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Cigarettes {
-		Money=250,
+	recipe Buy Medical | Cigarettes: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Cigarettes,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
 		Category: SShop Medical,
 	}
-	recipe Buy Medical | Scalpel {
-		Money=250,
+	recipe Buy Medical | Scalpel: $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
 		Result:Scalpel,
 		Time:10,
 		keep Trader,
