@@ -26,7 +26,6 @@ public class RecipeGenerator {
                 this.saveFormattedFile(this.generateRecipe(file), file);
             });
             System.out.println("Recipe succesfully generated. Press enter to close this window");
-            scanner.nextLine();
         } catch(Exception e) {
             System.out.println(e);
             e.printStackTrace();
@@ -100,33 +99,48 @@ public class RecipeGenerator {
         int amount = Integer.valueOf(amount_string);
         StringBuilder sb = new StringBuilder();
 
-        int hundred_thousands = amount / 100000;
-        if(hundred_thousands >= 1)amount -= hundred_thousands * 100000;
-        int ten_thousands = amount / 10000;
-        if(ten_thousands >= 1)amount -= ten_thousands * 10000;
-        int five_thousands = amount / 5000;
-        if(five_thousands >= 1)amount -= five_thousands * 5000;
-        int thousands = amount / 1000;
-        if(thousands >= 1)amount -= thousands * 1000;
-        int hundreds = amount / 100;
-        if(hundreds >= 1)amount -= hundreds * 100;
-        int twenties = amount / 20;
-        if(twenties >= 1)amount -= twenties * 20;
-        int tens = amount / 10;
-        if(tens >= 1)amount -= tens * 10;
-        int fives = amount  / 5;
-        if(fives >= 1)amount -= fives * 5;
 
-        if(hundred_thousands >= 1)sb.append("\n\t\tAmericanExpress=" + hundred_thousands + ",");
-        if(ten_thousands >= 1)sb.append("\n\t\t10000TradeVoucher=" + ten_thousands + ",");
-        if(five_thousands >= 1)sb.append("\n\t\t5000TradeVoucher=" + five_thousands + ",");
-        if(thousands >= 1)sb.append("\n\t\t1000TradeVoucher=" + thousands + ",");
-        if(hundreds >= 1)sb.append("\n\t\t100Money=" + hundreds + ",");
-        if(twenties >= 1)sb.append("\n\t\t20Money=" + twenties + ",");
-        if(tens >= 1)sb.append("\n\t\t10Money=" + tens + ",");
-        if(fives >= 1)sb.append("\n\t\t5Money=" + fives + ",");
-        if(amount >= 1)sb.append("\n\t\tMoney=" + hundreds + ",");
-
+        if(amount / 100000 >= 1){
+            int hundred_thousands = amount / 100000;
+            amount -= hundred_thousands * 100000;
+            sb.append("\n\t\tAmericanExpress=" + hundred_thousands + ",");
+        }
+        if(amount / 10000 >= 1) {
+            int ten_thousands = amount / 10000;
+            amount -= ten_thousands * 10000;
+            sb.append("\n\t\t10000TradeVoucher=" + ten_thousands + ",");
+        }
+        if(amount / 5000 >= 1) {
+            int five_thousands = amount / 5000;
+            amount -= five_thousands * 5000;
+            sb.append("\n\t\t5000TradeVoucher=" + five_thousands + ",");
+        }
+        if(amount / 1000 >= 1) {
+            int thousands = amount / 1000;
+            amount -= thousands * 1000;
+            sb.append("\n\t\t1000TradeVoucher=" + thousands + ",");
+        }
+        if(amount / 100 >= 1) {
+            int hundreds = amount / 100;
+            amount -= hundreds * 100;
+            sb.append("\n\t\t100Money=" + hundreds + ",");
+        }
+        if(amount / 20 >= 1) {
+            int twenties = amount / 20;
+            amount -= twenties * 20;
+            sb.append("\n\t\t20Money=" + twenties + ",");
+        }
+        if(amount / 10 >= 1) {
+            int tens = amount / 10;
+            amount -= tens * 10;
+            sb.append("\n\t\t10Money=" + tens + ",");
+        }
+        if(amount / 5 >= 1) {
+            int fives = amount / 5;
+            amount -= fives * 5;
+            sb.append("\n\t\t5Money=" + fives + ",");
+        }
+        if(amount >= 1)sb.append("\n\t\tMoney=" + amount + ",");
         return sb.toString();
 
     }

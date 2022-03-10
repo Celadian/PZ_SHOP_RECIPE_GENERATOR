@@ -265,7 +265,7 @@ module Base {
 	}
 	recipe Buy Skill | Advanced Electricity: $500 {
 		100Money=5,
-		Result:BookElectrician5,
+		Result:BookElectrician3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
@@ -314,6 +314,14 @@ module Base {
 	recipe Buy Skill | Advanced Metalworking: $500 {
 		100Money=5,
 		Result:BookMetalWelding3,
+		Time:10,
+		keep Trader,
+		CanBeDoneFromFloor:true,
+		Category: SShop Literature,
+	}
+	recipe Buy Skill | Advanced Tailoring: $500 {
+		100Money=5,
+		Result:BookTailoring3,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
@@ -466,6 +474,16 @@ module Base {
 		20Money=2,
 		10Money=1,
 		Result:BookMetalWelding4,
+		Time:10,
+		keep Trader,
+		CanBeDoneFromFloor:true,
+		Category: SShop Literature,
+	}
+	recipe Buy Skill | Expert Tailoring: $750 {
+		100Money=7,
+		20Money=2,
+		10Money=1,
+		Result:BookTailoring4,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,
@@ -625,6 +643,14 @@ module Base {
 		CanBeDoneFromFloor:true,
 		Category: SShop Literature,
 	}
+	recipe Buy Skill | Master Tailoring: $1000 {
+		1000TradeVoucher=1,
+		Result:BookTailoring5,
+		Time:10,
+		keep Trader,
+		CanBeDoneFromFloor:true,
+		Category: SShop Literature,
+	}
 	recipe Buy Skill | Master Trapping: $1000 {
 		1000TradeVoucher=1,
 		Result:BookTrapping5,
@@ -664,6 +690,24 @@ module Base {
 		20Money=2,
 		10Money=1,
 		Result:BookMetalWelding2,
+		Time:10,
+		keep Trader,
+		CanBeDoneFromFloor:true,
+		Category: SShop Literature,
+	}
+	recipe Buy Skill | Tailoring for Beginners : $100 {
+		100Money=1,
+		Result:BookTailoring1,
+		Time:10,
+		keep Trader,
+		CanBeDoneFromFloor:true,
+		Category: SShop Literature,
+	}
+	recipe Buy Skill | Tailoring for Intermediates : $250 {
+		100Money=2,
+		20Money=2,
+		10Money=1,
+		Result:BookTailoring2,
 		Time:10,
 		keep Trader,
 		CanBeDoneFromFloor:true,

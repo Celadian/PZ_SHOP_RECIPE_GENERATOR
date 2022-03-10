@@ -31,13 +31,14 @@ Buy,Magazine,The Metalwork Magazine Vol.3,MetalworkMag3,100,10
 Buy,Magazine,The Metalwork Magazine Vol.4,MetalworkMag4,100,10
 Buy,Skill,Advanced Carpentry,BookCarpentry3,500,10
 Buy,Skill,Advanced Cooking,BookCooking3,500,10
-Buy,Skill,Advanced Electricity,BookElectrician5,500,10
+Buy,Skill,Advanced Electricity,BookElectrician3,500,10
 Buy,Skill,Advanced Farming,BookFarming3,500,10
 Buy,Skill,Advanced First Aid,BookFirstAid3,500,10
 Buy,Skill,Advanced Fishing,BookFishing3,500,10
 Buy,Skill,Advanced Foraging,BookForaging3,500,10
 Buy,Skill,Advanced Mechanics,BookMechanic3,500,10
 Buy,Skill,Advanced Metalworking,BookMetalWelding3,500,10
+Buy,Skill,Advanced Tailoring,BookTailoring3,500,10
 Buy,Skill,Advanced Trapping,BookTrapping3,500,10
 Buy,Skill,Carpentry for Beginners,BookCarpentry1,100,10
 Buy,Skill,Carpentry for Intermediates,BookCarpentry2,250,10
@@ -54,6 +55,7 @@ Buy,Skill,Expert Fishing,BookFishing4,750,10
 Buy,Skill,Expert Foraging,BookForaging4,750,10
 Buy,Skill,Expert Mechanics,BookMechanic4,750,10
 Buy,Skill,Expert Metalworking,BookMetalWelding4,750,10
+Buy,Skill,Expert Tailoring,BookTailoring4,750,10
 Buy,Skill,Expert Trapping,BookTrapping4,750,10
 Buy,Skill,Farming for Beginners,BookFarming1,100,10
 Buy,Skill,Farming for Intermediates,BookFarming2,250,10
@@ -72,10 +74,13 @@ Buy,Skill,Master Fishing,BookFishing5,1000,10
 Buy,Skill,Master Foraging,BookForaging5,1000,10
 Buy,Skill,Master Mechanics,BookMechanic5,1000,10
 Buy,Skill,Master Metalworking,BookMetalWelding5,1000,10
+Buy,Skill,Master Tailoring,BookTailoring5,1000,10
 Buy,Skill,Master Trapping,BookTrapping5,1000,10
 Buy,Skill,Mechanics for Beginners,BookMechanic1,100,10
 Buy,Skill,Mechanics for Intermediates,BookMechanic2,250,10
 Buy,Skill,Metalworking for Beginners,BookMetalWelding1,100,10
 Buy,Skill,Metalworking for Intermediates,BookMetalWelding2,250,10
+Buy,Skill,Tailoring for Beginners ,BookTailoring1,100,10
+Buy,Skill,Tailoring for Intermediates ,BookTailoring2,250,10
 Buy,Skill,Trapping for Beginners,BookTrapping1,100,10
 Buy,Skill,Trapping for Intermediates,BookTrapping2,250,10
